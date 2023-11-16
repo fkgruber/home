@@ -1,0 +1,1951 @@
+;; -*- mode: emacs-lisp; lexical-binding:t; coding: utf-8-emacs; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sat Aug 26 20:53:40 2023
+;; Desktop file format version 208
+;; Emacs version 29.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (25834 40596 371682 0) (desktop . "208") "fred@GNS-00211" nil nil ((((minibuffer . t) (fontsize . 0) (font . "-*-Menlo-regular-normal-normal-*-18-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (child-frame-border-width) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "#333333") (background-color . "#FFFFFF") (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (undecorated) (undecorated-round) (ns-appearance) (ns-transparent-titlebar) (z-group) (no-focus-on-map) (no-accept-focus) (menu-bar-lines . 1) (tab-bar-lines . 0) (tool-bar-lines . 1) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 15) (scroll-bar-height . 15) (alpha) (alpha-background) (fullscreen) (scroll-bar-foreground) (scroll-bar-background) (display-type . color) (background-mode . light) (cursor-color . "#21BDFF") (font-parameter) (last-focus-update . t) (frameset--id . "6F56-57A1-E765-EF42") (frameset--mini t) (height . 40) (width . 134) (modeline . t) (unsplittable) (left . 1) (top . 38) (icon-name) (visibility . t) (display . "GNS-00211") (explicit-name) (tool-bar-position . top)) ((min-height . 8) (min-width . 10) (min-height-ignore . 6) (min-width-ignore . 5) (min-height-safe . 2) (min-width-safe . 2) (min-pixel-height . 168) (min-pixel-width . 110) (min-pixel-height-ignore . 126) (min-pixel-width-ignore . 55) (min-pixel-height-safe . 42) (min-pixel-width-safe . 22)) vc (pixel-width . 1505) (pixel-height . 819) (total-width . 137) (total-height . 39) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 1505) (pixel-height . 399) (total-width . 137) (total-height . 19) (normal-height . 0.5) (normal-width . 1.0) (buffer "resume.org" (selected . t) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 2 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 6520) (start . 6420)) (prev-buffers ("resume.org" 6328 6451) (".emacs" 145081 145384) ("magit: general-functions" 1 59130) ("personal.org" 300285 300388) ("ipythonUtils.py" 1 1) ("MachineLearningVocab.org" 96586 97104) ("generalUtilsv2.org" 392043 392809) ("various.org" 1440 2005) ("*shell*<5>" 4303 6363) ("*shell*" 425980 439378) ("20230825215220-gower_distance.org" 1 514) ("LatentConfounderBNlearn.R" 15716 16875) ("LatentConfounderBNlearnv2.R" 85979 86697) ("latvar-master" 1 359) ("latvar2" 1 204) ("projects" 2503 4669) ("latent_residuals" 1 278) ("latent" 1 571) ("lrps-admm" 1 207) ("some_functions.R" 1 1802) ("oatesQuantifyingMultiScalePerformance2014.org" 1 1) ("gnsutils.org" 1383200 1383807))) (leaf (last . t) (pixel-width . 1505) (pixel-height . 420) (total-width . 137) (total-height . 20) (normal-height . 0.5) (normal-width . 1.0) (buffer "resume.org" (selected) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 2 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 6520) (start . 6420)) (prev-buffers ("*Org PDF LaTeX Output*" 1 22602) ("resume.org" 6420 6520)))) (((minibuffer . t) (fontsize . 0) (font . "-*-Menlo-regular-normal-normal-*-18-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (child-frame-border-width) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "#333333") (background-color . "#FFFFFF") (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (undecorated) (undecorated-round) (ns-appearance) (ns-transparent-titlebar) (z-group) (no-focus-on-map) (no-accept-focus) (menu-bar-lines . 1) (tab-bar-lines . 0) (tool-bar-lines . 1) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 15) (scroll-bar-height . 15) (alpha) (alpha-background) (fullscreen) (scroll-bar-foreground) (scroll-bar-background) (display-type . color) (background-mode . light) (cursor-color . "#21BDFF") (font-parameter) (last-focus-update) (frameset--id . "841F-2C53-FE01-7466") (frameset--mini t) (height . 40) (width . 134) (modeline . t) (unsplittable) (left . 0) (top . 25) (icon-name) (visibility . icon) (display . "GNS-00211") (explicit-name . t) (tool-bar-position . top)) ((min-height . 8) (min-width . 10) (min-height-ignore . 6) (min-width-ignore . 5) (min-height-safe . 2) (min-width-safe . 2) (min-pixel-height . 168) (min-pixel-width . 110) (min-pixel-height-ignore . 126) (min-pixel-width-ignore . 55) (min-pixel-height-safe . 42) (min-pixel-width-safe . 22)) vc (pixel-width . 1505) (pixel-height . 819) (total-width . 137) (total-height . 39) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 1505) (pixel-height . 551) (total-width . 137) (total-height . 26) (normal-height . 0.677083333333333) (normal-width . 1.0) (buffer "bockholtClusteringPathsComplex2017a" (selected) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 2 t nil 0 t nil) (vscroll . 22) (dedicated . t) (point . 710683) (start . 1)) (prev-buffers ("bockholtClusteringPathsComplex2017a.org" 1 420))) (leaf (last . t) (pixel-width . 1505) (pixel-height . 268) (total-width . 137) (total-height . 13) (normal-height . 0.3229166666666667) (normal-width . 1.0) (buffer "Notes of bockholtClusteringPathsComplex2017a" (selected) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 2 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 885) (start . 885)) (prev-buffers ("bockholtClusteringPathsComplex2017a" 1 710683)))) (((minibuffer . t) (fontsize . 0) (font . "-*-Menlo-regular-normal-normal-*-18-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (child-frame-border-width) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "#333333") (background-color . "#FFFFFF") (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (undecorated) (undecorated-round) (ns-appearance) (ns-transparent-titlebar) (z-group) (no-focus-on-map) (no-accept-focus) (menu-bar-lines . 1) (tab-bar-lines . 0) (tool-bar-lines . 1) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 15) (scroll-bar-height . 15) (alpha) (alpha-background) (fullscreen . maximized) (scroll-bar-foreground) (scroll-bar-background) (display-type . color) (background-mode . light) (cursor-color . "#21BDFF") (font-parameter) (last-focus-update . t) (frameset--id . "DA52-40E5-00D9-7513") (frameset--mini t) (height . 40) (width . 134) (modeline . t) (unsplittable) (left . 0) (top . 38) (icon-name) (visibility . icon) (display . "GNS-00211") (explicit-name) (tool-bar-position . top)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 5) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 84) (min-pixel-width . 110) (min-pixel-height-ignore . 63) (min-pixel-width-ignore . 55) (min-pixel-height-safe . 21) (min-pixel-width-safe . 22)) leaf (pixel-width . 1508) (pixel-height . 823) (total-width . 137) (total-height . 39) (normal-height . 1.0) (normal-width . 1.0) (buffer "testTangle.org" (selected) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 2 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 762) (start . 1)) (prev-buffers ("emacstips.org" 159293 159293) ("20200312160947-combining_discrete_variables.org" 914 1325))) (((minibuffer . t) (fontsize . 0) (font . "-*-Menlo-regular-normal-normal-*-18-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (child-frame-border-width) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "#333333") (background-color . "#FFFFFF") (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (undecorated) (undecorated-round) (ns-appearance) (ns-transparent-titlebar) (z-group) (no-focus-on-map) (no-accept-focus) (menu-bar-lines . 1) (tab-bar-lines . 0) (tool-bar-lines . 1) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 15) (scroll-bar-height . 15) (alpha) (alpha-background) (fullscreen) (scroll-bar-foreground) (scroll-bar-background) (display-type . color) (background-mode . light) (cursor-color . "#21BDFF") (font-parameter) (last-focus-update) (lsp-ui-doc-buffer . "Unprintable entity") (zoom-window-buffers "Unprintable entity" "Unprintable entity") (zoom-window-enabled) (frameset--id . "7020-AB8C-703A-C67A") (frameset--mini t) (height . 40) (width . 134) (modeline . t) (unsplittable) (left . 0) (top . 25) (icon-name) (visibility . icon) (display . "GNS-00211") (explicit-name) (tool-bar-position . top)) ((min-height . 4) (min-width . 20) (min-height-ignore . 3) (min-width-ignore . 10) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 84) (min-pixel-width . 220) (min-pixel-height-ignore . 63) (min-pixel-width-ignore . 110) (min-pixel-height-safe . 21) (min-pixel-width-safe . 44)) hc (pixel-width . 1505) (pixel-height . 819) (total-width . 137) (total-height . 39) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 757) (pixel-height . 819) (total-width . 69) (total-height . 39) (normal-height . 1.0) (normal-width . 0.5) (buffer "PMTG.org" (selected) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 2 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 585) (start . 83)) (prev-buffers ("precision_oncology.org" 1 1) ("PMTG.org" 83 471) ("test.pdf" 1 1) ("magit-revision: general-functions" 1 1) ("*shell*refsclsuter" 1 3087))) (leaf (last . t) (pixel-width . 748) (pixel-height . 819) (total-width . 68) (total-height . 39) (normal-height . 1.0) (normal-width . 0.5) (buffer "magit: general-functions" (selected) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 2 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 253) (start . 1)) (prev-buffers ("magit: general-functions" 1 1) ("test.pdf" 1 1)))) (((minibuffer . t) (fontsize . 0) (font . "-*-Menlo-regular-normal-normal-*-18-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (child-frame-border-width) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "#333333") (background-color . "#FFFFFF") (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (undecorated) (undecorated-round) (ns-appearance) (ns-transparent-titlebar) (z-group) (no-focus-on-map) (no-accept-focus) (menu-bar-lines . 1) (tab-bar-lines . 0) (tool-bar-lines . 1) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 15) (scroll-bar-height . 15) (alpha) (alpha-background) (fullscreen) (scroll-bar-foreground) (scroll-bar-background) (display-type . color) (background-mode . light) (cursor-color . "#21BDFF") (font-parameter) (environment) (last-focus-update . t) (zoom-window-buffers "Unprintable entity" "Unprintable entity" "Unprintable entity") (zoom-window-enabled) (frameset--id . "197F-36C3-622D-57D4") (frameset--mini t . t) (height . 40) (width . 134) (modeline . t) (unsplittable) (left . 723) (top + -1055) (icon-name) (visibility . t) (display . "GNS-00211") (explicit-name) (tool-bar-position . top)) ((min-height . 8) (min-width . 10) (min-height-ignore . 6) (min-width-ignore . 5) (min-height-safe . 2) (min-width-safe . 2) (min-pixel-height . 168) (min-pixel-width . 110) (min-pixel-height-ignore . 126) (min-pixel-width-ignore . 55) (min-pixel-height-safe . 42) (min-pixel-width-safe . 22)) vc (pixel-width . 1505) (pixel-height . 819) (total-width . 136) (total-height . 39) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 1505) (pixel-height . 420) (total-width . 136) (total-height . 20) (normal-height . 0.5) (normal-width . 1.0) (buffer "resume.org" (selected) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 2 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 1) (start . 1)) (prev-buffers ("MachineLearningVocab.org" 1 404) ("#MachineLearningVocab.org#" 79962 80964) ("generalUtilsv2.org" 351320 388997) ("ipythonUtils.py" 1558 1558) ("Sandbox.org" 1 1) ("clusGap2.R" 1 1574) ("clusterCNV.R" 1019 1640) ("deeplearning.R" 2205 2205) ("personal.org" 301889 303644) ("*Org Preview LaTeX Output*" 1 1) ("dotemacs.org" 21071 21127) ("emacstips.org" 254 1174) (".emacs" 145081 145082) ("magit: general-functions" 1 1) ("work.org" 971107 971107) ("precision_oncology.org" 1 1) ("*Calendar*" 1 431) ("PO20230516.org" 40432 40602) ("*shell*refscluster-test" 1 1193))) (leaf (last . t) (pixel-width . 1505) (pixel-height . 399) (total-width . 136) (total-height . 19) (normal-height . 0.5) (normal-width . 1.0) (buffer "*Org PDF LaTeX Output*" (selected) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 2 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 22602) (start . 22153)) (prev-buffers ("*Messages*" 53613 55242)))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '(#("\"" 0 1 (isearch-case-fold-search t isearch-regexp-function nil)) #("error" 0 5 (isearch-case-fold-search t isearch-regexp-function nil)) #("northe" 0 6 (isearch-case-fold-search t isearch-regexp-function nil)) #("torch" 0 5 (isearch-case-fold-search t isearch-regexp-function nil)) #("gower" 0 5 (isearch-case-fold-search t isearch-regexp-function nil)) #("gowe" 0 4 (isearch-case-fold-search t isearch-regexp-function nil)) #("pam" 0 3 (isearch-case-fold-search t isearch-regexp-function nil)) #("distance" 0 8 (isearch-case-fold-search t isearch-regexp-function nil)) #("clusGap" 0 7 (isearch-case-fold-search nil isearch-regexp-function nil)) #("cluster" 0 7 (isearch-case-fold-search t isearch-regexp-function nil)) #("PAM" 0 3 (isearch-case-fold-search nil isearch-regexp-function nil)) #("fred" 0 4 (isearch-case-fold-search t isearch-regexp-function nil)) #("aupy" 0 4 (isearch-case-fold-search t isearch-regexp-function nil)) #("clustering" 0 10 (isearch-case-fold-search t isearch-regexp-function nil)) #("c.ustering" 0 10 (isearch-case-fold-search t isearch-regexp-function nil)) #("Email" 0 5 (isearch-case-fold-search nil isearch-regexp-function nil))))
+(setq regexp-search-ring '(#("log" 0 3 (isearch-case-fold-search t))))
+(setq register-alist nil)
+(setq file-name-history '(#("/Users/fred/Documents/gitRepos/general-functions/personal/" 0 58 (ivy-index 0)) #("/Users/fred/Documents/gitRepos/general-functions/personal/resume_august_2023.log" 0 80 (ivy-index 13)) #("/Users/fred/Documents/gitRepos/general-functions/personal/resume_august_2023.tex" 0 80 (ivy-index 1)) #("/Users/fred/Documents/gitRepos/general-functions/personal/resume_august_2023.pdf" 0 80 (ivy-index 0)) #("/Users/fred/.emacs" 0 18 (ivy-index 8)) #("/Users/fred/Documents/gitRepos/general-functions/personal/resume.org" 0 68 (ivy-index 3)) "~/Documents/gitRepos/general-functions/.git/MERGE_MSG" "~/Documents/gitRepos/general-functions/.git/COMMIT_EDITMSG" #("/Users/fred/Documents/gitRepos/simcausal/DESCRIPTION" 0 52 (ivy-index 16)) #("/Users/fred/Documents/gitRepos/SID/DESCRIPTION" 0 46 (ivy-index 0)) #("/Users/fred/Documents/projects/fred-sandbox/MachineLearningVocab.org" 0 68 (ivy-index 20)) #("/Users/fred/Documents/projects/fred-sandbox/sampleUsageCV.R" 0 59 (ivy-index 5)) #("/Users/fred/Documents/projects/fred-sandbox/ipythonUtils.py" 0 59 (ivy-index 11)) #("/Users/fred/Documents/projects/fred-sandbox/generalUtilsv2.org" 0 62 (ivy-index 56)) #("/Users/fred/Documents/projects/fred-sandbox/Sandbox.org" 0 55 (ivy-index 42)) #("/Users/fred/Documents/projects/fred-sandbox/FredUtils/R/clusGap2.R" 0 66 (ivy-index 13)) #("/Users/fred/Documents/projects/fred-sandbox/FredUtils/R/clusterCNV.R" 0 68 (ivy-index 14)) #("/Users/fred/Documents/projects/fred-sandbox/MachineLearningVocab.Rmd" 0 68 (ivy-index 149)) #("/Users/fred/Documents/projects/fred-sandbox/variousPython.py" 0 60 (ivy-index 3)) #("/Users/fred/Documents/projects/fred-sandbox/variousPython.pyc" 0 61 (ivy-index 4)) #("/Users/fred/Documents/projects/fred-sandbox/deeplearning.R" 0 58 (ivy-index 35)) #("/Users/fred/Documents/projects/latvar2/latvar-master/various.org" 0 64 (ivy-index 15)) #("/Users/fred/Documents/projects/latvar2/latvar-master/LatentConfounderBNlearn.R" 0 78 (ivy-index 5)) #("/Users/fred/Documents/projects/latent/lrps-admm/" 0 48 (ivy-index 4)) #("/Users/fred/Documents/projects/latent/some_functions.R" 0 54 (ivy-index 11)) #("/Users/fred/Documents/gitRepos/general-functions/org/python.org" 0 63 (ivy-index 3)) #("/Users/fred/Documents/gitRepos/general-functions/org/increading/MLgeneral.org" 0 77 (ivy-index 11)) #("/Users/fred/Documents/gitRepos/general-functions/dotemacs.org" 0 61 (ivy-index 5)) "~/Documents/gitRepos/general-functions/.git/COMMIT_EDITMSG" #("/Users/fred/Documents/gitRepos/general-functions/org/" 0 53 (ivy-index 0)) #("/Users/fred/Documents/gitRepos/general-functions/" 0 49 (ivy-index 0)) #("/Users/fred/" 0 12 (ivy-index 0)) "~/Documents/gitRepos/general-functions/.git/COMMIT_EDITMSG" #("/Users/fred/testravel.org" 0 25 (ivy-index 3)) #("/Users/fred/testravel.Rmd" 0 25 (ivy-index 2)) #("/Users/fred/elisp/ox-ravel.el" 0 29 (ivy-index 3)) #("/Users/fred/elisp/ox-ravel_aug18_2023.org" 0 41 (ivy-index 5)) #("/Users/fred/testexport.Rmd" 0 26 (ivy-index 2)) #("/Users/fred/testexport.org" 0 26 (ivy-index 2)) #("/Users/fred/.bashrc" 0 19 (ivy-index 3)) #("/Users/fred/testjson/" 0 21 (ivy-index 0)) #("/Users/fred/testjson/G1.json" 0 28 (ivy-index 4)) #("/Users/fred/test.org" 0 20 (ivy-index 3)) #("/Users/fred/Documents/projects/" 0 31 (ivy-index 0)) #("/Users/fred/Documents/gitRepos/general-functions/org/Durga.org" 0 62 (ivy-index 7)) #("/Users/fred/.ssh/known_hosts" 0 28 (ivy-index 1)) #("/Users/fred/Documents/gitRepos/general-functions/org/testshinydyn.R" 0 67 (ivy-index 4)) #("/Users/fred/Documents/gitRepos/general-functions/.gitignore" 0 59 (ivy-index 2)) #("/Users/fred/Documents/gitRepos/general-functions/testTangle.org" 0 63 (ivy-index 0)) #("/Users/fred/Documents/gitRepos/general-functions/.stignore" 0 58 (ivy-index 1)) "~/.ssh/known_hosts" #("/Users/fred/.org-jira/EMDE.org" 0 30 (ivy-index 2)) #("/Users/fred/.org-jira/PMTG.org" 0 30 (ivy-index 2)) #("/Users/fred/Documents/projects/gnsutils/gnsutils.org" 0 52 (ivy-index 4)) #("/Users/fred/.org-jira/BMS.org" 0 29 (ivy-index 3)) #("/Users/fred/Library/CloudStorage/OneDrive-GNSHealthcare/project_backups/bms/aug11/rstudio-export (1)/err_otf.txt" 0 112 (ivy-index 2)) "~/Library/CloudStorage/OneDrive-GNSHealthcare/project_backups/bms/aug11/rstudio-export (1)/log_otf.txt" #("/Users/fred/OneDrive/paperswork/books/Applied-Machine-Learning-Using-mlr3-in-R.pdf" 0 82 (ivy-index 1)) #("~/Documents/gitRepos/general-functions/advancedR.org" 1 52 (match-part "/Users/fred/Documents/gitRepos/general-functions/advancedR.org")) #("/Users/fred/OneDrive/Documents/class/jsm2023/surrogates/CE_23C Rscript_Surrogate.R" 0 82 (ivy-index 2)) #("/Users/fred/Documents/gitRepos/general-functions/org/emacstips.org" 0 66 (ivy-index 3)) #("~/Documents/gitRepos/general-functions/org/roam/#20221220105140-cpdag.org#" 1 74 (match-part "/Users/fred/Documents/gitRepos/general-functions/org/roam/#20221220105140-cpdag.org#")) #("/Users/fred/Documents/gitRepos/general-functions/org/causal.pdf" 0 63 (ivy-index 10)) #("/Users/fred/Documents/gitRepos/general-functions/org/aeRunSummary.pdf" 0 69 (ivy-index 8)) #("/Users/fred/Documents/gitRepos/general-functions/org/test.pdf" 0 61 (ivy-index 0)) #("/Users/fred/OneDrive/Documents/class/jsm2023/surrogates/CE_23C.pdf" 0 66 (ivy-index 3)) #("/Users/fred/OneDrive/Documents/class/jsm2023/scRNAseq/CE_08C.pdf" 0 64 (ivy-index 2)) "~/Documents/projects/pancreatic_cancer/pancreatic_master.org" "~/.emacs" "/ssh:refscluster:/projects/pancreatic/gemini/PDAC_SERVIER_BL1/model/otf/otf_pan_full_icgc_maxinput10_dtfactor500_refscluster_test/err_otf.txt" "~/Documents/gitRepos/general-functions/org/personal.org" "~/.emacs.d/bookmarks" "~/.elfeed/index" "~/marginalia.org" "~/.org-jira/EMDE.org" "~/.org-jira/projects-list.org" "~/.org-jira/boards-list.org" "~/.org-jira/PPTM.org" "~/.org-jira/MISP.org" "~/.org-jira/GNSUT.org" "~/.org-jira/ABI.org" "~/Documents/gitRepos/general-functions/org/Durga.org" "~/Documents/gitRepos/general-functions/org/work.org" "~/Documents/gitRepos/general-functions/org/MMRF_IA12.org" "~/Documents/gitRepos/general-functions/org/zettle/research.org" "~/Documents/gitRepos/general-functions/org/sanofi_gns200944.org" "~/Documents/gitRepos/general-functions/org/abbie_project.org"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/personal/resume.org"
+  "resume.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode auto-revert-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  6520
+  '(362 nil)
+  nil
+  nil
+  '((buffer-display-time 25834 40594 546768 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (6520 541 6146 4373 392 6420 6522 455 6419 415 374 362 364 491 6221 4411))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/projects/fred-sandbox/MachineLearningVocab.org"
+  "MachineLearningVocab.org"
+  'org-mode
+  '(font-lock-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode undo-tree-mode auto-revert-mode phscroll-mode)
+  404
+  '(97048 nil)
+  nil
+  nil
+  '((buffer-display-time 25834 40328 719565 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (97097 97048 634 81046 95941))))
+
+(desktop-create-buffer 208
+  "/Users/fred/.emacs"
+  ".emacs"
+  'emacs-lisp-mode
+  '(org-remark-mode font-lock-mode eldoc-mode undo-tree-mode)
+  145384
+  '(145324 nil)
+  nil
+  nil
+  '((buffer-display-time 25834 34936 182070 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (145283 145082 145282 145081 1))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/personal.org"
+  "personal.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode auto-revert-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode phscroll-mode)
+  302392
+  '(303644 nil)
+  nil
+  nil
+  '((buffer-display-time 25834 34835 411345 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (300288 302596 302088 186315 184552 185089 185076 184561 185766 184747 184714 184649 185090 185075 303486 302528))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/projects/gnsutils/gnsutils.org"
+  "gnsutils.org"
+  'org-mode
+  '(font-lock-mode undo-tree-mode auto-revert-mode phscroll-mode)
+  1991745
+  '(2034794 nil)
+  t
+  nil
+  '((buffer-display-time 25833 25508 388534 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (2082783 1731321 1383807 1421023 1430875 759069 725764 1934025 1800979 1797892 292396 1 716848 716678 2078630 2078652))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/projects/fred-sandbox/ipythonUtils.py"
+  "ipythonUtils.py"
+  'python-mode
+  '(font-lock-mode undo-tree-mode auto-revert-mode yas-minor-mode highlight-indentation-mode flymake-mode eldoc-mode company-mode elpy-mode)
+  1
+  '(1278 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 25833 25495 486523 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1558 3115 1470))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/projects/fred-sandbox/generalUtilsv2.org"
+  "generalUtilsv2.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode auto-revert-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode phscroll-mode)
+  392809
+  '(388997 nil)
+  nil
+  nil
+  '((buffer-display-time 25833 25271 610178 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (358944 358910 337870 362220 357380 1 352436 352557 352458 358940 361651 355408 355506 354165 187059 185959))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/projects/latvar2/latvar-master/various.org"
+  "various.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  2005
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 25833 25262 74728 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/20230825215220-gower_distance.org"
+  "20230825215220-gower_distance.org"
+  'org-mode
+  '(org-remark-mode font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  514
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 25833 23509 890504 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/projects/fred-sandbox/#MachineLearningVocab.org#"
+  "#MachineLearningVocab.org#"
+  'fundamental-mode
+  '(font-lock-mode undo-tree-mode auto-revert-mode)
+  80964
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 25833 18363 24069 0) (buffer-file-coding-system . utf-8-emacs-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/projects/fred-sandbox/Sandbox.org"
+  "Sandbox.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode auto-revert-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 25833 17739 807913 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/projects/fred-sandbox/FredUtils/R/clusGap2.R"
+  "clusGap2.R"
+  'ess-r-mode
+  '(font-lock-mode ess-r-package-mode cursor-intangible-mode eldoc-mode undo-tree-mode auto-revert-mode ess-roxy-mode)
+  1574
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25833 17665 869368 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/projects/fred-sandbox/FredUtils/R/clusterCNV.R"
+  "clusterCNV.R"
+  'ess-r-mode
+  '(font-lock-mode ess-r-package-mode cursor-intangible-mode eldoc-mode undo-tree-mode auto-revert-mode ess-roxy-mode)
+  1640
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25833 17653 402646 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/projects/fred-sandbox/deeplearning.R"
+  "deeplearning.R"
+  'ess-r-mode
+  '(font-lock-mode cursor-intangible-mode eldoc-mode undo-tree-mode auto-revert-mode ess-roxy-mode)
+  2205
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25833 17571 117781 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/projects/latvar2/latvar-master/LatentConfounderBNlearn.R"
+  "LatentConfounderBNlearn.R"
+  'ess-r-mode
+  '(font-lock-mode cursor-intangible-mode eldoc-mode undo-tree-mode ess-roxy-mode)
+  16875
+  '(1 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25833 16976 339440 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/projects/latvar2/latvar-master/LatentConfounderBNlearnv2.R"
+  "LatentConfounderBNlearnv2.R"
+  'ess-r-mode
+  '(view-mode font-lock-mode cursor-intangible-mode eldoc-mode undo-tree-mode ess-roxy-mode)
+  86697
+  '(1 nil)
+  t
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25833 16972 493896 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "latvar-master"
+  'dired-mode
+  '(font-lock-mode pdf-occur-dired-minor-mode)
+  359
+  '(nil nil)
+  t
+  '("/Users/fred/Documents/projects/latvar2/latvar-master/")
+  '((buffer-display-time 25833 16966 825913 0))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "latvar2"
+  'dired-mode
+  '(font-lock-mode pdf-occur-dired-minor-mode)
+  204
+  '(nil nil)
+  t
+  '("/Users/fred/Documents/projects/latvar2/")
+  '((buffer-display-time 25833 16855 694181 0))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "projects"
+  'dired-mode
+  '(font-lock-mode pdf-occur-dired-minor-mode)
+  4669
+  '(3518 nil)
+  t
+  '("/Users/fred/Documents/projects/")
+  '((buffer-display-time 25833 16853 941048 0))
+  '((mark-ring (264 3461))))
+
+(desktop-create-buffer 208
+  nil
+  "latent_residuals"
+  'dired-mode
+  '(font-lock-mode pdf-occur-dired-minor-mode)
+  278
+  '(nil nil)
+  t
+  '("/Users/fred/Documents/projects/latent_residuals/")
+  '((buffer-display-time 25833 16851 397825 0))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "latent"
+  'dired-mode
+  '(font-lock-mode pdf-occur-dired-minor-mode)
+  571
+  '(nil nil)
+  t
+  '("/Users/fred/Documents/projects/latent/")
+  '((buffer-display-time 25833 16844 880036 0))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "lrps-admm"
+  'dired-mode
+  '(font-lock-mode pdf-occur-dired-minor-mode)
+  207
+  '(nil nil)
+  t
+  '("/Users/fred/Documents/projects/latent/lrps-admm/")
+  '((buffer-display-time 25833 16843 3458 0))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/projects/latent/some_functions.R"
+  "some_functions.R"
+  'ess-r-mode
+  '(font-lock-mode cursor-intangible-mode eldoc-mode undo-tree-mode auto-revert-mode ess-roxy-mode)
+  1802
+  '(1 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25833 16830 523265 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/literature/oatesQuantifyingMultiScalePerformance2014.org"
+  "oatesQuantifyingMultiScalePerformance2014.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode auto-revert-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 25833 16821 718647 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/python.org"
+  "python.org"
+  'org-mode
+  '(font-lock-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode undo-tree-mode auto-revert-mode phscroll-mode)
+  3991
+  '(3991 nil)
+  nil
+  nil
+  '((buffer-display-time 25833 14395 17543 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/increading/MLgeneral.org"
+  "MLgeneral.org"
+  'org-mode
+  '(font-lock-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode undo-tree-mode auto-revert-mode phscroll-mode)
+  30917
+  '(32095 nil)
+  nil
+  nil
+  '((buffer-display-time 25833 13911 938861 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (269 1117 13768 16670 16709))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/precision_oncology.org"
+  "precision_oncology.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode phscroll-mode)
+  50025
+  '(65641 nil)
+  nil
+  nil
+  '((buffer-display-time 25833 13614 811709 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (65629 64405 65058 1 64838 64883 64362 59582 49283 60535 60871 59644 61505 61276 51168 50025))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/dotemacs.org"
+  "dotemacs.org"
+  'org-mode
+  '(org-remark-mode font-lock-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode undo-tree-mode auto-revert-mode)
+  21127
+  '(21125 nil)
+  nil
+  nil
+  '((buffer-display-time 25833 13570 543130 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (20986 21126 21125))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/emacstips.org"
+  "emacstips.org"
+  'org-mode
+  '(org-bullets-mode auto-revert-mode font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode phscroll-mode)
+  1174
+  '(100799 nil)
+  nil
+  nil
+  '((buffer-display-time 25833 12432 973961 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (93119 92979 97426 97026 2190 82077 82736 81098 83097 82947 97053 83569 83403 86489 86281 86130))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/work.org"
+  "work.org"
+  'org-mode
+  '(auto-revert-mode font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode phscroll-mode)
+  971107
+  '(323604 nil)
+  nil
+  nil
+  '((buffer-display-time 25833 7716 620652 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (322448 286271 287401 884052 883977 883970 883897 883848 883731 1163987 1160918 1173770 287147 288074 nil))))
+
+(desktop-create-buffer 208
+  "/Users/fred/.org-jira/PMTG.org"
+  "PMTG.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  585
+  '(800 nil)
+  nil
+  nil
+  '((buffer-display-time 25830 15239 629990 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (164 45008 46160 46708 56375 57377 57846 59770 60928 61373 58036 391 514 358 285 375))))
+
+(desktop-create-buffer 208
+  "/Users/fred/.org-jira/PO20230516.org"
+  "PO20230516.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  40602
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 25832 58920 92206 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/.org-jira/BMS.org"
+  "BMS.org"
+  'org-mode
+  '(org-jira-mode font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  450
+  '(71 nil)
+  nil
+  nil
+  '((buffer-display-time 25831 43170 916241 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (305 443 442 442 443 443 443 602 450))))
+
+(desktop-create-buffer 208
+  nil
+  "org"
+  'dired-mode
+  '(font-lock-mode pdf-occur-dired-minor-mode)
+  6722
+  '(1 nil)
+  t
+  '("/Users/fred/Documents/gitRepos/general-functions/org/")
+  '((buffer-display-time 25831 26237 902926 0))
+  '((mark-ring (1 1))))
+
+(desktop-create-buffer 208
+  nil
+  "general-functions"
+  'dired-mode
+  '(font-lock-mode pdf-occur-dired-minor-mode)
+  12372
+  '(7278 nil)
+  t
+  '("/Users/fred/Documents/gitRepos/general-functions/")
+  '((buffer-display-time 25830 19557 21101 0))
+  '((mark-ring (3631 2459))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/Durga.org"
+  "Durga.org"
+  'org-mode
+  '(auto-revert-mode font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode phscroll-mode)
+  309867
+  '(282720 nil)
+  nil
+  nil
+  '((buffer-display-time 25830 15243 977921 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (309867))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/literature/2020-09-03-13-19-22-mohan_graphical_2018_1.org"
+  "2020-09-03-13-19-22-mohan_graphical_2018_1.org"
+  'org-mode
+  '(font-lock-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode undo-tree-mode auto-revert-mode)
+  1267
+  '(1267 nil)
+  nil
+  nil
+  '((buffer-display-time 25830 8956 79641 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/literature/elidanDiscoveringHiddenVariables2001.org"
+  "elidanDiscoveringHiddenVariables2001.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode auto-revert-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 25830 8930 91999 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/20200704225202-latent_variables.org"
+  "20200704225202-latent_variables.org"
+  'org-mode
+  '(org-remark-mode font-lock-mode eldoc-mode undo-tree-mode auto-revert-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 25830 8870 842825 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/daily/2023-08-23.org"
+  "2023-08-23.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  279
+  '(279 t)
+  nil
+  nil
+  '((buffer-display-time 25830 8861 802198 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (279 1))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/prostate.org"
+  "prostate.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  4495
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 25828 55773 219837 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/.org-jira/EMDE.org"
+  "EMDE.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  177
+  '(431 nil)
+  nil
+  nil
+  '((buffer-display-time 25828 51023 348647 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (449 475 443 334 334 421))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/literature/bogdanIdentifyingImportantPredictors2020.org"
+  "bogdanIdentifyingImportantPredictors2020.org"
+  'org-mode
+  '(font-lock-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode undo-tree-mode auto-revert-mode)
+  3736
+  '(239 nil)
+  nil
+  nil
+  '((buffer-display-time 25828 43823 796265 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (4242 4208 1 3773 270 475 3736))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/variable_selection_with_bic.org"
+  "variable_selection_with_bic.org"
+  'org-mode
+  '(auto-revert-mode org-remark-mode font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode phscroll-mode)
+  1336
+  '(1336 nil)
+  nil
+  nil
+  '((buffer-display-time 25828 43815 929800 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (5743 7082 1684 2027))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/literature/2021-01-28-09-56-19-chen_extended_2008.org"
+  "2021-01-28-09-56-19-chen_extended_2008.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode auto-revert-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 25828 43796 754460 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/extended_bic.org"
+  "extended_bic.org"
+  'org-mode
+  '(org-remark-mode font-lock-mode eldoc-mode undo-tree-mode auto-revert-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 25828 43788 941777 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/variable_selection_vs_multiple_hypotesis_testing.org"
+  "variable_selection_vs_multiple_hypotesis_testing.org"
+  'org-mode
+  '(smerge-mode org-remark-mode font-lock-mode eldoc-mode undo-tree-mode auto-revert-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  699
+  '(699 nil)
+  nil
+  nil
+  '((buffer-display-time 25827 31023 718049 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/general_variable_selection.org"
+  "general_variable_selection.org"
+  'org-mode
+  '(org-remark-mode font-lock-mode eldoc-mode undo-tree-mode auto-revert-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1950
+  '(323 nil)
+  nil
+  nil
+  '((buffer-display-time 25827 31023 716906 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1217 1158 1122 1862 1163 772 1863 459 2083 478 2797 2639))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/20230818195055-simulated_annealing_implementation.org"
+  "20230818195055-simulated_annealing_implementation.org"
+  'org-mode
+  '(org-remark-mode font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  745
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 25824 3548 193812 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/testravel.org"
+  "testravel.org"
+  'org-mode
+  '(org-remark-mode font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  743
+  '(691 nil)
+  nil
+  nil
+  '((buffer-display-time 25823 65269 29360 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1 743))))
+
+(desktop-create-buffer 208
+  "/Users/fred/.org-jira/POMMBIO.org"
+  "POMMBIO.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  2480
+  '(3220 nil)
+  nil
+  nil
+  '((buffer-display-time 25823 48010 428458 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (3130 2887 2480))))
+
+(desktop-create-buffer 208
+  "/Users/fred/testravel.Rmd"
+  "testravel.Rmd"
+  'fundamental-mode
+  '(org-remark-mode font-lock-mode undo-tree-mode)
+  443
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 25823 38509 450950 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/testexport.org"
+  "testexport.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1
+  '(946 nil)
+  nil
+  nil
+  '((buffer-display-time 25823 38503 445479 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (929 962 328 190 459 928 329 415 431 395 1 503 408 71 414 189))))
+
+(desktop-create-buffer 208
+  "/Users/fred/elisp/ox-ravel.el"
+  "ox-ravel.el"
+  'emacs-lisp-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode)
+  8874
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 25823 38482 134675 0) (buffer-file-coding-system . prefer-utf-8-unix))
+  '((mark-ring (9022 8874))))
+
+(desktop-create-buffer 208
+  "/Users/fred/elisp/ox-ravel_aug18_2023.org"
+  "ox-ravel_aug18_2023.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  333
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 25823 36358 184555 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/test.org"
+  "test.org"
+  'org-mode
+  '(org-remark-mode font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode org-indent-mode phscroll-mode)
+  1
+  '(4525 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25823 35850 730880 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (7382 4525))))
+
+(desktop-create-buffer 208
+  "/Users/fred/.bashrc"
+  ".bashrc"
+  'sh-mode
+  '(font-lock-mode undo-tree-mode org-remark-mode)
+  2544
+  '(2465 nil)
+  nil
+  nil
+  '((buffer-display-time 25823 29711 320487 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (2395 1))))
+
+(desktop-create-buffer 208
+  "/Users/fred/testjson/G1.json"
+  "G1.json"
+  'js-json-mode
+  '(font-lock-mode undo-tree-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 25822 48135 205424 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/testjson/D1.json"
+  "D1.json"
+  'js-json-mode
+  '(font-lock-mode undo-tree-mode)
+  1
+  '(1899 nil)
+  nil
+  nil
+  '((buffer-display-time 25822 48081 138821 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/20220622230252-research_topics_gns.org"
+  "20220622230252-research_topics_gns.org"
+  'org-mode
+  '(auto-revert-mode org-remark-mode font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  6286
+  '(464 nil)
+  nil
+  nil
+  '((buffer-display-time 25822 27647 882167 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (1 3698 4392 4430 4985 5057 6122 6435 6076 6433 6286))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/EMD.org"
+  "EMD.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode phscroll-mode)
+  20993
+  '(7297 nil)
+  nil
+  nil
+  '((buffer-display-time 25822 22015 9465 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (42449 49728 7876 7271 44509 nil nil nil nil nil nil nil nil nil nil))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/20220502082845-ensemble_vs_consensus_networks.org"
+  "20220502082845-ensemble_vs_consensus_networks.org"
+  'org-mode
+  '(org-remark-mode font-lock-mode eldoc-mode undo-tree-mode auto-revert-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1271
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 25822 18356 428118 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/testTangle.org"
+  "testTangle.org"
+  'org-mode
+  '(org-remark-mode font-lock-mode eldoc-mode undo-tree-mode auto-revert-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode phscroll-mode)
+  762
+  '(786 nil)
+  nil
+  nil
+  '((buffer-display-time 25822 16085 23232 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (814 762))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/20211130100416-maxent_classes.org"
+  "20211130100416-maxent_classes.org"
+  'org-mode
+  '(org-remark-mode font-lock-mode eldoc-mode undo-tree-mode auto-revert-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  2319
+  '(2319 nil)
+  nil
+  nil
+  '((buffer-display-time 25822 15530 475667 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (723 1))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/20230618213219-variable_selection_with_bic_in_high_dimensions.org"
+  "20230618213219-variable_selection_with_bic_in_high_dimensions.org"
+  'org-mode
+  '(org-remark-mode font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 25822 15472 799526 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (2683 490 1))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/literature/bockholtClusteringPathsComplex2017a.org"
+  "bockholtClusteringPathsComplex2017a.org"
+  'org-mode
+  '(org-noter-notes-mode)
+  885
+  '(924 nil)
+  nil
+  nil
+  '((buffer-display-time 25822 9598 207609 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (824 796 797 913))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/test.pdf"
+  "test.pdf"
+  'pdf-view-mode
+  '(font-lock-mode undo-tree-mode pdf-cache-prefetch-minor-mode pdf-misc-context-menu-minor-mode pdf-sync-minor-mode pdf-annot-minor-mode pdf-misc-menu-bar-minor-mode pdf-misc-size-indication-minor-mode pdf-outline-minor-mode pdf-misc-minor-mode pdf-links-minor-mode pdf-isearch-minor-mode pdf-history-minor-mode)
+  1
+  '(nil nil)
+  t
+  nil
+  '((buffer-display-time 25820 60506 24542 0) (buffer-file-coding-system . no-conversion))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/20230815172702-network_path_similarity.org"
+  "20230815172702-network_path_similarity.org"
+  'org-mode
+  '(org-remark-mode font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  2094
+  '(1785 nil)
+  nil
+  nil
+  '((buffer-display-time 25820 18016 970175 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (957 1043 1042 1657 1656 1600 1204 1158 2096 535 170 533 169 893 1167 2095))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Zotero/storage/32G762WV/Bockholt and Zweig - 2017 - Clustering of Paths in Complex Networks.pdf"
+  "Bockholt and Zweig - 2017 - Clustering of Paths in Complex Networks.pdf"
+  'pdf-view-mode
+  '(org-noter-doc-mode font-lock-mode undo-tree-mode pdf-cache-prefetch-minor-mode pdf-misc-context-menu-minor-mode pdf-sync-minor-mode pdf-annot-minor-mode pdf-misc-menu-bar-minor-mode pdf-misc-size-indication-minor-mode pdf-outline-minor-mode pdf-misc-minor-mode pdf-links-minor-mode pdf-isearch-minor-mode pdf-history-minor-mode)
+  710683
+  '(710683 nil)
+  t
+  nil
+  '((buffer-display-time 25822 9598 207609 0) (buffer-file-coding-system . no-conversion))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/literature/bockholtClusteringPathsComplex2017a.org"
+  "bockholtClusteringPathsComplex2017a.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  824
+  '(924 nil)
+  nil
+  nil
+  '((buffer-display-time 25820 18016 970175 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (824))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/drug_targets_and_networks_models.org"
+  "drug_targets_and_networks_models.org"
+  'org-mode
+  '(org-remark-mode font-lock-mode eldoc-mode undo-tree-mode auto-revert-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  384
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 25819 60851 615337 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/daily/2022-03-11.org"
+  "2022-03-11.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode auto-revert-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  577
+  '(527 nil)
+  nil
+  nil
+  '((buffer-display-time 25819 61010 860184 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (104 559 526 610 577))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/zettle/research.org"
+  "research.org"
+  'org-mode
+  '(phscroll-mode auto-revert-mode font-lock-mode undo-tree-mode)
+  294130
+  '(143327 nil)
+  nil
+  nil
+  '((buffer-display-time 25819 60531 932016 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (111209 111467))))
+
+(desktop-create-buffer 208
+  nil
+  "literature"
+  'dired-mode
+  '(font-lock-mode pdf-occur-dired-minor-mode)
+  15456
+  '(15456 nil)
+  t
+  '("/Users/fred/Documents/gitRepos/general-functions/org/roam/literature/")
+  '((buffer-display-time 25819 48416 194657 0))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/daily/2023-08-15.org"
+  "2023-08-15.org"
+  'org-mode
+  '(font-lock-mode undo-tree-mode)
+  204
+  '(204 nil)
+  nil
+  nil
+  '((buffer-display-time 25819 41811 244774 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (1 204))))
+
+(desktop-create-buffer 208
+  nil
+  "dfci"
+  'dired-mode
+  '(font-lock-mode pdf-occur-dired-minor-mode)
+  283
+  '(283 nil)
+  t
+  '("/Users/fred/Documents/projects/dfci/")
+  '((buffer-display-time 25819 41659 991412 0))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "durga"
+  'dired-mode
+  '(font-lock-mode pdf-occur-dired-minor-mode)
+  8112
+  '(438 nil)
+  t
+  '("/Users/fred/Documents/projects/durga/")
+  '((buffer-display-time 25819 36025 771652 0))
+  '((mark-ring (6086))))
+
+(desktop-create-buffer 208
+  nil
+  "dfci"
+  'dired-mode
+  '(font-lock-mode pdf-occur-dired-minor-mode)
+  204
+  '(nil nil)
+  t
+  '("/Users/fred/Documents/projects/durga/dfci/")
+  '((buffer-display-time 25819 36023 780102 0))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "causal_ref"
+  'dired-mode
+  '(font-lock-mode pdf-occur-dired-minor-mode)
+  219
+  '(nil nil)
+  t
+  '("/Users/fred/Documents/projects/durga/causal_ref/")
+  '((buffer-display-time 25819 36018 708665 0))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "bms"
+  'dired-mode
+  '(font-lock-mode pdf-occur-dired-minor-mode)
+  3249
+  '(nil nil)
+  t
+  '("/Users/fred/Documents/projects/durga/bms/")
+  '((buffer-display-time 25819 36002 189798 0))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "Documents"
+  'dired-mode
+  '(font-lock-mode pdf-occur-dired-minor-mode)
+  29504
+  '(nil nil)
+  t
+  '("/Users/fred/Documents/")
+  '((buffer-display-time 25819 35973 813013 0))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/testshinydyn.R"
+  "testshinydyn.R"
+  'ess-r-mode
+  '(company-mode lsp-completion-mode flycheck-mode lsp-diagnostics-mode lsp-headerline-breadcrumb-mode lsp-modeline-code-actions-mode lsp-modeline-diagnostics-mode lsp-modeline-workspace-status-mode eldoc-mode lsp-managed-mode font-lock-mode cursor-intangible-mode lsp-ui-doc-mode lsp-ui-sideline-mode lsp-ui-mode lsp-mode undo-tree-mode ess-roxy-mode)
+  1047
+  '(3364 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25819 32810 817053 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (363 1118 2117 981 1079 1047))))
+
+(desktop-create-buffer 208
+  "/Users/fred/.ssh/known_hosts"
+  "known_hosts"
+  'fundamental-mode
+  '(font-lock-mode undo-tree-mode)
+  35707
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 25818 65293 162856 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/MMRF.org"
+  "MMRF.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode auto-revert-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1
+  '(3239 nil)
+  nil
+  nil
+  '((buffer-display-time 25817 42436 832968 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/20200312160947-combining_discrete_variables.org"
+  "20200312160947-combining_discrete_variables.org"
+  'org-mode
+  '(org-remark-mode font-lock-mode eldoc-mode undo-tree-mode auto-revert-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1325
+  '(1085 nil)
+  nil
+  nil
+  '((buffer-display-time 25816 21616 64239 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1077 389 1667 1667 1390 1325))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/literature/2021-02-28-00-37-52-limlearninginteractionshierarchical2015.org"
+  "2021-02-28-00-37-52-limlearninginteractionshierarchical2015.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode auto-revert-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  788
+  '(636 nil)
+  nil
+  nil
+  '((buffer-display-time 25816 16937 317238 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (788))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/model_selection_with_categorical_predictors.org"
+  "model_selection_with_categorical_predictors.org"
+  'org-mode
+  '(org-remark-mode font-lock-mode eldoc-mode undo-tree-mode auto-revert-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1787
+  '(1787 nil)
+  nil
+  nil
+  '((buffer-display-time 25814 18659 66465 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (2041 1787))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/literature/2020-07-13-10-37-29-gertheisssparsemodelingcategorial2010.org"
+  "2020-07-13-10-37-29-gertheisssparsemodelingcategorial2010.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode auto-revert-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  551
+  '(1053 nil)
+  nil
+  nil
+  '((buffer-display-time 25814 20591 523781 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1189 1637 551))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Library/CloudStorage/OneDrive-GNSHealthcare/project_backups/bms/aug11/rstudio-export (1)/err_otf.txt"
+  "err_otf.txt"
+  'text-mode
+  '(font-lock-mode undo-tree-mode)
+  12623611
+  '(12623487 nil)
+  nil
+  nil
+  '((buffer-display-time 25814 16504 222781 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (12626194 12628680 171376 1 12529867 12623585 12623487))))
+
+(desktop-create-buffer 208
+  "/Users/fred/.org-jira/PPTM.org"
+  "PPTM.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 25814 14849 843173 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/bms.org"
+  "bms.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  12099
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 25814 14204 316833 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/20230803125901-methods_to_evaluate_surrogate_markers.org"
+  "20230803125901-methods_to_evaluate_surrogate_markers.org"
+  'org-mode
+  '(org-remark-mode font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  354
+  '(304 nil)
+  nil
+  nil
+  '((buffer-display-time 25814 12913 881785 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (304 200 4926 354 1183 386 nil nil nil nil nil))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Library/CloudStorage/OneDrive-GNSHealthcare/project_backups/bms/aug11/rstudio-export (1)/log_otf.txt"
+  "log_otf.txt"
+  'text-mode
+  '(font-lock-mode undo-tree-mode)
+  367013
+  '(862 nil)
+  nil
+  nil
+  '((buffer-display-time 25814 12577 481604 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/advancedR.org"
+  "advancedR.org"
+  'org-mode
+  '(org-remark-mode font-lock-mode eldoc-mode undo-tree-mode auto-revert-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode phscroll-mode)
+  311905
+  '(311595 nil)
+  nil
+  nil
+  '((buffer-display-time 25811 63482 448740 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (311613 311555 339471 335394 333330 7133 1 335819 nil 339147 339162))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/literature/dharamshiGeneralizedDataThinning2023.org"
+  "dharamshiGeneralizedDataThinning2023.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1779
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 25810 62829 894889 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/simulating_data_for_causal_discovery_testing.org"
+  "simulating_data_for_causal_discovery_testing.org"
+  'org-mode
+  '(org-remark-mode font-lock-mode eldoc-mode undo-tree-mode auto-revert-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  13080
+  '(729 nil)
+  nil
+  nil
+  '((buffer-display-time 25810 42554 730438 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (864))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/causal.org"
+  "causal.org"
+  'org-mode
+  '(auto-revert-mode org-remark-mode font-lock-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode undo-tree-mode phscroll-mode)
+  339866
+  '(509 nil)
+  nil
+  nil
+  '((buffer-display-time 25810 32942 996828 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (509 509 509 509 509 509 509 509 509 509 509 509))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/20230808111354-heterogeneity_and_causal_effects.org"
+  "20230808111354-heterogeneity_and_causal_effects.org"
+  'org-mode
+  '(org-remark-mode font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  929
+  '(929 nil)
+  nil
+  nil
+  '((buffer-display-time 25810 32796 571069 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (931 806))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/20220519232151-measurement_error.org"
+  "20220519232151-measurement_error.org"
+  'org-mode
+  '(auto-revert-mode org-remark-mode font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  166
+  '(166 nil)
+  nil
+  nil
+  '((buffer-display-time 25810 19571 161731 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  "/Users/fred/OneDrive/Documents/class/jsm2023/surrogates/CE_23C Rscript_Surrogate.R"
+  "CE_23C Rscript_Surrogate.R"
+  'ess-r-mode
+  '(font-lock-mode cursor-intangible-mode eldoc-mode undo-tree-mode ess-roxy-mode)
+  3377
+  '(3113 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25810 23477 552173 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (3458 3409 2919 2010 1543 1775 1774 1336 1585 936 450 470 195 120 478 3459))))
+
+(desktop-create-buffer 208
+  "/var/folders/_w/dcs87wy950b8bsf1ftp8w39nbjnl50/T/plot_2nWCMp.pdf"
+  "plot_2nWCMp.pdf"
+  'pdf-view-mode
+  '(font-lock-mode undo-tree-mode pdf-cache-prefetch-minor-mode pdf-misc-context-menu-minor-mode pdf-sync-minor-mode pdf-annot-minor-mode pdf-misc-menu-bar-minor-mode pdf-misc-size-indication-minor-mode pdf-outline-minor-mode pdf-misc-minor-mode pdf-links-minor-mode pdf-isearch-minor-mode pdf-history-minor-mode)
+  1
+  '(nil nil)
+  t
+  nil
+  '((buffer-display-time 25810 23477 518706 0) (buffer-file-coding-system . no-conversion))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/var/folders/_w/dcs87wy950b8bsf1ftp8w39nbjnl50/T/plot_dTmMIV.pdf"
+  "plot_dTmMIV.pdf"
+  'pdf-view-mode
+  '(font-lock-mode undo-tree-mode pdf-cache-prefetch-minor-mode pdf-misc-context-menu-minor-mode pdf-sync-minor-mode pdf-annot-minor-mode pdf-misc-menu-bar-minor-mode pdf-misc-size-indication-minor-mode pdf-outline-minor-mode pdf-misc-minor-mode pdf-links-minor-mode pdf-isearch-minor-mode pdf-history-minor-mode)
+  7614
+  '(nil nil)
+  t
+  nil
+  '((buffer-display-time 25810 19352 899654 0) (buffer-file-coding-system . no-conversion))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/var/folders/_w/dcs87wy950b8bsf1ftp8w39nbjnl50/T/plot_CLm8Np.pdf"
+  "plot_CLm8Np.pdf"
+  'pdf-view-mode
+  '(font-lock-mode undo-tree-mode pdf-cache-prefetch-minor-mode pdf-misc-context-menu-minor-mode pdf-sync-minor-mode pdf-annot-minor-mode pdf-misc-menu-bar-minor-mode pdf-misc-size-indication-minor-mode pdf-outline-minor-mode pdf-misc-minor-mode pdf-links-minor-mode pdf-isearch-minor-mode pdf-history-minor-mode)
+  7767
+  '(nil nil)
+  t
+  nil
+  '((buffer-display-time 25810 19341 891495 0) (buffer-file-coding-system . no-conversion))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/var/folders/_w/dcs87wy950b8bsf1ftp8w39nbjnl50/T/plot_30qnfC.pdf"
+  "plot_30qnfC.pdf"
+  'pdf-view-mode
+  '(font-lock-mode undo-tree-mode pdf-cache-prefetch-minor-mode pdf-misc-context-menu-minor-mode pdf-sync-minor-mode pdf-annot-minor-mode pdf-misc-menu-bar-minor-mode pdf-misc-size-indication-minor-mode pdf-outline-minor-mode pdf-misc-minor-mode pdf-links-minor-mode pdf-isearch-minor-mode pdf-history-minor-mode)
+  1
+  '(nil nil)
+  t
+  nil
+  '((buffer-display-time 25810 19328 549043 0) (buffer-file-coding-system . no-conversion))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/var/folders/_w/dcs87wy950b8bsf1ftp8w39nbjnl50/T/plot_XU0BPN.pdf"
+  "plot_XU0BPN.pdf"
+  'pdf-view-mode
+  '(font-lock-mode undo-tree-mode pdf-cache-prefetch-minor-mode pdf-misc-context-menu-minor-mode pdf-sync-minor-mode pdf-annot-minor-mode pdf-misc-menu-bar-minor-mode pdf-misc-size-indication-minor-mode pdf-outline-minor-mode pdf-misc-minor-mode pdf-links-minor-mode pdf-isearch-minor-mode pdf-history-minor-mode)
+  1
+  '(nil nil)
+  t
+  nil
+  '((buffer-display-time 25810 17370 979350 0) (buffer-file-coding-system . no-conversion))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/var/folders/_w/dcs87wy950b8bsf1ftp8w39nbjnl50/T/plot_RjhhFS.pdf"
+  "plot_RjhhFS.pdf"
+  'pdf-view-mode
+  '(font-lock-mode undo-tree-mode pdf-cache-prefetch-minor-mode pdf-misc-context-menu-minor-mode pdf-sync-minor-mode pdf-annot-minor-mode pdf-misc-menu-bar-minor-mode pdf-misc-size-indication-minor-mode pdf-outline-minor-mode pdf-misc-minor-mode pdf-links-minor-mode pdf-isearch-minor-mode pdf-history-minor-mode)
+  1
+  '(nil nil)
+  t
+  nil
+  '((buffer-display-time 25810 17047 795504 0) (buffer-file-coding-system . no-conversion))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/var/folders/_w/dcs87wy950b8bsf1ftp8w39nbjnl50/T/plot_sF5Et4.pdf"
+  "plot_sF5Et4.pdf"
+  'pdf-view-mode
+  '(font-lock-mode undo-tree-mode pdf-cache-prefetch-minor-mode pdf-misc-context-menu-minor-mode pdf-sync-minor-mode pdf-annot-minor-mode pdf-misc-menu-bar-minor-mode pdf-misc-size-indication-minor-mode pdf-outline-minor-mode pdf-misc-minor-mode pdf-links-minor-mode pdf-isearch-minor-mode pdf-history-minor-mode)
+  1
+  '(nil nil)
+  t
+  nil
+  '((buffer-display-time 25810 17028 741082 0) (buffer-file-coding-system . no-conversion))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/literature/elliottSurrogateEndpointsClinical2023.org"
+  "elliottSurrogateEndpointsClinical2023.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  785
+  '(785 nil)
+  nil
+  nil
+  '((buffer-display-time 25810 12230 761945 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (785))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/20230803123749-single_cell_rnaseq_workshop.org"
+  "20230803123749-single_cell_rnaseq_workshop.org"
+  'org-mode
+  '(org-remark-mode font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1806
+  '(1816 nil)
+  nil
+  nil
+  '((buffer-display-time 25807 29432 812985 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (1816 nil nil nil nil nil nil nil nil nil))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/literature/buyseBiomarkersSurrogateEnd2010.org"
+  "buyseBiomarkersSurrogateEnd2010.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  270
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 25805 52315 385325 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/lung_cancer_amgen_flatiron_refresh.org"
+  "lung_cancer_amgen_flatiron_refresh.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode phscroll-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/servier.org"
+  "servier.org"
+  'org-mode
+  '(auto-revert-mode font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/abbie_project.org"
+  "abbie_project.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/sanofi_gns200944.org"
+  "sanofi_gns200944.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode phscroll-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/MMRF_IA12.org"
+  "MMRF_IA12.org"
+  'org-mode
+  '(auto-revert-mode font-lock-mode undo-tree-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/.org-jira/ABI.org"
+  "ABI.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/.org-jira/GNSUT.org"
+  "GNSUT.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/.org-jira/MISP.org"
+  "MISP.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/.org-jira/boards-list.org"
+  "boards-list.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/.org-jira/projects-list.org"
+  "projects-list.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/literature/.org"
+  ".org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  204
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/marginalia.org"
+  "marginalia.org"
+  'org-mode
+  '(org-remark-mode font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/OneDrive/Documents/class/jsm2023/scRNAseq/CE_08C.pdf"
+  "CE_08C.pdf"
+  'pdf-view-mode
+  '(font-lock-mode undo-tree-mode pdf-cache-prefetch-minor-mode pdf-misc-context-menu-minor-mode pdf-sync-minor-mode pdf-annot-minor-mode pdf-misc-menu-bar-minor-mode pdf-misc-size-indication-minor-mode pdf-outline-minor-mode pdf-misc-minor-mode pdf-links-minor-mode pdf-isearch-minor-mode pdf-history-minor-mode)
+  1
+  '(nil nil)
+  t
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/OneDrive/Documents/class/jsm2023/surrogates/CE_23C.pdf"
+  "CE_23C.pdf"
+  'pdf-view-mode
+  '(font-lock-mode undo-tree-mode pdf-cache-prefetch-minor-mode pdf-misc-context-menu-minor-mode pdf-sync-minor-mode pdf-annot-minor-mode pdf-misc-menu-bar-minor-mode pdf-misc-size-indication-minor-mode pdf-outline-minor-mode pdf-misc-minor-mode pdf-links-minor-mode pdf-isearch-minor-mode pdf-history-minor-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . no-conversion))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/marginalia.org"
+  "marginalia.org"
+  'org-mode
+  '(org-remark-mode font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/OneDrive/paperswork/books/CAUSALITY_ Models, Reasoning, a - Judea Pearl.pdf"
+  "CAUSALITY_ Models, Reasoning, a - Judea Pearl.pdf"
+  'pdf-view-mode
+  '(font-lock-mode undo-tree-mode pdf-cache-prefetch-minor-mode pdf-misc-context-menu-minor-mode pdf-sync-minor-mode pdf-annot-minor-mode pdf-misc-menu-bar-minor-mode pdf-misc-size-indication-minor-mode pdf-outline-minor-mode pdf-misc-minor-mode pdf-links-minor-mode pdf-isearch-minor-mode pdf-history-minor-mode)
+  1
+  '(nil nil)
+  t
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . no-conversion))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/causal.pdf"
+  "causal.pdf"
+  'pdf-view-mode
+  '(auto-revert-mode font-lock-mode undo-tree-mode pdf-cache-prefetch-minor-mode pdf-misc-context-menu-minor-mode pdf-sync-minor-mode pdf-annot-minor-mode pdf-misc-menu-bar-minor-mode pdf-misc-size-indication-minor-mode pdf-outline-minor-mode pdf-misc-minor-mode pdf-links-minor-mode pdf-isearch-minor-mode pdf-history-minor-mode)
+  1
+  '(1 nil)
+  t
+  nil
+  '((buffer-display-time 25807 30524 198966 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Zotero/storage/5AMDKE4I/Elliott_2023_Surrogate_Endpoints_in_Clinical_Trials.pdf"
+  "Elliott_2023_Surrogate_Endpoints_in_Clinical_Trials.pdf"
+  'pdf-view-mode
+  '(font-lock-mode undo-tree-mode pdf-cache-prefetch-minor-mode pdf-misc-context-menu-minor-mode pdf-sync-minor-mode pdf-annot-minor-mode pdf-misc-menu-bar-minor-mode pdf-misc-size-indication-minor-mode pdf-outline-minor-mode pdf-misc-minor-mode pdf-links-minor-mode pdf-isearch-minor-mode pdf-history-minor-mode)
+  1
+  '(nil nil)
+  t
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . no-conversion))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/var/folders/_w/dcs87wy950b8bsf1ftp8w39nbjnl50/T/plot_EZfDgF.pdf"
+  "plot_EZfDgF.pdf"
+  'pdf-view-mode
+  '(font-lock-mode undo-tree-mode pdf-cache-prefetch-minor-mode pdf-misc-context-menu-minor-mode pdf-sync-minor-mode pdf-annot-minor-mode pdf-misc-menu-bar-minor-mode pdf-misc-size-indication-minor-mode pdf-outline-minor-mode pdf-misc-minor-mode pdf-links-minor-mode pdf-isearch-minor-mode pdf-history-minor-mode)
+  1
+  '(nil nil)
+  t
+  nil
+  '((buffer-display-time 25810 15961 461526 0) (buffer-file-coding-system . no-conversion))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/var/folders/_w/dcs87wy950b8bsf1ftp8w39nbjnl50/T/plot_2PgxGY.pdf"
+  "plot_2PgxGY.pdf"
+  'pdf-view-mode
+  '(font-lock-mode undo-tree-mode pdf-cache-prefetch-minor-mode pdf-misc-context-menu-minor-mode pdf-sync-minor-mode pdf-annot-minor-mode pdf-misc-menu-bar-minor-mode pdf-misc-size-indication-minor-mode pdf-outline-minor-mode pdf-misc-minor-mode pdf-links-minor-mode pdf-isearch-minor-mode pdf-history-minor-mode)
+  1
+  '(nil nil)
+  t
+  nil
+  '((buffer-display-time 25810 17368 903798 0) (buffer-file-coding-system . no-conversion))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "roam"
+  'dired-mode
+  '(font-lock-mode pdf-occur-dired-minor-mode)
+  9667
+  '(nil nil)
+  t
+  '("/Users/fred/Documents/gitRepos/general-functions/org/roam/")
+  '((buffer-display-time 25810 17725 930328 0))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/var/folders/_w/dcs87wy950b8bsf1ftp8w39nbjnl50/T/plot_yBAZ6I.pdf"
+  "plot_yBAZ6I.pdf"
+  'pdf-view-mode
+  '(font-lock-mode undo-tree-mode pdf-cache-prefetch-minor-mode pdf-misc-context-menu-minor-mode pdf-sync-minor-mode pdf-annot-minor-mode pdf-misc-menu-bar-minor-mode pdf-misc-size-indication-minor-mode pdf-outline-minor-mode pdf-misc-minor-mode pdf-links-minor-mode pdf-isearch-minor-mode pdf-history-minor-mode)
+  1
+  '(nil nil)
+  t
+  nil
+  '((buffer-display-time 25810 17743 187763 0) (buffer-file-coding-system . no-conversion))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/var/folders/_w/dcs87wy950b8bsf1ftp8w39nbjnl50/T/plot_plIx3x.pdf"
+  "plot_plIx3x.pdf"
+  'pdf-view-mode
+  '(font-lock-mode undo-tree-mode pdf-cache-prefetch-minor-mode pdf-misc-context-menu-minor-mode pdf-sync-minor-mode pdf-annot-minor-mode pdf-misc-menu-bar-minor-mode pdf-misc-size-indication-minor-mode pdf-outline-minor-mode pdf-misc-minor-mode pdf-links-minor-mode pdf-isearch-minor-mode pdf-history-minor-mode)
+  1
+  '(nil nil)
+  t
+  nil
+  '((buffer-display-time 25810 18876 704885 0) (buffer-file-coding-system . no-conversion))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/OneDrive/Documents/class/jsm2023/surrogates/JSM_Short_Course_2023.pdf"
+  "JSM_Short_Course_2023.pdf"
+  'pdf-view-mode
+  '(font-lock-mode undo-tree-mode pdf-cache-prefetch-minor-mode pdf-misc-context-menu-minor-mode pdf-sync-minor-mode pdf-annot-minor-mode pdf-misc-menu-bar-minor-mode pdf-misc-size-indication-minor-mode pdf-outline-minor-mode pdf-misc-minor-mode pdf-links-minor-mode pdf-isearch-minor-mode pdf-history-minor-mode)
+  1
+  '(nil nil)
+  t
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . no-conversion))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Zotero/storage/WWMXXAVW/Dharamshi_et_al_2023_Generalized_Data_Thinning_Using_Sufficient_Statistics.pdf"
+  "Dharamshi_et_al_2023_Generalized_Data_Thinning_Using_Sufficient_Statistics.pdf"
+  'pdf-view-mode
+  '(font-lock-mode undo-tree-mode pdf-cache-prefetch-minor-mode pdf-misc-context-menu-minor-mode pdf-sync-minor-mode pdf-annot-minor-mode pdf-misc-menu-bar-minor-mode pdf-misc-size-indication-minor-mode pdf-outline-minor-mode pdf-misc-minor-mode pdf-links-minor-mode pdf-isearch-minor-mode pdf-history-minor-mode)
+  1
+  '(nil nil)
+  t
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . no-conversion))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/marginalia.org"
+  "marginalia.org"
+  'org-mode
+  '(org-remark-mode font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/OneDrive/paperswork/books/Applied-Machine-Learning-Using-mlr3-in-R.pdf"
+  "Applied-Machine-Learning-Using-mlr3-in-R.pdf"
+  'pdf-view-mode
+  '(font-lock-mode undo-tree-mode pdf-cache-prefetch-minor-mode pdf-misc-context-menu-minor-mode pdf-sync-minor-mode pdf-annot-minor-mode pdf-misc-menu-bar-minor-mode pdf-misc-size-indication-minor-mode pdf-outline-minor-mode pdf-misc-minor-mode pdf-links-minor-mode pdf-isearch-minor-mode pdf-history-minor-mode)
+  1
+  '(nil nil)
+  t
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/.notes"
+  ".notes"
+  'fundamental-mode
+  '(org-remark-mode font-lock-mode undo-tree-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/.org-jira/diary.org"
+  "diary.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/diary.org"
+  "diary.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/literature/diary.org"
+  "diary.org"
+  'org-mode
+  '(font-lock-mode undo-tree-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Zotero/storage/32G762WV/Bockholt and Zweig - 2017 - Clustering of Paths in Complex Networks.pdf"
+  "Bockholt and Zweig - 2017 - Clustering of Paths in Complex Networks.pdf"
+  'pdf-view-mode
+  '(font-lock-mode undo-tree-mode pdf-cache-prefetch-minor-mode pdf-misc-context-menu-minor-mode pdf-sync-minor-mode pdf-annot-minor-mode pdf-misc-menu-bar-minor-mode pdf-misc-size-indication-minor-mode pdf-outline-minor-mode pdf-misc-minor-mode pdf-links-minor-mode pdf-isearch-minor-mode pdf-history-minor-mode)
+  1
+  '(710683 nil)
+  t
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . no-conversion))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/ *temp*-762053.html"
+  " *temp*-762053.html"
+  'fundamental-mode
+  nil
+  53
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/ *temp*-652022.html"
+  " *temp*-652022.html"
+  'fundamental-mode
+  nil
+  108
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/ *temp*-729454.html"
+  " *temp*-729454.html"
+  'fundamental-mode
+  nil
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/personal.odt"
+  "personal.odt"
+  'archive-mode
+  '(font-lock-mode undo-tree-mode)
+  157
+  '(nil nil)
+  t
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . no-conversion) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "testjson"
+  'dired-mode
+  '(font-lock-mode pdf-occur-dired-minor-mode)
+  1596
+  '(nil nil)
+  t
+  '("/Users/fred/testjson/")
+  '((buffer-display-time 25822 49547 117784 0))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "*info*"
+  'Info-mode
+  '(undo-tree-mode font-lock-mode isearch-fold-quotes-mode)
+  655413
+  '(1 nil)
+  t
+  '("/opt/homebrew/Cellar/emacs-plus@29/29.0.90/share/info/emacs/eintr" "The final version" ((history ("/opt/homebrew/Cellar/emacs-plus@29/29.0.90/share/info/emacs/eintr" "Print Whole Graph" 653158) ("/opt/homebrew/Cellar/emacs-plus@29/29.0.90/share/info/emacs/eintr" "Full Graph" 625473) ("/opt/homebrew/Cellar/emacs-plus@29/29.0.90/share/info/emacs/eintr" "Top" 4405) ("dir" "Top" 2555) ("/opt/homebrew/Cellar/emacs-plus@29/29.0.90/share/info/emacs/elisp" "Top" 1205) ("/opt/homebrew/Cellar/emacs-plus@29/29.0.90/share/info/emacs/elisp" "Numeric Conversions" 202872) ("/opt/homebrew/Cellar/emacs-plus@29/29.0.90/share/info/emacs/elisp" "Numbers" 186924) ("/opt/homebrew/Cellar/emacs-plus@29/29.0.90/share/info/emacs/elisp" "Top" 2121) ("dir" "Top" 2490) ("/opt/homebrew/Cellar/emacs-plus@29/29.0.90/share/info/emacs/elisp" "Top" 1112) ("/opt/homebrew/Cellar/emacs-plus@29/29.0.90/share/info/emacs/emacs" "Top" 50003) ("/opt/homebrew/Cellar/emacs-plus@29/29.0.90/share/info/emacs/emacs" "Top" 1486) ("/opt/homebrew/Cellar/emacs-plus@29/29.0.90/share/info/emacs/emacs" "Top" 1083) ("/opt/homebrew/Cellar/emacs-plus@29/29.0.90/share/info/emacs/emacs" "Distrib" 55305))))
+  '((tab-width . 8) (buffer-display-time 25825 7275 525620 0) (buffer-file-coding-system . utf-8-unix) (case-fold-search . t))
+  '((mark-ring (4405 625473 653158 657769 655413))))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/model_stability.org"
+  "model_stability.org"
+  'org-mode
+  '(org-remark-mode font-lock-mode eldoc-mode undo-tree-mode auto-revert-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/likelihood_and_bic_vs_number_of_samples.org"
+  "likelihood_and_bic_vs_number_of_samples.org"
+  'org-mode
+  '(org-remark-mode font-lock-mode eldoc-mode undo-tree-mode auto-revert-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/simulating_data_for_variable_selection_testing.org"
+  "simulating_data_for_variable_selection_testing.org"
+  'org-mode
+  '(org-remark-mode font-lock-mode eldoc-mode undo-tree-mode auto-revert-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/20211126231001-variable_selection_and_other_outcomes_as_input.org"
+  "20211126231001-variable_selection_and_other_outcomes_as_input.org"
+  'org-mode
+  '(org-remark-mode font-lock-mode eldoc-mode undo-tree-mode auto-revert-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/literature/2020-09-09-23-08-28-agrawalkernelinteractiontrick2019.org"
+  "2020-09-09-23-08-28-agrawalkernelinteractiontrick2019.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode auto-revert-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/literature/2021-05-20-08-40-07-tiansimplemethoddetecting.org"
+  "2021-05-20-08-40-07-tiansimplemethoddetecting.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode auto-revert-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/literature/2021-02-22-11-24-10-oharareviewbayesianvariable2009.org"
+  "2021-02-22-11-24-10-oharareviewbayesianvariable2009.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode auto-revert-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/literature/2021-02-22-11-30-59-wuselectivereviewmultilevel2019.org"
+  "2021-02-22-11-30-59-wuselectivereviewmultilevel2019.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode auto-revert-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/literature/2021-04-15-15-40-13-piironencomparisonbayesianpredictive2017a.org"
+  "2021-04-15-15-40-13-piironencomparisonbayesianpredictive2017a.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode auto-revert-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/literature/2020-12-03-14-00-29-kallposteriorerrorprobabilities2008.org"
+  "2020-12-03-14-00-29-kallposteriorerrorprobabilities2008.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode auto-revert-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/literature/2021-04-16-00-39-08-piironenprojectiveinferencehighdimensional2020.org"
+  "2021-04-16-00-39-08-piironenprojectiveinferencehighdimensional2020.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode auto-revert-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/org/roam/literature/2021-02-18-00-42-50-heinzevariableselectionreview2018a.org"
+  "2021-02-18-00-42-50-heinzevariableselectionreview2018a.org"
+  'org-mode
+  '(font-lock-mode eldoc-mode undo-tree-mode auto-revert-mode org-fragtog-mode org-inline-anim-mode org-inline-pdf-mode org-ai-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/fred/Documents/gitRepos/general-functions/personal/resume_august_2023.pdf"
+  "resume_august_2023.pdf"
+  'pdf-view-mode
+  '(font-lock-mode undo-tree-mode pdf-cache-prefetch-minor-mode pdf-misc-context-menu-minor-mode pdf-sync-minor-mode pdf-annot-minor-mode pdf-misc-menu-bar-minor-mode pdf-misc-size-indication-minor-mode pdf-outline-minor-mode pdf-misc-minor-mode pdf-links-minor-mode pdf-isearch-minor-mode pdf-history-minor-mode)
+  248212
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 25834 39652 374304 0) (buffer-file-coding-system . no-conversion))
+  '((mark-ring nil)))
+

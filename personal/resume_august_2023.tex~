@@ -1,0 +1,116 @@
+% Created 2023-08-26 Sat 23:58
+% Intended LaTeX compiler: pdflatex
+\documentclass{moderncv}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage[scale=0.75]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+\name{Fred K. Gruber}{}
+\email{fgruber@ieee.org}
+\phone[mobile]{(+1) 617-784-1265}
+\homepage{www.fredgruber.org}
+\address{Newton, MA}
+\social[linkedin]{fredgruber}
+\date{\today}
+\title{Senior Principal Scientist}
+\hypersetup{
+ pdfauthor={Fred K. Gruber},
+ pdftitle={Senior Principal Scientist},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 29.1 (Org mode 9.6.6)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+
+
+\section{Summary}
+\label{sec:org1b2ad92}
+Experienced in analyzing oncological datasets from various sources including TCGA/GDC, Flatiron, ICGC, Tempus, MMRF, and others. Proficient in data preprocessing, model creation, and model interpretation. Strong interest in the development of statistical and machine learning models applied to medical data, with a focus on causal methods, high dimensional variable selection, and interpretability. Skilled in working with high dimensional genomic data and clinical variables. Proficient in various techniques such as logistic regression, neural networks, support vector machines, genetic algorithms, statistical signal processing, inverse problem theory, sparse coding, and simulation and modeling. Develop and maintain 4 R packages for internal use in data preprocessing, visualization, machine learning, and analysis.
+
+\section{Skills}
+\label{sec:org2367ee0}
+\begin{itemize}
+\item R
+\item Shiny
+\item machine learning
+\item causal discovery
+\item causal inference
+\item python
+\end{itemize}
+\section{Professional Experience}
+\label{sec:org8796b9d}
+\cventry{\textbf{Aug 2018 -- Sep 2023}}{Senior Principal Scientist}{Aitia}{Somerville, MA}{}{I specialize in analyzing various types of biological data, including RNAseq, single nucleotides, structural variants, copy number variants, and clinically relevant variables. My main focus is to discover biomarkers and drug targets for different diseases. I have experience in analyzing oncological datasets for lung cancer, multiple myeloma, prostate cancer, pancreatic cancer, and kidney cancer. I have worked with different data sources such as TCGA/GDC, Flatiron, ICGC, Tempus MMRF, and others. I am involved in all stages of the analysis process, from data preprocessing to model construction and interpretation. While my main tools are our proprietary causal Bayesian network learning and predictive tools, I also explore open source machine learning techniques that may be applicable to our datasets. For example, I have investigated unsupervised machine learning methods for tumor subclonal composition analysis and patient drug response stratification.
+}
+\cventry{\textbf{Oct 2016 -- Oct 2018}}{Principal Scientist}{Aitia}{Cambridge, MA}{}{}
+
+\cventry{\textbf{Jul 2013 -- Oct 2016}}{Senior Systems Biologist}{Aitia}{Cambridge, MA}{}{}
+\cventry{\textbf{May 2009 -- Jun 2013}}{Postdoctoral Scientist}{Schlumberger-Doll Reasearch Center}{Cambridge, MA}{}{I designed, implemented, and tested novel algorithms for the analysis of Nuclear Magnetic Resonance measurements of rocks and fluids that are of interest in oil exploration. I used Matlab extensively for the research and Python for production code to integrate with the company software. The worked involved optimization algorithms, sparse coding, regularization, and general machine learning tools.
+}
+
+
+\section{Education}
+\label{sec:orga76757c}
+\cventry{\textbf{2004 -- 2009}}{Ph.D., Electrical engineering}{Northeastern University}{Boston, MA}{}{\begin{itemize}
+\item Research Assistant at Northeastern University's Communications and Digital Signal Processing Center.
+\item Member of the Honor Society of Eta Kappa Nu.
+\item GPA of 3.9/4.0
+\item At NEU I developed algorithms for the determination of the location of objects from the measure of scattered fields. This is a fundamental problem in the area of remote sensing and inverse problems. Also studied the fundamental limits of communication using electromagnetic fields.
+\end{itemize}
+}
+
+\cventry{\textbf{2003 -- 2004}}{Master of science, Industrial Engineering and Management Systems}{University of Central Florida}{Orlando, FL}{}{\begin{itemize}
+\item Research Assistant the Center for NASA Simulation Research.
+\item Phi Kappa Phi honor society
+\item GPA of 3.9/4.0
+\item Recipient of the University of Central Florida's Graduate Merit Fellowship Award, 2004
+\item At UCF I worked at the NASA Simulation Research Group and was involved in the design of an advanced simulation of the probability of failure a space shuttle during reentry and launch. For my master thesis I developed a Genetic Algorithm in C++ for the optimal selection of the parameters of a Support Vector Machine.
+\end{itemize}
+}
+
+\cventry{\textbf{1998 -- 2003}}{Bachelors, Electrical and Electronic Engineering}{Universidad Tecnológica de Panamá}{Panamá City, Panamá}{}{\begin{itemize}
+\item Member of IEEE
+\item GPA of 3.74/4.0
+\item Honor Scholarship for undergraduate studies in Engineering at the Technological University of Panama, 1998 - 2002.
+\item Gold Medal "Guillermo Andreve" for educational achievements, Panama, 1997.
+\end{itemize}
+}
+
+\section{Relevant Certificates}
+\label{sec:org9810bda}
+\cventry{\textbf{2023}}{Combining information for Causal Inference}{Harvard T.H. Chan School of Public Health}{Cambridge, MA}{}{}
+
+\cventry{\textbf{2022}}{Target Trial Emulation}{Harvard T.H. Chan School of Public Health}{Cambridge, MA}{}{}
+
+
+\cventry{\textbf{2020}}{Applied Deep Learning Boot Camp}{MIT Professional School}{Cambridge, MA}{}{}
+
+\cventry{\textbf{2018}}{An Introduction to Causal Inference}{Harvard T.H. Chan School of Public Health}{Cambridge, MA}{}{}
+
+\cventry{\textbf{2016}}{Data Science: Data to insights}{MIT Professional School}{Cambridge, MA}{}{}
+
+\section{Languages}
+\label{sec:org45b040a}
+\begin{itemize}
+\item \textbf{English} Fluent
+\item \textbf{Spanish} Native
+\end{itemize}
+
+
+\renewcommand{\refname}{Selected Publications}
+\bibliographystyle{plain}
+\bibliography{resume}
+\end{document}

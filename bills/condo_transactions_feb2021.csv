@@ -1,0 +1,15 @@
+Description,,Summary Amt.
+Beginning balance as of 10/01/2020,,"1806.14"
+Total credits,,"831.75"
+Total debits,,"-1290.24"
+Ending balance as of 02/19/2021,,"1347.65"
+
+Date,Description,Amount,Running Bal.
+10/01/2020,Beginning balance as of 10/01/2020,,"1806.14"
+11/05/2020,"Zelle Transfer Conf# a9a962dda; GRUBER, FRED","179.75","1985.89"
+11/23/2020,"Counter Credit","292.50","2278.39"
+11/30/2020,"Zelle Transfer Conf# bc2d5b981; GRUBER, FRED","179.75","2458.14"
+12/14/2020,"Check 148","-450.24","2007.90"
+12/29/2020,"Zelle Transfer Conf# b31c7d5e5; GRUBER, FRED","179.75","2187.65"
+12/30/2020,"Check 149","-650.00","1537.65"
+02/12/2021,"Check 150","-190.00","1347.65"

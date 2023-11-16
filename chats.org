@@ -1,0 +1,74 @@
+:PROPERTIES:
+:ID:       448BF567-F742-4BD5-9A2F-203BCE074A6C
+:END:
+#+TITLE:Various discussions 
+#+AUTHOR: Fred K. Gruber
+#+email: fred@gnshealthcare.com
+#+PROPERTY: header-args :tangle yes :eval never-export
+#+PROPERTY: header-args:R :session *R* :exports both
+#+OPTIONS: ^:{}
+-----
+
+#+begin_ai
+Consider the following job description:
+Job Description
+The Role:
+
+Moderna is seeking a Principal Scientist to join a highly collaborative, multi-disciplinary, fast-paced team based in Cambridge, MA. In this role, you will benchmark and develop novel algorithms to incorporate data from diverse modalities in the context of individualized neoantigen therapy (INT, previously known as personalized cancer vaccine, PCV) development. You will collaborate with computational biologists, immunologists, translational scientists, and machine learning scientists to drive INT discovery research and clinical development.
+
+Here’s What You’ll Do
+
+Contribute to evaluations of immunoinformatics algorithms used in T-cell epitope prediction and vaccine design
+
+Develop new algorithms and improve on state-of-the-art algorithms for antigen-based cancer immunotherapy design
+
+Collaborate with computational and wet-lab scientists to support cancer vaccine research and clinical development
+
+Establish and lead innovative best practices for high-dimensional data integration, prediction algorithm development, and rapid iteration with wet-lab collaborators to improve data and model quality
+
+Here’s What You’ll Need (Minimum Qualifications)
+
+Ph.D. in a computational discipline, such as Bioinformatics, Computational Biology, Physics, Computer Science, or Statistics
+
+A minimum of 4 years post-PhD work experience in a computational setting
+
+Demonstrated scientific research experience with algorithm development and machine learning, especially deep learning architectures
+
+Experience with at least one scripting language e.g Python, R and cloud computing, e.g. AWS, GCP
+
+  
+
+Here’s What You’ll Bring to the Table (Preferred Qualifications)
+
+Prior experience leading the development and productization of prediction algorithms, ideally in the bioinformatics space
+
+Prior experience independently staging and sequencing projects and presenting results to non-technical stakeholders
+
+Strong problem-solving skills and a results-oriented mindset
+
+Outstanding communication skills (verbal and written)
+
+Demonstrated cross-functional collaboration with multidisciplinary teams 
+
+Curiosity about exploring a new pathway for drug discovery
+
+Be bold in proposing and delivering on creative experimental designs and ideas
+Here are some possible questions that could be asked based on the job description:
+
+1. What is the role of the Principal Scientist within Moderna's team?
+2. What are the main responsibilities of the Principal Scientist in this role?
+3. What qualifications are required for this position?
+4. Can you provide more information about the experience needed in algorithm development and machine learning?
+5. What programming and cloud computing experience is desired for this role?
+6. What are the preferred qualifications for this position?
+7. Can you describe the level of independence and project management skills required for this role?
+8. How important are problem-solving skills and a results-oriented mindset in this position?
+9. Can you speak to the level of collaboration and communication required for this role?
+10. Why is curiosity and creativity important for this position in the context of drug discovery?
+
+[ME]: What is your opinion of my following answer What is your greatest weakness.
+One aspect that I've been working to improve is my estimate of the time to complete a task. This is specially challenging when the task in question involves some sort of research. I have explored some approaches like splitting the task in smaller subtasks that may be easier to assign duration as well as assuming limits in the time of some o the subtasks.
+Your answer regarding your greatest weakness is good. It shows self-awareness and a proactive approach to addressing and improving upon the weakness. Additionally, your strategies for managing and improving time estimation are practical and demonstrate problem-solving skills. Overall, it is a strong response that highlights your ability to identify areas for growth and take steps to overcome them.
+
+[ME]: 
+#+end_ai

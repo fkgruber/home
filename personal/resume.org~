@@ -1,0 +1,7 @@
+#+TITLE:Fred K. Gruber 
+#+AUTHOR: Fred K. Gruber
+#+email: fred@gnshealthcare.com
+#+PROPERTY: header-args :tangle yes :eval no-export
+#+PROPERTY: header-args:R :session *R* :exports both :colnames yes
+#+OPTIONS: ^:{}
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://gongzhitaao.org/orgcss/org.css"/>

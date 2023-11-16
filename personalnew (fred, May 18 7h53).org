@@ -1,0 +1,959 @@
+#+LAST_MOBILE_CHANGE: 2015-02-04 10:42:37
+#+TITLE: Various personal tasks
+#+TODO: TODO(t) | DONE(d) | PARTIALLY(p)
+#+TODO: | CANCELED(c)
+
+* do soon
+
+** PARTIALLY [#B] fix leak in bathroom
+   CLOSED: [2015-02-01 Sun 11:30]
+   - CLOSING NOTE [2015-02-01 Sun 11:30] \\
+     wait to tray
+
+   - CLOSING NOTE [2015-01-19 Mon 09:35] \\
+     added added the silicone once again. need to wait to see what happens
+
+** DONE change pipe in bathroom
+   CLOSED: [2015-05-15 Fri 00:26]
+   - CLOSING NOTE [2015-05-15 Fri 00:26] \\
+     plumber did it
+   :PROPERTIES:
+   :ID:       2ba2b02c-2f32-4a38-90d1-2630599105bf
+   :END:
+
+** TODO finish python script for weather
+   :PROPERTIES:
+   :ID:       98617d5e-689b-47ce-8789-daf1e00a9247
+   :END:
+*** TODO interpretation of weather forecase
+    :PROPERTIES:
+    :ID:       1be7e1d6-aef5-4932-baf9-5cdec9112e60
+    :END:
+- Need to see the text and read if it says snow.
+
+- check precipitation probability
+this should help decide whether I should send email
+
+- then send email with information
+- Also look at feel like temp to recomend clothing
+** TODO [#B] finish new model and write wiki
+   :PROPERTIES:
+   :ID:       1A60914B-64A2-47E3-AC20-071CFCA93760
+   :END:
+
+** TODO [#B] finish writeup on the test of ironchef with blom transform
+   :PROPERTIES:
+   :ID:       b31d74e1-cfc8-4a2d-8271-b5556dee07b3
+   :END:
+** TODO Prepare fireplace for next storm
+   :PROPERTIES:
+   :ID:       a1971337-7b9c-4416-b2f6-cb43a2f48e1a
+   :END:
+** DONE [#A] Make writeup on RNAseq for machine learning
+   CLOSED: [2015-05-15 Fri 00:27]
+   - CLOSING NOTE [2015-05-15 Fri 00:27] \\
+     done
+   :PROPERTIES:
+   :ID:       24a28f6f-15d9-4b38-bc38-be44e7d5b8b4
+   :END:
+Create a separate org file just for RNAseq summarizing hte important results given references 
+** DONE sign patent documents
+   CLOSED: [2015-01-17 Sat 18:46]
+   - CLOSING NOTE [2015-01-17 Sat 18:46] \\
+     signed and sent it
+** DONE write email to csb
+   CLOSED: [2015-01-19 Mon 09:22]
+   - CLOSING NOTE [2015-01-19 Mon 09:22]
+
+** DONE write email about RNAseq?
+   CLOSED: [2015-01-21 Wed 10:15]
+   - CLOSING NOTE [2015-01-21 Wed 10:15] \\
+     I sent email yesterday
+
+** DONE Send Teresa links with kids tablet
+   CLOSED: [2015-01-31 Sat 19:36]
+   - CLOSING NOTE [2015-01-31 Sat 19:36] \\
+     sent it to her
+   :PROPERTIES:
+   :ID:       316b0a79-748a-409e-8f5c-47b35939c59a
+   :END:
+
+** DONE Send ella link to book website
+   CLOSED: [2015-01-31 Sat 19:36]
+   - CLOSING NOTE [2015-01-31 Sat 19:36] \\
+     sent this to Ella
+   :PROPERTIES:
+   :ID:       28013365-aa04-4576-ad51-a9b80b507e1a
+   :END:
+
+** DONE change bulb in bathroom
+   CLOSED: [2015-02-01 Sun 10:12]
+   - CLOSING NOTE [2015-02-01 Sun 10:12] \\
+     the old one started working again after adjusting it. Couldn't get the new one to work. not sure why
+
+** DONE fix baby velcro
+   CLOSED: [2015-02-01 Sun 11:30]
+   - CLOSING NOTE [2015-02-01 Sun 11:30]
+** DONE assemble coat hanger <2015-02-07 Sat>
+  CLOSED: [2015-02-07 Sat 16:15]
+   :PROPERTIES:
+   :ID:       9ea8e511-e9fa-4495-a116-ec1eb1565478
+   :END:
+  - CLOSING NOTE [2015-02-07 Sat 16:15]
+** DONE fix glove velcro <2015-02-07 Sat>
+   CLOSED: [2015-02-14 Sat 16:53]
+   - CLOSING NOTE [2015-02-14 Sat 16:53] \\
+     seems to be working now
+   :PROPERTIES:
+   :ID:       5c4e8620-0e4f-44a4-8ab4-06dd689b353f
+   :END:
+   - CLOSING NOTE <2015-02-01 Sun 11:30>
+** DONE Fix  glove
+** CANCELED finish quiz for the computaitonal biology class
+   CLOSED: [2015-01-19 Mon 11:44]
+   - CLOSING NOTE [2015-01-19 Mon 11:44] \\
+     I will just watch video that are worth watching
+** TODO do fence for baby
+   :PROPERTIES:
+   :ID:       45ff75f0-7aa8-4e88-9202-040f9154bfb2
+   :END:
+** TODO try Boris website on  commented dance and comment
+   :PROPERTIES:
+   :ID:       78756321-3bc2-4c73-ba6c-e197544de38d
+   :END:
+** TODO fix shower again. On the corner
+   :PROPERTIES:
+   :ID:       f3050cee-93dc-47ff-9260-969827df5464
+   :END:
+* Various Tasks
+** DONE Sign documents for patent
+   CLOSED: [2015-01-17 Sat 18:47]
+   - CLOSING NOTE [2015-01-17 Sat 18:47]
+** TODO python scrypt to check weather for tonight and tell me to put the car cover.
+   :PROPERTIES:
+   :ID:       B86566E1-A814-4A5A-BECB-40FFA10FC398
+   :END:
+** Todos Install theano
+** TODO Install video card
+   :PROPERTIES:
+   :ID:       D8EB0E50-E22F-49C3-991B-07D2AC54F89C
+   :END:
+#+CATEGORY: varios
+** TODO post pictures to website
+   :PROPERTIES:
+   :ID:       4A51AC50-AFD9-48C7-BDF1-318603569DA6
+   :END:
+DHS may check this
+** TODO Study Cantonese
+:PROPERTIES:
+:ID:       4f6be210-522c-415f-9f32-4abff6e58230
+:END:
+
+** TODO Build power supply
+   :PROPERTIES:
+   :ID:       8a2c2d38-fc79-48c7-bb85-86d447b962be
+   :END:
+** TODO Smart baby monitor
+   :PROPERTIES:
+   :ID:       49f42af7-1f4d-49e3-b678-d73f06123c6a
+   :END:
+** TODO Smart scale
+   :PROPERTIES:
+   :ID:       03b57238-c09a-4456-9e0f-319472b67300
+   :END:
+
+** TODO Update blog
+   :PROPERTIES:
+   :ID:       70b271e3-9e7b-423e-ad87-d8a6663ad6c7
+   :END:
+** TODO open camera to see if you can fix it
+   :PROPERTIES:
+   :ID:       3ff842a8-7654-4332-a1b2-4dbb64658298
+   :END:
+** TODO see xbmc and tunner
+   :PROPERTIES:
+   :ID:       033f2859-42c4-42a9-8294-b641900ba874
+   :END:
+** DONE put pogoplug in storage
+   CLOSED: [2014-12-27 Sat 13:47]
+   - CLOSING NOTE [2014-12-27 Sat 13:47] \\
+     put it in one of the open boxes in the back
+   :PROPERTIES:
+   :ID:       8ff220c8-06a3-4abf-8b8a-e1e6ec0070cb
+   :END:
+
+** TODO get gruber.boston domain
+   :PROPERTIES:
+   :ID:       fc2a7a3e-4d83-411c-ab81-24c2e5089695
+   :END:
+** TODO create a main webpage linking to my blog, susan website , my resume etc on the gruber.boston domain
+   :PROPERTIES:
+   :ID:       faca1291-ca56-45f5-bdad-51fccda8c9bf
+   :END:
+** TODO organize cables behind TV
+   :PROPERTIES:
+   :ID:       BB618ED9-9336-4A8E-BF3A-3A517C889BD1
+   :END:
+
+** TODO Start playing with ip camera control
+   :PROPERTIES:
+   :ID:       03371598-F13A-4049-96AB-C1163D2328AB
+   :END:
+** TODO setup raspeberry pi with voice control jasper
+   :PROPERTIES:
+   :ID:       344a6092-8aaa-4657-bd63-8e3ab2dc9b66
+   :END:
+** DONE Fix tuner either in xbmc or in wmp
+   CLOSED: [2014-12-29 Mon 18:16]
+   - CLOSING NOTE [2014-12-29 Mon 18:16] \\
+     WMC is working again. Had to remove mpc and reinstalled it. Apparently the problem has to do with the other program for xbmc
+   :PROPERTIES:
+   :ID:       9238011c-d7d4-42c9-ab2c-5f1be76f11cb
+   :END:
+
+
+** TODO Call Rabelo dspues del 5 de enero <2015-01-07 Wed>
+   :PROPERTIES:
+   :ID:       05b2d909-e806-4388-851c-f1cf967cba88
+   :END:
+
+** PARTIALLY Fix leak
+   CLOSED: [2014-12-29 Mon 18:16]
+   - CLOSING NOTE [2014-12-29 Mon 18:16] \\
+     I added the silicone. Just watining to try to see what happens
+   :PROPERTIES:
+   :ID:       ab054b8e-f835-47af-9ba3-73c926be41e6
+   :END:
+** DONE find ipcam base
+   CLOSED: [2014-12-29 Mon 18:17]
+   - CLOSING NOTE [2014-12-29 Mon 18:17] \\
+     found the bases. They are in the closet in the hallway.
+     also installed Baby's camera monitor
+   :PROPERTIES:
+   :ID:       d448b1f5-fd34-46db-b79a-94826da35a78
+   :END:
+** TODO raspberry pi #2
+   :PROPERTIES:
+   :ID:       112b1698-3549-466d-8a00-cd2e4471e3d7
+   :END:
+** TODO check maintanance manual for stove and dish washwer
+   :PROPERTIES:
+   :ID:       a39c5cab-89c9-4bba-98a3-b5e9f0aa8758
+   :END:
+** TODO Create the new model
+   :PROPERTIES:
+   :ID:       1a827fd1-8b1f-4886-95b3-8cc0f0af0254
+   :END:
+** DONE Check TIffany's chnages to resume
+   CLOSED: [2015-01-17 Sat 18:47]
+   - CLOSING NOTE [2015-01-17 Sat 18:47] \\
+     seems fine
+   :PROPERTIES:
+   :ID:       c71ee96b-cc5e-42cf-bca2-856ac021fc47
+   :END:
+** TODO Check frontpage
+   :PROPERTIES:
+   :ID:       89a4778d-d7bb-4669-b28e-6a0c1b066746
+   :END:
+** TODO update resume and linkedln
+   :PROPERTIES:
+   :ID:       2f9c3ae4-d706-4d82-937f-122a0f29c76f
+   :END:
+** TODO check Jason's code
+   :PROPERTIES:
+   :ID:       f8a86e66-2021-4530-bc91-cb807a73f11d
+   :END:
+** TODO fix pythnon in emacs. Check your linux .emacs
+   :PROPERTIES:
+   :ID:       20ede894-e079-4569-b9e7-6bf666a02cb7
+   :END:
+** DONE install ipcam in baby room
+   CLOSED: [2014-12-27 Sat 13:46]
+   - CLOSING NOTE [2014-12-27 Sat 13:46] \\
+     installed it in the crib with plastic straps
+   :PROPERTIES:
+   :ID:       0a43162e-461b-4349-8243-95d5a14e707f
+   :END:
+** DONE update wordpress
+   CLOSED: [2014-12-28 Sun 09:11]
+   - CLOSING NOTE [2014-12-28 Sun 09:11] \\
+     also backud up database
+** DONE send email to chathang with the required information
+   CLOSED: [2014-12-26 Fri 11:10] DEADLINE: <2014-12-27 Sat>
+   :PROPERTIES:
+   :ID:       575fe34a-349b-4e66-9584-13e2f0c5a0b0
+   :END:
+   - CLOSING NOTE [2014-12-26 Fri 11:10] \\
+     sent the information
+** DONE Put away clothes
+   CLOSED: [2014-08-23 Sat 16:14]
+   - CLOSING NOTE [2014-08-23 Sat 16:14] \\
+     done
+** DONE Clean dehumidifier
+   CLOSED: [2014-08-23 Sat 16:14]
+   - CLOSING NOTE [2014-08-23 Sat 16:14] \\
+     it is clean
+** DONE backup baby cds
+   CLOSED: [2014-08-23 Sat 23:09]
+   - CLOSING NOTE [2014-08-23 Sat 23:09] \\
+     did backup. just need to put in phone
+   :PROPERTIES:
+   :ID:       78e222f0-51c5-462d-810e-46076243a7db
+   :END:
+** DONE install video card
+   CLOSED: [2014-09-30 Tue 22:35]
+   - CLOSING NOTE [2014-09-30 Tue 22:35] \\
+     card is installed. just need to find out how to install the theano
+   :PROPERTIES:
+   :ID:       8276a479-275a-4868-be41-c1eb9c50dfad
+   :END:
+*** DONE hardware
+    CLOSED: [2014-08-23 Sat 23:10]
+    - CLOSING NOTE [2014-08-23 Sat 23:10] \\
+      installed it in the computer
+    :PROPERTIES:
+    :ID:       47ce167b-db80-47d4-8222-fbf51953465b
+    :END:
+*** TODO software
+    :PROPERTIES:
+    :ID:       7ea0e093-281f-4b6d-aec0-299fbccb77bb
+    :END:
+** DONE do review for marengo
+   CLOSED: [2014-09-30 Tue 22:35]
+   - CLOSING NOTE [2014-09-30 Tue 22:35] \\
+     finished
+** DONE change addreess in IEEE
+   CLOSED: [2014-10-23 Thu 21:25]
+   - CLOSING NOTE [2014-10-23 Thu 21:25] \\
+     updated my personal information
+
+** DONE car maintance
+   CLOSED: [2014-10-25 Sat 16:53]
+   - CLOSING NOTE [2014-10-25 Sat 16:53] \\
+     took it to Herb Chamber today and changed oil
+** DONE Take empty boxes downstairs
+   CLOSED: [2014-10-26 Sun 13:56]
+   - CLOSING NOTE [2014-10-26 Sun 13:56]
+
+** DONE transfer books in big boxes to small boxes
+   CLOSED: [2014-10-26 Sun 13:56]
+   - CLOSING NOTE [2014-10-26 Sun 13:56]
+
+** DONE install mailbox
+   CLOSED: [2014-12-23 Tue 11:17]
+   :PROPERTIES:
+   :ID:       E297F369-B591-4852-9848-B235E0DD808C
+   :END:
+
+** DONE Install linux in computer
+   CLOSED: [2014-12-23 Tue 11:17]
+   :PROPERTIES:
+   :ID:       E5CD0D94-4BC8-4FF7-884F-DCB67C71181F
+   :END:
+** DONE setup hardrive
+   CLOSED: [2014-12-23 Tue 11:17]
+   :PROPERTIES:
+   :ID:       8b23fec7-fd94-441c-9338-049c5dd5f3bf
+   :END:
+** DONE Make mailbox taller
+   CLOSED: [2014-12-23 Tue 20:40]
+   - CLOSING NOTE [2014-12-23 Tue 20:40] \\
+     moved it up
+   :PROPERTIES:
+   :ID:       83b67fec-7230-4fdb-98b3-69b58e05900c
+   :END:
+** DONE check about heater how to increase temperature
+   CLOSED: [2014-12-26 Fri 08:27]
+   - CLOSING NOTE [2014-12-26 Fri 08:27] \\
+     increased the temperature by 8 degrees. Water seems warmer. but the shower still takes long to warm
+   :PROPERTIES:
+   :ID:       3331208f-d29b-4eea-b931-4b0eadc98e83
+   :END:
+** DONE Fix door knob
+   CLOSED: [2014-12-26 Fri 08:28]
+   - CLOSING NOTE [2014-12-26 Fri 08:28]
+   :PROPERTIES:
+   :ID:       c9ea53d4-0492-41c1-a978-9c9d08e3a116
+   :END:
+** DONE Do final review for marengo's paper
+   CLOSED: [2014-12-26 Fri 09:23]
+   - CLOSING NOTE [2014-12-26 Fri 09:23] \\
+     sent review
+   :PROPERTIES:
+   :ID:       4e36a394-2d5f-4756-84d2-2c32781b497d
+   :END:      
+** PARTIALLY Apply for renewal of green card
+   CLOSED: [2014-10-17 Fri 00:35] DEADLINE: <2014-09-29 Mon>
+   - CLOSING NOTE [2014-10-17 Fri 00:35] \\
+     just waiting for the last affidavit
+   :PROPERTIES:
+   :ID:       8139ede0-f505-4384-9593-621da6d26117
+   :END:
+
+** PARTIALLY fix issue with interface for vieweing networks
+   CLOSED: [2014-12-14 Sun 13:39]
+   - CLOSING NOTE [2014-12-14 Sun 13:39] \\
+     not sure what this was
+   :PROPERTIES:
+   :ID:       e5c7f79d-b1ab-450d-a32b-67a8d8f92b67
+   :END:
+** CANCELED Watch causality talk tonight
+   CLOSED: [2014-10-25 Sat 18:24] DEADLINE: <2014-10-15 Wed>
+   - CLOSING NOTE [2014-10-25 Sat 18:24] \\
+     bad recording
+
+** CANCELED Go.over this week learning class
+   CLOSED: [2014-12-14 Sun 13:38]
+   - CLOSING NOTE [2014-12-14 Sun 13:38]
+   :PROPERTIES:
+   :ID:       a20d40e6-7515-4a1c-a3be-4978ae806b85
+   :END:
+
+** DONE Install emacs integration in kde
+   CLOSED: [2014-12-30 Tue 22:06]
+   - CLOSING NOTE [2014-12-30 Tue 22:06] \\
+     seem to be working using emacsclient
+* Things I should study
+** Understand better high dimensional problems where you dont have much data. 
+In case of linear models it seems that you can always find a lower dimensional version of the problem and it doesn't make any sense to keep the high dimensionality.
+- how can we characterize how much information is in there 
+- can we use information theory or some other approach to show the limiations of thi
+** Causality Pearl's book
+** review linear models
+** Mix effect models
+continue reading that book and do examples in R to make sure it is clear
+** Montecarlo sampling
+solve some problems to really grasp the material
+** Deep Learning
+*** TODO watch video [[https://www.youtubet6.com/watch?v=W9_SNGymRwo#t=19]]
+    :PROPERTIES:
+    :ID:       9d9e7365-42eb-4408-b8fa-a057516b04a1
+    :END:
+*** DONE install video card
+    CLOSED: [2014-09-30 Tue 22:35]
+    - CLOSING NOTE [2014-09-30 Tue 22:35] \\
+      done
+    :PROPERTIES:
+    :ID:       1764c88f-c4f5-4677-a95e-b7197c472d43
+    :END:
+*** TODO try theano
+   :PROPERTIES:
+   :ID:       bb0f306f-7859-4a5e-8846-d0b1ebee8472
+   :END:
+**
+** Study bayesian
+   CLOCK: [2014-08-31 Sun 16:50]--[2014-08-31 Sun 17:15] =>  0:25
+   :Properties:
+   :ID:       55471a8b-fc0b-4165-b43b-cb44fe6a360e
+   :END:
+*** TODO Continue with flashcards for bayesian
+   :PROPERTIES:
+   :ID:       f80f6ccb-0d55-46cb-8819-f468d0c23e21
+   :END:
+** Biology
+*** Next generation sequencing
+*** Genetics
+Need to go thru that genetics book that I foudn
+Maybe create an org file with the different experimentations
+
+** TODO Machine learning theory and practice
+   :PROPERTIES:
+   :ID:       05d951fe-ce5a-45b1-9314-579ee6d6d1bd
+   :END:
+a more formal background in terms of pace vc dimension etc
+
+** TODO Rnaseq
+   :PROPERTIES:
+   :ID:       955f7071-9b3a-482d-a30a-b1df193215d8
+   :END:
+
+** TODO Differential geometry for Machine learning (Metacademy)
+   :PROPERTIES:
+   :ID:       1968ca53-85b5-4a8c-807e-96ddfdada357
+   :END:
+from that book chapter
+** TODO Causality
+   :PROPERTIES:
+   :ID:       7ae0b258-a1a5-43bb-85a1-93753b415b92
+   :END:
+investigate introduction to causality. Check that class website
+
+or just read Pear's book
+
+* Guitar
+** New to learn
+*** Pantera rosa
+*** The mysterious barricades
+*** Esquinas portenias
+*** Milonga sentimental
+*** Estudiar acompaniamiento de guitarra
+de repente comprar ese libro? veremos
+** TO review
+*** Corralera
+*** Miloinga de mis amores
+*** Suspiro de una fea
+*** Raindrops keep falling on my head
+** To record
+*** TODO Negrito
+    :PROPERTIES:
+    :ID:       4f17034f-90a2-40e4-8a0c-a15f4d91cce0
+    :END:
+*** TODO itsu nando demo
+    :PROPERTIES:
+    :ID:       fa6677d6-330c-4beb-80fa-9f7d9b2ce99f
+    :END:
+
+** For christmas
+*** TODO Practice with susan voice guitar <2015-11-01 Sun>
+    :PROPERTIES:
+    :ID:       720d7942-b01b-4d79-b7b8-bcf1b3ab28ab
+    :END:
+*** TODO Start practice difficul Christmas songs<2015-10-01 Thu>
+    :PROPERTIES:
+    :ID:       3f160d97-f579-4efb-8fc9-f126cba58492
+    :END:
+* Dues
+** Home
+*** Address for bank
+Cambridge Saving Bank
+Harvard Square
+P.O. Box 381310
+Cambridge, MA 02238-1310
+*** 1st Loan
+#+CATEGORY: Loans
+    DEADLINE: <2014-11-01 Sat +1m>
+    :PROPERTIES:
+    :ID:       45000F8C-A125-4002-ACB0-75F3D736F004
+    :END:
+
+*** 2nd Loan
+    DEADLINE: <2015-01-01 Tue +1m>
+    :PROPERTIES:
+    :ID:       5FC03BDB-1120-49B3-A145-6A3E6366684A
+    :END:
+* Paper to read
+** TODO The Randomized Causation Coefficient
+   :PROPERTIES:
+   :ID:       2C2CFD3B-8AF0-4EE1-9694-83AB3C1F1CE7
+   :END:
+** DONE REview paper
+   CLOSED: [2014-09-28 Sun 13:06] DEADLINE: <2014-09-28 Sun>
+   - CLOSING NOTE [2014-09-28 Sun 13:06] \\
+     finished review last night. submitted it
+*** Review
+**** Summary
+This paper presents 3 distance metrices between spatial fields based
+on mathematical morphology concepts of erosion and dilation. THey also
+present the connection between the different metrices as well as some
+general properties of interest.
+The authors also present an index to rank a set of spatial fields
+based on their similarity
+**** Typos and suggestions
+- page 1 spatial is repeated in first paragraph, second column
+- page 5 crossreference is missing.
+- page 6 last paragraph crossreference has a typo
+- page 7 the paragraph before table 5 is not clear. Seem to be missing
+  something in the grammar.
+- fig 3 has very low resolution. need to be higher
+- table 6-8 difficult to read. font is too small
+- page 8 line 40 matrixes=matrices
+- Section 5 title mention classification but in the discussion of this
+  section I don't see any actual classification algorithm. I would
+  expect to see a way to group the fields in a specific number of classes.
+**** Conclusions
+It would have been useful to have, in the case study, an example of
+the advantages of using these metrics over other metrics. What does
+these metrics provide that other metrics do not.
+The conclusion of the paper actually mention an intersting
+appliclation for classification which would seem like a good
+example. I wished they had implemented this in the paper.
+**** 
+*** DONE Review modified version
+    CLOSED: [2015-01-05 Mon 14:28]
+    - CLOSING NOTE [2015-01-05 Mon 14:28] \\
+      finished revieweing
+
+    :PROPERTIES:
+    :ID:       43325722-1857-4ac5-ad63-9c2499ea18e7
+    :END:
+
+** TODO Using K-means for feature representation Adam Coates from Standford
+   :PROPERTIES:
+   :ID:       DA7852DA-B8AF-44A5-9990-99B4F73A1185
+   :END:
+** TODO Maathuis, Marloes H., Markus Kalisch, and Peter Bühlmann. “Estimating High-Dimensional Intervention Effects from Observational Data.” The Annals of Statistics 37, no. 6A (December 2009): 3133–64. doi:10.1214/09-AOS685.
+   :PROPERTIES:
+   :ID:       43BD1575-908F-4FC2-85BE-28B940A3BE92
+   :END:
+** Data science book
+interesting fundamentals of high dimensional datasets
+* Meetings
+** Topic for meeting the neightbors
+- Snow removal
+- change lock of door basement/outside
+- hand support for basement stairs
+- Paint rusted metal outside main entrance and outside basement
+
+* Research Topics
+** Blom transformation in network analysis
+How does blom transformation on zero inflated data affect network inferences? DOes it help or not.
+ How are the correlation between variables affected?
+** Filtering of RNAseq
+*** An idea is to cluster the data. Then look at the distribution of counts on each cluster. It may be possible that one cluster contain all the low counts cases. We may be able to use this to decide on a threhold.
+*** I/NI 
+read paper see how it would apply to RNAseq
+*** Need to find way to validate/evaluate quality of filter
+** Learn Causal model Fromb trained deep learning network.
+First need to find a problem where a deep NN can have a very good performance. Then use the predictions to train the causal network.
+** Clustering based copy number
+** REFS based fusion analysis as in PEGASUS (with binary trees)
+
+**  Aggregation of rare variants SNP, structural variants, and fusion transcripts
+
+* Projects
+** DONE Python inteface to rcwitch
+   CLOSED: [2015-04-26 Sun 11:40]
+   - CLOSING NOTE [2015-04-26 Sun 11:40] \\
+     somebody did it already
+     https://github.com/lexruee/pi-switch-python
+** Mobile
+*** camera recording that automatically upload to cloud
+Maybe I can do this with dropbox already?
+** Idea for business
+something like grub for food but instead for contractors repairs and other services
+
+* Install in linux
+** TODO grub graphical setting
+   :PROPERTIES:
+   :ID:       fe881aea-1121-4796-81c0-ce7892803545
+   :END:
+- http://askubuntu.com/questions/365760/graphical-grub-editor-for-ubuntu-13-10
+sudo add-apt-repository ppa:adabbas/1stppa
+sudo apt-get update
+sudo apt-get install grub-customizer
+** TODO figure out the vpn
+   :PROPERTIES:
+   :ID:       ea589ad5-0fb2-4dc0-ae6e-5168feaea27c
+   :END:
+** TODO ssh server
+   :PROPERTIES:
+   :ID:       5077ec4e-848c-4eec-8241-f8496fcbd436
+   :END:
+** TODO vnc server
+   :PROPERTIES:
+   :ID:       0261719a-f80a-4f3a-b517-4edef94a55d1
+   :END:
+
+* Book to get
+- Bioinformatics with R Cookbook Paperback – June 23, 2014
+by Paurush Praveen Sinha
+- Doing Bayesian Data Analysis, 2nd Edition
+- Advanced R
+** Place to download
+- http://gen.lib.rus.ec/
+search many book websited. have direct download as well
+-http://boxue58.com/index.php
+interesting website where people make requests
+http://oll.libertyfund.org/index.php?option=com_content&task=view&id=380
+http://www.perseus.tufts.edu/hopper/#
+http://avalon.law.yale.edu/default.asp
+http://www.historyplace.com/index.html
+http://www.archive.org/index.php
+http://librivox.org/
+http://www.gutenberg.org/wiki/Main_Page
+http://www.thefreelibrary.com/
+http://quod.lib.umich.edu/g/genpub/
+http://library.nu/ -RIP
+http://gigapedia.info/lnu.html -RIP
+http://www.alleng.ru/
+http://www.eknigu.com/
+http://ishare.iask.sina.com.cn/
+http://www.jubad.com/
+http://btebook.com/0-01a8edbf9d27cebe.htm
+http://www.cnshare.org/
+http://www.bookgo.org/
+http://www.pdfchm.com/
+http://2020ok.com/
+http://bbs.topsage.com/index_121.html
+http://www.ebookshare.net/
+http://nips.djvuzone.org/index.html
+http://www.zainbooks.com/
+http://free-books.us.to/
+http://www.freebookspot.es/Default.aspx
+http://en.bookfi.org/
+
+* Shopping list
+
+** Groceries
+*** DONE Onion
+    CLOSED: [2014-11-29 Sat 13:33]
+    :PROPERTIES:
+    :ID:       3a85711b-ee23-46ad-83e2-7727a157083a
+    :END:
+
+*** DONE Milk
+    CLOSED: [2014-11-29 Sat 13:33]
+    :PROPERTIES:
+    :ID:       92c83d82-1259-4990-98c9-87eb9a3ea9fc
+    :END:
+
+*** DONE Cranberry
+    CLOSED: [2014-11-29 Sat 13:33]
+    - CLOSING NOTE [2014-11-29 Sat 13:33]
+    :PROPERTIES:
+    :ID:       a5d8c793-e07f-4312-ad9f-945cc5cc8358
+    :END:
+
+*** DONE blueberry jam with chunks
+    CLOSED: [2014-11-29 Sat 13:33]
+    :PROPERTIES:
+    :ID:       6b4385cf-0c79-4750-b9c7-4271d7c8d5e0
+    :END:
+
+*** DONE pastry
+    CLOSED: [2014-11-29 Sat 13:33]
+    :PROPERTIES:
+    :ID:       997c6195-44e2-4545-9873-c37d0a8076c8
+    :END:
+
+*** DONE ham
+    CLOSED: [2014-11-29 Sat 13:33]
+    :PROPERTIES:
+    :ID:       0c09f90e-37e9-41a9-82e7-ee9551f8e39a
+    :END:
+
+*** DONE bread
+    CLOSED: [2014-11-29 Sat 13:33]
+    :PROPERTIES:
+    :ID:       28480f20-1b43-4daa-bb13-66ef77d18ecb
+    :END:
+
+*** DONE sausace pork
+    CLOSED: [2014-11-29 Sat 13:33]
+    :PROPERTIES:
+    :ID:       43b7972c-d571-489f-8d67-fe03d1a15d7d
+    :END:
+
+*** DONE drinks
+    CLOSED: [2014-11-29 Sat 13:33]
+    :PROPERTIES:
+    :ID:       2b0f756e-0a96-4cb5-8741-8f86b44df0ed
+    :END:
+
+**** DONE tv dinner
+     CLOSED: [2014-11-29 Sat 13:33]
+     :PROPERTIES:
+     :ID:       11f99262-9b3c-466c-a3fd-7c7417c2c9cf
+     :END:
+
+** Hardware store
+*** TODO Glue To Fix bathroom with gun
+    :PROPERTIES:
+    :ID:       209f8ce5-95fc-42a5-a7df-225ad089d69d
+    :END:
+*** TODO wrench to change shower head
+    :PROPERTIES:
+    :ID:       ed555daa-33a0-494e-a591-e6b2d0939a93
+    :END:
+*** TODO white tape for chaning shower heaad
+    :PROPERTIES:
+    :ID:       b9f5c601-9c1e-424a-9d7e-10b459a3c6f9
+    :END:
+*** TODO halogen lamp 40 W
+    :PROPERTIES:
+    :ID:       c3e68fff-ee3e-423f-87ed-a73e47c6eb48
+    :END:
+*** TODO investigate how to prevent air form coming under the door
+    :PROPERTIES:
+    :ID:       16bd2dd4-b346-4869-87f3-0c6d878c49b9
+    :END:
+*** TODO salt dispenser for outside
+    :PROPERTIES:
+    :ID:       83eb30c1-6a79-4dfd-9512-31de88ec915a
+    :END:
+
+*** TODO Cable hook bonjijumo
+    :PROPERTIES:
+    :ID:       1018e1aa-8a16-4b2d-be00-dc155c24c31f
+    :END:
+
+*** TODO Velcro tape black
+    :PROPERTIES:
+    :ID:       ab16539f-1e22-475e-9306-9c292dd6f17d
+    :END:
+* Various
+** Dell gift card
+Gruber Fred
+Card Number:6035710357030323765  PIN: 4970
+Expires: 23 March 2015
+** NYC
+*** Restaurants
+**** Mont Blanc
+SwissTheater District / Times Square$31 to $50
+315 West 48th Street
+New York, NY 10019
+**** The Copenhagen
+13 Laight St.
+New York, NY 10001
+****  BCD tofu house.
+ Good korean resetaurand near nocturne
+
+*** Tango
+***** Nocturne
+Manhattan Ballroom 29 West 36th St, 2nd Fl, New York, NY
+- tought crowd
+- start with people close to the door to the right. May be friendlier
+- argentinean cafe by Greely Square
+*** Muji
+great Japanese store for gifts
+*** Hotel
+**** Fairfield Inn 33st
+great location. close to everything:
+- milonga
+- Macy's
+- music store
+- movies
+** Books That I have
+
+*** latin/tango music
+**** Lauro book
+***** Works for guitar vol 6 2006 
+****** Romanza
+****** Nocturno
+****** Oriente
+***** Works for guitar vol 5 2005
+****** Seis por derecho
+****** Paisaje Araguenio
+**** Musica para guitarra de america latine 1 Ryuhei Kobayashi
+**** Astor Piazzolla Baltazar Benitez. 
+Verano Porteño, Milonga del Angel, La muerte del angel, primavera porteña
+**** Guitar Music of Argentina
+John Zaradin
+**** Argentine Tango for guitar solo
+Masahiro Lizumi
+**** Eduardo Falu.
+  Obras Para guitarra Roberto Lara, Con poemas de Jaime Davalos
+**** Cacho Tirao
+La puñalada
+Derecho viejo
+**** Atahualpa Yupanqui
+su obras cumbres 
+transcriptas por jorge morales
+**** Tango Milongas Habaneras
+Matanya Ophee and Melanie Plesch
+**** More Tangos Milongas Habaneras
+Matanya Ophee
+**** La cumparsita
+arranged by Bunken Nagano
+**** Piazolla album 
+Arreglos de Ruben Chocho Ruiz
+Melos
+Adios Nonino, Lo que vendra, Libertango, La muerte del angel
+**** Tangos Album N3
+Ruben Chocho Ruiz
+Melos
+cambalache, Mi buenos aires querido, Garua, La ultima curda...
+**** Tangos Album N4
+Ruben Chocho Ruiz
+POr una cabeza
+Sur
+La casita de mis viejos...
+*** Spanish/Flamenco
+*** Guitarra Flamenca paso a paso
+Oscar Herrero
+*** Flamenco Solos For guitar
+Sophocles Papas
+*** Flamenco Music for guitar
+Allan Alexander
+*** Tarrega Collection
+14 pieces for classical guitar
+performed by Paul Henry
+** MOvies
+*** XBMC
+**** Links
+- http://www.nextofwindows.com/2-alternative-iceflims-xbmc-plugin-that-lets-you-to-stream-videos-and-movies/
+- http://www.movie4k.to/
+** People to invite to events
+1. Boris
+2. Lalitha
+3. Miguel
+4. Marengo
+5. Iryna
+6. Ronald
+7. Harish?
+
+** People to greet for Christmas
+- Austria
+- Tia
+- Tio
+- Ella
+- Mama
+- Lalitha
+- Rabelo
+- Marengo
+
+** Things to download
+
+*** TODO taichi videos
+    :PROPERTIES:
+    :ID:       71D47F7A-AA39-493F-BA68-C352DEACDE80
+    :END:
+
+*** TODO baby music
+    :PROPERTIES:
+    :ID:       54FAF9DA-806B-427A-BE80-E348F452DDA4
+    :END:
+
+* Birthdays
+#+CATEGORY: Birthday
+%%(diary-anniversary 08 05 1956) Mama cumple %d años
+%%(diary-anniversary 02 23 1990) Ella cumple  %d años
+%%(diary-anniversary 05 07 2014) Alice cumple %d años
+%%(diary-anniversary 06 14 1976) Susan cumple  %d años
+%%(diary-anniversary 09 01 2008) Ariana cumple  %d años
+%%(diary-anniversary 02 19 2013) Diana (hija de Raul) cumple  %d años
+
+* Anniversaries
+%%(diary-anniversary 08 12 2012) Casado por %d años
+
+
+* Home Computer
+** Ip
+146.115.135.42
+
+* Doctors
+Newton Wellesley Primary Care
+617) 964-9070
+
+Harvard Vanguard Medical Associates
+133 Brookline Ave
+Boston, MA 02215
+Open today
+8:00 am – 8:00 pm
+Harvard Vanguard Medical Associates133 Brookline AveBoston, MA 02215
+Directions
+Save
+harvardvanguard.org
+(617) 421-1000
+
+Francis Campion, MD
+1-800-249-1767
+
+** Search
+http://bcbs.prismisp.com/
+** Ear
+Close to waban st
+Otology Laryngology Rhinology
+2000 Washington St Ste 668
+Newton, MA 02462
+(617) 630-1699
+
+** General
+* DONE Install debian on virtual box
+use xfce to install emacs and sparkleshare
+* Appointments 
+#+CATEGORY: Doctor
+Dr appointment <2015-04-28 Tue 14:00>
+
+
+  

@@ -1,0 +1,824 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \datalist[entry]{ydnt/global//global/global}
+    \entry{brandon_nathasingh_multiple_2023}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=d9d8b89b0fe9d8e32d998d90507fe431}{%
+           family={{Brandon Nathasingh}},
+           familyi={B\bibinitperiod}}}%
+        {{hash=275657aa5d8e584ab27e54faa74818fd}{%
+           family={{\textbf{Fred K. Gruber}}},
+           familyi={F\bibinitperiod}}}%
+        {{hash=441b1a4d8d64802145fb616edc8bc74f}{%
+           family={{Derek Walkama}},
+           familyi={D\bibinitperiod}}}%
+        {{hash=11b9d9fd57ac3b73f7cd7b577fc362c2}{%
+           family={{Jeanne Latourelle}},
+           familyi={J\bibinitperiod}}}%
+        {{hash=8f4a277fab47933d6442e3ec8d6cd704}{%
+           family={{Bruce W Church}},
+           familyi={B\bibinitperiod}}}%
+        {{hash=57599b5fef9c86813bb3cb48751280d5}{%
+           family={{Yaoyu E Wang}},
+           familyi={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{a5d79b54ccae24484f17ae754445c358}
+      \strng{fullhash}{767642d280530cca26d351088ca51e9d}
+      \strng{bibnamehash}{a5d79b54ccae24484f17ae754445c358}
+      \strng{authorbibnamehash}{a5d79b54ccae24484f17ae754445c358}
+      \strng{authornamehash}{a5d79b54ccae24484f17ae754445c358}
+      \strng{authorfullhash}{767642d280530cca26d351088ca51e9d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{{65TH ASH ANNUAL MEETING AND EXPOSITION}}}
+      \field{month}{12}
+      \field{title}{Multiple {{Myeloma}} Causal Model Suggests 1q21 Amplification and 13q14 Deletion Co-Alteration Interact to Influence Patient Prognosis}
+      \field{year}{2023}
+      \true{nocite}
+    \endentry
+    \entry{boris_hayete_identification_2021}{article}{}
+      \name{author}{4}{}{%
+        {{hash=59c6b9e4f9245dc5427ee830d2083dbb}{%
+           family={{Boris Hayete}},
+           familyi={B\bibinitperiod}}}%
+        {{hash=275657aa5d8e584ab27e54faa74818fd}{%
+           family={{\textbf{Fred K. Gruber}}},
+           familyi={F\bibinitperiod}}}%
+        {{hash=6eb78c8002d985dc3d176d09e208290f}{%
+           family={{Anna Decker}},
+           familyi={A\bibinitperiod}}}%
+        {{hash=061ff62cc3aec1d75f11cc1c895cd224}{%
+           family={{Raymond Yan}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{8225df0e5c25a86c0de9955103e5e758}
+      \strng{fullhash}{8225df0e5c25a86c0de9955103e5e758}
+      \strng{bibnamehash}{8225df0e5c25a86c0de9955103e5e758}
+      \strng{authorbibnamehash}{8225df0e5c25a86c0de9955103e5e758}
+      \strng{authornamehash}{8225df0e5c25a86c0de9955103e5e758}
+      \strng{authorfullhash}{8225df0e5c25a86c0de9955103e5e758}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Graph-based causal discovery methods aim to capture conditional independencies consistent with the observed data and differentiate causal relationships from indirect or induced ones. Successful construction of graphical models of data depends on the assumption of causal sufficiency: that is, that all confounding variables are measured. When this assumption is not met, learned graphical structures may become arbitrarily incorrect and effects implied by such models may be wrongly attributed, carry the wrong magnitude, or mis-represent direction of correlation. Wide application of graphical models to increasingly less curated "big data" draws renewed attention to the unobserved confounder problem. We present a novel method that aims to control for the latent space when estimating a DAG by iteratively deriving proxies for the latent space from the residuals of the inferred model. Under mild assumptions, our method improves structural inference of Gaussian graphical models and enhances identifiability of the causal effect. In addition, when the model is being used to predict outcomes, it un-confounds the coefficients on the parents of the outcomes and leads to improved predictive performance when out-of-sample regime is very different from the training data. We show that any improvement of prediction of an outcome is intrinsically capped and cannot rise beyond a certain limit as compared to the confounded model. We extend our methodology beyond GGMs to ordinal variables and nonlinear cases. Our R package provides both PCA and autoencoder implementations of the methodology, suitable for GGMs with some guarantees and for better performance in general cases but without such guarantees.}
+      \field{eprintclass}{cs, q-bio, stat}
+      \field{eprinttype}{arxiv}
+      \field{journaltitle}{arXiv:2101.02332 [cs, q-bio, stat]}
+      \field{month}{1}
+      \field{title}{Identification of {{Latent Variables From Graphical Model Residuals}}}
+      \field{urlday}{8}
+      \field{urlmonth}{2}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2101.02332
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\fgrub\\Zotero\\storage\\QYMKMZVE\\Hayete et al_2021_Identification of Latent Variables From Graphical Model Residuals.pdf;C\:\\Users\\fgrub\\Zotero\\storage\\2H2UAVXQ\\2101.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2101.02332
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2101.02332
+      \endverb
+      \keyw{Computer Science - Machine Learning,Quantitative Biology - Quantitative Methods,Statistics - Machine Learning}
+    \endentry
+    \entry{likhitha_kolla_case_2021}{article}{}
+      \name{author}{5}{}{%
+        {{hash=711f52f9977f2746e7e3f323a4bc8b7a}{%
+           family={{Likhitha Kolla}},
+           familyi={L\bibinitperiod}}}%
+        {{hash=275657aa5d8e584ab27e54faa74818fd}{%
+           family={{\textbf{Fred K. Gruber}}},
+           familyi={F\bibinitperiod}}}%
+        {{hash=d22a8ea5066d028ef5c20614e7d3b6cd}{%
+           family={{Omar Khalid}},
+           familyi={O\bibinitperiod}}}%
+        {{hash=6f61d1d1a252b4c4c0cae66d1f34d870}{%
+           family={{Colin Hill}},
+           familyi={C\bibinitperiod}}}%
+        {{hash=c4f8fc9f1a3e0be714c37871df1b64a2}{%
+           family={{Ravi B. Parikh}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{7eeb4fc20ae6b1c8b6567a72748681f7}
+      \strng{fullhash}{7eeb4fc20ae6b1c8b6567a72748681f7}
+      \strng{bibnamehash}{7eeb4fc20ae6b1c8b6567a72748681f7}
+      \strng{authorbibnamehash}{7eeb4fc20ae6b1c8b6567a72748681f7}
+      \strng{authornamehash}{7eeb4fc20ae6b1c8b6567a72748681f7}
+      \strng{authorfullhash}{7eeb4fc20ae6b1c8b6567a72748681f7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Pharmaceutical agents in oncology currently have high attrition rates from early to late phase clinical trials. Recent advances in computational methods, notably causal artificial intelligence, and availability of rich clinicogenomic databases have made it possible to simulate the efficacy of cancer drug protocols in diverse patient populations, which could inform and improve clinical trial design. Here, we review the current and potential use of in silico trials and causal AI to increase the efficacy and safety of traditional clinical trials. We conclude that in silico trials using causal AI approaches can simulate control and efficacy arms, inform patient recruitment and regimen titrations, and better enable subgroup analyses critical for precision medicine.}
+      \field{issn}{0304419X}
+      \field{journaltitle}{Biochimica et Biophysica Acta (BBA) - Reviews on Cancer}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{1}
+      \field{title}{The Case for {{AI-driven}} Cancer Clinical Trials –{} {{The}} Efficacy Arm in Silico}
+      \field{urlday}{28}
+      \field{urlmonth}{6}
+      \field{urlyear}{2021}
+      \field{volume}{1876}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{188572}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.bbcan.2021.188572
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\fgrub\\Zotero\\storage\\3YYUSTVQ\\Kolla et al. - 2021 - The case for AI-driven cancer clinical trials – Th.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0304419X2100069X
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0304419X2100069X
+      \endverb
+    \endentry
+    \entry{mike_j_mason_multiple_2020}{article}{}
+      \name{author}{41}{}{%
+        {{hash=06fcf520fc7a677713de2e731f40727d}{%
+           family={{Mike J. Mason}},
+           familyi={M\bibinitperiod}}}%
+        {{hash=cafa12b8935697d916c0564a56a014d2}{%
+           family={{Carolina Schinke}},
+           familyi={C\bibinitperiod}}}%
+        {{hash=8d80a2286d5c9066d0690373056d6b67}{%
+           family={{Christine L. P. Eng}},
+           familyi={C\bibinitperiod}}}%
+        {{hash=3b9038daa95f21338e99a63fa92b7e1e}{%
+           family={{Fadi Towfic}},
+           familyi={F\bibinitperiod}}}%
+        {{hash=275657aa5d8e584ab27e54faa74818fd}{%
+           family={{\textbf{Fred K. Gruber}}},
+           familyi={F\bibinitperiod}}}%
+        {{hash=a5a7a77a564968f8e03c382e58d7a488}{%
+           family={{Andrew Dervan}},
+           familyi={A\bibinitperiod}}}%
+        {{hash=c60b7a71c1c574c04531fcbd4773ddb0}{%
+           family={{Brian S. White}},
+           familyi={B\bibinitperiod}}}%
+        {{hash=3e8ca1113ead77dc103672b91bd4fd9f}{%
+           family={{Aditya Pratapa}},
+           familyi={A\bibinitperiod}}}%
+        {{hash=ae0a7130db38d9c83c199b4aa4aa4007}{%
+           family={{Yuanfang Guan}},
+           familyi={Y\bibinitperiod}}}%
+        {{hash=fbc1e1c19ec4a69336b8c43ac9b65aa5}{%
+           family={{Hongjie Chen}},
+           familyi={H\bibinitperiod}}}%
+        {{hash=1749a4f77ed25a5484e7d4da7191ff0b}{%
+           family={{Yi Cui}},
+           familyi={Y\bibinitperiod}}}%
+        {{hash=78d3b9845a99bca2e8d06896b7b8f8ef}{%
+           family={{Bailiang Li}},
+           familyi={B\bibinitperiod}}}%
+        {{hash=20e28187419f1390a0d1f2bdb9167908}{%
+           family={{Thomas Yu}},
+           familyi={T\bibinitperiod}}}%
+        {{hash=9e60738e7d0ee52ee4d1a951fa390df1}{%
+           family={{Elias Chaibub Neto}},
+           familyi={E\bibinitperiod}}}%
+        {{hash=0b62333f14a8cc45577dc0271f40a690}{%
+           family={{Konstantinos Mavrommatis}},
+           familyi={K\bibinitperiod}}}%
+        {{hash=6a22ca158def7acc5cc2e2d5cd3a1523}{%
+           family={{Maria Ortiz}},
+           familyi={M\bibinitperiod}}}%
+        {{hash=178c4bec9c12331ae9db4b3a7e5d6bdc}{%
+           family={{Valeriy Lyzogubov}},
+           familyi={V\bibinitperiod}}}%
+        {{hash=050787e307534d5443c9af3c70778fc6}{%
+           family={{Kamlesh Bisht}},
+           familyi={K\bibinitperiod}}}%
+        {{hash=fc2e2aa3d5db8e7a9d70c0398afe9e5e}{%
+           family={{Hongyue Y. Dai}},
+           familyi={H\bibinitperiod}}}%
+        {{hash=e6d65c153ec559acd9b829100d0687e6}{%
+           family={{Frank Schmitz}},
+           familyi={F\bibinitperiod}}}%
+        {{hash=01dee54eef724295ec1a8aaf91047b00}{%
+           family={{Erin Flynt}},
+           familyi={E\bibinitperiod}}}%
+        {{hash=b181a6bc16733056185bd24f69e2b08a}{%
+           family={{Dan Rozelle}},
+           familyi={D\bibinitperiod}}}%
+        {{hash=1362f37b4291a7868c23a63491fd1cc5}{%
+           family={{Samuel A. Danziger}},
+           familyi={S\bibinitperiod}}}%
+        {{hash=002d9c65b6168f6a7b7bf571d17afd5a}{%
+           family={{Alexander Ratushny}},
+           familyi={A\bibinitperiod}}}%
+        {{hash=734abb43c00820514fd80b1daf60e28c}{%
+           family={{William S. Dalton}},
+           familyi={W\bibinitperiod}}}%
+        {{hash=0cd19e54bfe9f0bf9548dc2a5c3c238f}{%
+           family={{Hartmut Goldschmidt}},
+           familyi={H\bibinitperiod}}}%
+        {{hash=b740ef04af0d1c03375a996e66749cf6}{%
+           family={{Herve Avet-Loiseau}},
+           familyi={H\bibinitperiod}}}%
+        {{hash=8373934cb9023094c7a3db886a258f46}{%
+           family={{Mehmet Samur}},
+           familyi={M\bibinitperiod}}}%
+        {{hash=59c6b9e4f9245dc5427ee830d2083dbb}{%
+           family={{Boris Hayete}},
+           familyi={B\bibinitperiod}}}%
+        {{hash=e77108002df19e2e7a4d4d9f81019df8}{%
+           family={Sonneveld},
+           familyi={S\bibinitperiod},
+           given={Pieter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=573fac335a31260c2bbf199028a16e06}{%
+           family={{Kenneth H. Shain}},
+           familyi={K\bibinitperiod}}}%
+        {{hash=545941a0da24789266a87691f79149a7}{%
+           family={{Nikhil Munshi}},
+           familyi={N\bibinitperiod}}}%
+        {{hash=48b48988ca4c180f1db546ea8782b5f3}{%
+           family={{Daniel Auclair}},
+           familyi={D\bibinitperiod}}}%
+        {{hash=24722f3e46c72f42c93b501d3c393b0c}{%
+           family={{Dirk Hose}},
+           familyi={D\bibinitperiod}}}%
+        {{hash=f3a02b2c64dabd536bb303c6965f4de6}{%
+           family={{Gareth Morgan}},
+           familyi={G\bibinitperiod}}}%
+        {{hash=47109c22896653990a62277902a0353d}{%
+           family={{Matthew Trotter}},
+           familyi={M\bibinitperiod}}}%
+        {{hash=7e2744619bb2d0259db97079ee3f2340}{%
+           family={{Douglas Bassett}},
+           familyi={D\bibinitperiod}}}%
+        {{hash=5e07c72784e7e4f28aabd412378a820c}{%
+           family={{Jonathan Goke}},
+           familyi={J\bibinitperiod}}}%
+        {{hash=db1aa928d953e094cc57662baf03368d}{%
+           family={{Brian A. Walker}},
+           familyi={B\bibinitperiod}}}%
+        {{hash=c980fed0c1c07ee31c56facbe0244d71}{%
+           family={{Anjan Thakurta}},
+           familyi={A\bibinitperiod}}}%
+        {{hash=3193d05bd34732b5a15fb6ffc8c02e93}{%
+           family={{Justin Guinney}},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{06d846e39155a6bb0ab503a6ce281564}
+      \strng{fullhash}{8a1d103a6145c2226057a8c59ccdb48a}
+      \strng{bibnamehash}{06d846e39155a6bb0ab503a6ce281564}
+      \strng{authorbibnamehash}{06d846e39155a6bb0ab503a6ce281564}
+      \strng{authornamehash}{06d846e39155a6bb0ab503a6ce281564}
+      \strng{authorfullhash}{8a1d103a6145c2226057a8c59ccdb48a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{While the past decade has seen meaningful improvements in clinical outcomes for multiple myeloma patients, a subset of patients does not benefit from current therapeutics for unclear reasons. Many gene expression-based models of risk have been developed, but each model uses a different combination of genes and often involves assaying many genes making them difficult to implement. We organized the Multiple Myeloma DREAM Challenge, a crowdsourced effort to develop models of rapid progression in newly diagnosed myeloma patients and to benchmark these against previously published models. This effort lead to more robust predictors and found that incorporating specific demographic and clinical features improved gene expression-based models of high risk. Furthermore, post-challenge analysis identified a novel expression-based risk marker, PHF19, which has recently been found to have an important biological role in multiple myeloma. Lastly, we show that a simple four feature predictor composed of age, ISS, and expression of PHF19 and MMSET performs similarly to more complex models with many more gene expression features included.}
+      \field{issn}{1476-5551}
+      \field{journaltitle}{Leukemia}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{title}{Multiple {{Myeloma DREAM Challenge}} Reveals Epigenetic Regulator {{PHF19}} as Marker of Aggressive Disease}
+      \field{urlday}{17}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1038/s41375-020-0742-z
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\fgrub\\Zotero\\storage\\6EJFQIQ3\\Mason et al_2020_Multiple Myeloma DREAM Challenge reveals epigenetic regulator PHF19 as marker.pdf;C\:\\Users\\fgrub\\Zotero\\storage\\AXBGRSXR\\s41375-020-0742-z.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41375-020-0742-z
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41375-020-0742-z
+      \endverb
+    \endentry
+    \entry{michael_j_mason_crowdsourced_2019}{article}{}
+      \name{author}{30}{}{%
+        {{hash=2cac4c59f8fde32f159b9e3c2ecea649}{%
+           family={{Michael J. Mason}},
+           familyi={M\bibinitperiod}}}%
+        {{hash=2e92324201df16cf753ef9370650cc74}{%
+           family={{Carolina D. Schinke}},
+           familyi={C\bibinitperiod}}}%
+        {{hash=039ec6dd21347eb05b8cf8e1d7c3276e}{%
+           family={{Christine Eng}},
+           familyi={C\bibinitperiod}}}%
+        {{hash=3b9038daa95f21338e99a63fa92b7e1e}{%
+           family={{Fadi Towfic}},
+           familyi={F\bibinitperiod}}}%
+        {{hash=275657aa5d8e584ab27e54faa74818fd}{%
+           family={{\textbf{Fred K. Gruber}}},
+           familyi={F\bibinitperiod}}}%
+        {{hash=c60b7a71c1c574c04531fcbd4773ddb0}{%
+           family={{Brian S. White}},
+           familyi={B\bibinitperiod}}}%
+        {{hash=1749a4f77ed25a5484e7d4da7191ff0b}{%
+           family={{Yi Cui}},
+           familyi={Y\bibinitperiod}}}%
+        {{hash=78d3b9845a99bca2e8d06896b7b8f8ef}{%
+           family={{Bailiang Li}},
+           familyi={B\bibinitperiod}}}%
+        {{hash=20e28187419f1390a0d1f2bdb9167908}{%
+           family={{Thomas Yu}},
+           familyi={T\bibinitperiod}}}%
+        {{hash=734abb43c00820514fd80b1daf60e28c}{%
+           family={{William S. Dalton}},
+           familyi={W\bibinitperiod}}}%
+        {{hash=0cd19e54bfe9f0bf9548dc2a5c3c238f}{%
+           family={{Hartmut Goldschmidt}},
+           familyi={H\bibinitperiod}}}%
+        {{hash=b740ef04af0d1c03375a996e66749cf6}{%
+           family={{Herve Avet-Loiseau}},
+           familyi={H\bibinitperiod}}}%
+        {{hash=8373934cb9023094c7a3db886a258f46}{%
+           family={{Mehmet Samur}},
+           familyi={M\bibinitperiod}}}%
+        {{hash=6a22ca158def7acc5cc2e2d5cd3a1523}{%
+           family={{Maria Ortiz}},
+           familyi={M\bibinitperiod}}}%
+        {{hash=47109c22896653990a62277902a0353d}{%
+           family={{Matthew Trotter}},
+           familyi={M\bibinitperiod}}}%
+        {{hash=59c6b9e4f9245dc5427ee830d2083dbb}{%
+           family={{Boris Hayete}},
+           familyi={B\bibinitperiod}}}%
+        {{hash=a5a7a77a564968f8e03c382e58d7a488}{%
+           family={{Andrew Dervan}},
+           familyi={A\bibinitperiod}}}%
+        {{hash=01dee54eef724295ec1a8aaf91047b00}{%
+           family={{Erin Flynt}},
+           familyi={E\bibinitperiod}}}%
+        {{hash=532347b36e1c138ac7a155fbcc534aef}{%
+           family={{Hongyue Dai}},
+           familyi={H\bibinitperiod}}}%
+        {{hash=7e2744619bb2d0259db97079ee3f2340}{%
+           family={{Douglas Bassett}},
+           familyi={D\bibinitperiod}}}%
+        {{hash=9f890c51464e692e21bc20418bc8371a}{%
+           family={{Pieter Sonneveld}},
+           familyi={P\bibinitperiod}}}%
+        {{hash=573fac335a31260c2bbf199028a16e06}{%
+           family={{Kenneth H. Shain}},
+           familyi={K\bibinitperiod}}}%
+        {{hash=64c57050b2e6d63c180ea59eef0e460d}{%
+           family={{Nikhil C. Munshi}},
+           familyi={N\bibinitperiod}}}%
+        {{hash=48b48988ca4c180f1db546ea8782b5f3}{%
+           family={{Daniel Auclair}},
+           familyi={D\bibinitperiod}}}%
+        {{hash=24722f3e46c72f42c93b501d3c393b0c}{%
+           family={{Dirk Hose}},
+           familyi={D\bibinitperiod}}}%
+        {{hash=f3a02b2c64dabd536bb303c6965f4de6}{%
+           family={{Gareth Morgan}},
+           familyi={G\bibinitperiod}}}%
+        {{hash=bddd613deff42a800f61ec656ed75905}{%
+           family={{Jonathan Göke}},
+           familyi={J\bibinitperiod}}}%
+        {{hash=db1aa928d953e094cc57662baf03368d}{%
+           family={{Brian A. Walker}},
+           familyi={B\bibinitperiod}}}%
+        {{hash=c980fed0c1c07ee31c56facbe0244d71}{%
+           family={{Anjan Thakurta}},
+           familyi={A\bibinitperiod}}}%
+        {{hash=3193d05bd34732b5a15fb6ffc8c02e93}{%
+           family={{Justin Guinney}},
+           familyi={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Society of Hematology}%
+      }
+      \strng{namehash}{f277f7e27423016b66096198d9e1e00c}
+      \strng{fullhash}{302ff28a877630214b11d25d05bbf28e}
+      \strng{bibnamehash}{f277f7e27423016b66096198d9e1e00c}
+      \strng{authorbibnamehash}{f277f7e27423016b66096198d9e1e00c}
+      \strng{authornamehash}{f277f7e27423016b66096198d9e1e00c}
+      \strng{authorfullhash}{302ff28a877630214b11d25d05bbf28e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Multiple myeloma (MM) is a hematological malignancy of terminally differentiated plasma cells residing within the bone marrow with 25,000-30,000 patients diagno}
+      \field{issn}{0006-4971}
+      \field{journaltitle}{Blood}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{Supplement\_1}
+      \field{title}{Crowdsourced {{High-Risk Classifiers}} for {{Multiple Myeloma Patients Commonly Identify PHF19 As}} a {{Robust Progression Biomarker}}}
+      \field{urlday}{25}
+      \field{urlmonth}{8}
+      \field{urlyear}{2020}
+      \field{volume}{134}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{4370\bibrangedash 4370}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1182/blood-2019-127362
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\fgrub\\Zotero\\storage\\LNRTVVBQ\\Crowdsourced-High-Risk-Classifiers-for-Multiple.html
+      \endverb
+      \verb{urlraw}
+      \verb https://ashpublications.org/blood/article/134/Supplement_1/4370/424531/Crowdsourced-High-Risk-Classifiers-for-Multiple
+      \endverb
+      \verb{url}
+      \verb https://ashpublications.org/blood/article/134/Supplement_1/4370/424531/Crowdsourced-High-Risk-Classifiers-for-Multiple
+      \endverb
+    \endentry
+    \entry{arnold_bolomsky_preclinical_2018}{article}{}
+      \name{author}{13}{}{%
+        {{hash=d79093189e611c15738155e27c4d73d7}{%
+           family={{Arnold Bolomsky}},
+           familyi={A\bibinitperiod}}}%
+        {{hash=275657aa5d8e584ab27e54faa74818fd}{%
+           family={{\textbf{Fred K. Gruber}}},
+           familyi={F\bibinitperiod}}}%
+        {{hash=d2ead59cfeff16a387936377348ded8c}{%
+           family={{Kathrin Stangelberger}},
+           familyi={K\bibinitperiod}}}%
+        {{hash=a011a9cbae643cb97d0e46b7eb618bae}{%
+           family={{Leon Furchtgott}},
+           familyi={L\bibinitperiod}}}%
+        {{hash=90954cbcdf5d5603c3e7f8c3c4f2dc7e}{%
+           family={{Dominik Arnold}},
+           familyi={D\bibinitperiod}}}%
+        {{hash=c5e32c42fde454a2541f467cbb0842cb}{%
+           family={{Puja Raut}},
+           familyi={P\bibinitperiod}}}%
+        {{hash=79d8d98da31ace25c64aaf02017b2395}{%
+           family={{Diane Wuest}},
+           familyi={D\bibinitperiod}}}%
+        {{hash=4637178d381a10c78c338085a9a5f1c0}{%
+           family={{Karl Runge}},
+           familyi={K\bibinitperiod}}}%
+        {{hash=80bb3315aac3e13658a94e9d3d1b8513}{%
+           family={{Iya Khalil}},
+           familyi={I\bibinitperiod}}}%
+        {{hash=449b9427243bf7061f8793bd390e8965}{%
+           family={{Niklas Zojer}},
+           familyi={N\bibinitperiod}}}%
+        {{hash=545941a0da24789266a87691f79149a7}{%
+           family={{Nikhil Munshi}},
+           familyi={N\bibinitperiod}}}%
+        {{hash=59c6b9e4f9245dc5427ee830d2083dbb}{%
+           family={{Boris Hayete}},
+           familyi={B\bibinitperiod}}}%
+        {{hash=9a97fdd039d2a7cf9b575c1d0d01a4ee}{%
+           family={{Heinz Ludwig}},
+           familyi={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Society of Hematology}%
+      }
+      \strng{namehash}{6f08d3d1f737ae4a4d18662e06210856}
+      \strng{fullhash}{2c965ccdcf04c2341c3ca1cb4dda2e50}
+      \strng{bibnamehash}{6f08d3d1f737ae4a4d18662e06210856}
+      \strng{authorbibnamehash}{6f08d3d1f737ae4a4d18662e06210856}
+      \strng{authornamehash}{6f08d3d1f737ae4a4d18662e06210856}
+      \strng{authorfullhash}{2c965ccdcf04c2341c3ca1cb4dda2e50}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract. IntroductionRegardless of significant advances in the therapy of multiple myeloma (MM) there is still a lack of effective treatment options for patie}
+      \field{issn}{0006-4971}
+      \field{journaltitle}{Blood}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{Supplement 1}
+      \field{title}{Preclinical {{Validation Studies Support Causal Machine Learning Based Identification}} of {{Novel Drug Targets}} for {{High-Risk Multiple Myeloma}}}
+      \field{urlday}{25}
+      \field{urlmonth}{8}
+      \field{urlyear}{2020}
+      \field{volume}{132}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{3210\bibrangedash 3210}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1182/blood-2018-99-117886
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\fgrub\\Zotero\\storage\\N4M5ISPB\\Preclinical-Validation-Studies-Support-Causal.html
+      \endverb
+      \verb{urlraw}
+      \verb https://ashpublications.org/blood/article/132/Supplement 1/3210/263718/Preclinical-Validation-Studies-Support-Causal
+      \endverb
+      \verb{url}
+      \verb https://ashpublications.org/blood/article/132/Supplement%201/3210/263718/Preclinical-Validation-Studies-Support-Causal
+      \endverb
+    \endentry
+    \entry{fred_k_gruber_evolutionary_2018}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=275657aa5d8e584ab27e54faa74818fd}{%
+           family={{\textbf{Fred K. Gruber}}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=276d6e5267ed653e2330dd4b8a99150f}{%
+           family={{Luis Rabelo}},
+           familyi={L\bibinitperiod}}}%
+        {{hash=be952f97bed65b9d2e0a70b6c7a3e028}{%
+           family={{Sayli Bhide}},
+           familyi={S\bibinitperiod}}}%
+        {{hash=0b210dc76aa5bba1944afc7798965b25}{%
+           family={{Edgar Gutierrez}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nova}%
+      }
+      \strng{namehash}{275657aa5d8e584ab27e54faa74818fd}
+      \strng{fullhash}{275657aa5d8e584ab27e54faa74818fd}
+      \strng{bibnamehash}{275657aa5d8e584ab27e54faa74818fd}
+      \strng{authorbibnamehash}{275657aa5d8e584ab27e54faa74818fd}
+      \strng{authornamehash}{275657aa5d8e584ab27e54faa74818fd}
+      \strng{authorfullhash}{275657aa5d8e584ab27e54faa74818fd}
+      \strng{editorbibnamehash}{4c0d0afd7628df388b2065a19bf2b4e0}
+      \strng{editornamehash}{4c0d0afd7628df388b2065a19bf2b4e0}
+      \strng{editorfullhash}{4c0d0afd7628df388b2065a19bf2b4e0}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Artificial {{Intelligence}}: {{Advances}} in {{Research}} and {{Applications}}}
+      \field{langid}{english}
+      \field{series}{{{COMPUTER SCIENCE}}, {{TECHNOLOGY AND APPLICATIONS}}}
+      \field{title}{Evolutionary {{Optimization}} of {{Support Vector Machines Using Genetic Algorithms}}}
+      \field{year}{2018}
+      \true{nocite}
+      \verb{file}
+      \verb C\:\\Users\\fgrub\\Zotero\\storage\\9LM58HQB\\Artificial Intelligence Advances in Research and .pdf
+      \endverb
+    \endentry
+    \entry{leon_furchtgott_multiple_2017}{article}{}
+      \name{author}{18}{}{%
+        {{hash=a011a9cbae643cb97d0e46b7eb618bae}{%
+           family={{Leon Furchtgott}},
+           familyi={L\bibinitperiod}}}%
+        {{hash=d79093189e611c15738155e27c4d73d7}{%
+           family={{Arnold Bolomsky}},
+           familyi={A\bibinitperiod}}}%
+        {{hash=275657aa5d8e584ab27e54faa74818fd}{%
+           family={{\textbf{Fred K. Gruber}}},
+           familyi={F\bibinitperiod}}}%
+        {{hash=45413ea4df79017816ded144323632d8}{%
+           family={{Mehmet Kemal Samur}},
+           familyi={M\bibinitperiod}}}%
+        {{hash=493b2ade99579dbff985396e47dc06ea}{%
+           family={{Jonathan J. Keats}},
+           familyi={J\bibinitperiod}}}%
+        {{hash=e1543ed7966113378f386001cc6769bd}{%
+           family={{Jennifer Yesil}},
+           familyi={J\bibinitperiod}}}%
+        {{hash=d2ead59cfeff16a387936377348ded8c}{%
+           family={{Kathrin Stangelberger}},
+           familyi={K\bibinitperiod}}}%
+        {{hash=60f973774d8b500818124d12b01874da}{%
+           family={{Michel Attal}},
+           familyi={M\bibinitperiod}}}%
+        {{hash=ffe9017e5043b95941dcfb2e0a1b4eac}{%
+           family={{Philippe Moreau}},
+           familyi={P\bibinitperiod}}}%
+        {{hash=1837af57cfd8d48bfae55eae7f63dfe1}{%
+           family={{Hervé Avet-Loiseau}},
+           familyi={H\bibinitperiod}}}%
+        {{hash=4637178d381a10c78c338085a9a5f1c0}{%
+           family={{Karl Runge}},
+           familyi={K\bibinitperiod}}}%
+        {{hash=79d8d98da31ace25c64aaf02017b2395}{%
+           family={{Diane Wuest}},
+           familyi={D\bibinitperiod}}}%
+        {{hash=4a1d38f99d97c26bf186160738bafb08}{%
+           family={{Kelly Rich}},
+           familyi={K\bibinitperiod}}}%
+        {{hash=80bb3315aac3e13658a94e9d3d1b8513}{%
+           family={{Iya Khalil}},
+           familyi={I\bibinitperiod}}}%
+        {{hash=59c6b9e4f9245dc5427ee830d2083dbb}{%
+           family={{Boris Hayete}},
+           familyi={B\bibinitperiod}}}%
+        {{hash=9a97fdd039d2a7cf9b575c1d0d01a4ee}{%
+           family={{Heinz Ludwig}},
+           familyi={H\bibinitperiod}}}%
+        {{hash=545941a0da24789266a87691f79149a7}{%
+           family={{Nikhil Munshi}},
+           familyi={N\bibinitperiod}}}%
+        {{hash=48b48988ca4c180f1db546ea8782b5f3}{%
+           family={{Daniel Auclair}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Society of Hematology}%
+      }
+      \strng{namehash}{6b73e0fc3154cb5bdae4e845be556b87}
+      \strng{fullhash}{19d886cf8ecbf92b4bbd7b9a9a959f18}
+      \strng{bibnamehash}{6b73e0fc3154cb5bdae4e845be556b87}
+      \strng{authorbibnamehash}{6b73e0fc3154cb5bdae4e845be556b87}
+      \strng{authornamehash}{6b73e0fc3154cb5bdae4e845be556b87}
+      \strng{authorfullhash}{19d886cf8ecbf92b4bbd7b9a9a959f18}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract. Introduction: Multiple Myeloma (MM) is a plasma cell malignancy characterized by high polyclonality, heterogeneity of treatment response, and long-te}
+      \field{issn}{0006-4971}
+      \field{journaltitle}{Blood}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{Supplement 1}
+      \field{shorttitle}{Multiple {{Myeloma Drivers}} of {{High Risk}} and {{Response}} to {{Stem Cell Transplantation Identified By Causal Machine Learning}}}
+      \field{title}{Multiple {{Myeloma Drivers}} of {{High Risk}} and {{Response}} to {{Stem Cell Transplantation Identified By Causal Machine Learning}}: {{Out-of-Cohort}} and {{Experimental Validation}}}
+      \field{urlday}{25}
+      \field{urlmonth}{8}
+      \field{urlyear}{2020}
+      \field{volume}{130}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{3029\bibrangedash 3029}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1182/blood.V130.Suppl_1.3029.3029
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\fgrub\\Zotero\\storage\\AB3V3XHC\\Multiple-Myeloma-Drivers-of-High-Risk-and-Response.html
+      \endverb
+      \verb{urlraw}
+      \verb https://ashpublications.org/blood/article/130/Supplement 1/3029/80484/Multiple-Myeloma-Drivers-of-High-Risk-and-Response
+      \endverb
+      \verb{url}
+      \verb https://ashpublications.org/blood/article/130/Supplement%201/3029/80484/Multiple-Myeloma-Drivers-of-High-Risk-and-Response
+      \endverb
+    \endentry
+    \entry{fred_k_gruber_bayesian_2016}{article}{}
+      \name{author}{11}{}{%
+        {{hash=275657aa5d8e584ab27e54faa74818fd}{%
+           family={{\textbf{Fred K. Gruber}}},
+           familyi={F\bibinitperiod}}}%
+        {{hash=493b2ade99579dbff985396e47dc06ea}{%
+           family={{Jonathan J. Keats}},
+           familyi={J\bibinitperiod}}}%
+        {{hash=f2ca26e9bf9688e8bd9e8af83d072c5f}{%
+           family={{Kyle McBride}},
+           familyi={K\bibinitperiod}}}%
+        {{hash=4637178d381a10c78c338085a9a5f1c0}{%
+           family={{Karl Runge}},
+           familyi={K\bibinitperiod}}}%
+        {{hash=79d8d98da31ace25c64aaf02017b2395}{%
+           family={{Diane Wuest}},
+           familyi={D\bibinitperiod}}}%
+        {{hash=10ba4c2730202aec40cbbc760ff51bb1}{%
+           family={{Tiffany Hadzi}},
+           familyi={T\bibinitperiod}}}%
+        {{hash=68c191a50ed4a44b4910875e4c3c8775}{%
+           family={{Mary Derome}},
+           familyi={M\bibinitperiod}}}%
+        {{hash=a21b1d29077983b80413e1a2971fe6c1}{%
+           family={{Sagar Lonial}},
+           familyi={S\bibinitperiod}}}%
+        {{hash=80bb3315aac3e13658a94e9d3d1b8513}{%
+           family={{Iya Khalil}},
+           familyi={I\bibinitperiod}}}%
+        {{hash=59c6b9e4f9245dc5427ee830d2083dbb}{%
+           family={{Boris Hayete}},
+           familyi={B\bibinitperiod}}}%
+        {{hash=48b48988ca4c180f1db546ea8782b5f3}{%
+           family={{Daniel Auclair}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Society of Hematology}%
+      }
+      \strng{namehash}{0e2d7ee2d4d020c254ee667b9e646c8b}
+      \strng{fullhash}{bdc53a22a41b1c8e48a3ca1aa9507d18}
+      \strng{bibnamehash}{0e2d7ee2d4d020c254ee667b9e646c8b}
+      \strng{authorbibnamehash}{0e2d7ee2d4d020c254ee667b9e646c8b}
+      \strng{authornamehash}{0e2d7ee2d4d020c254ee667b9e646c8b}
+      \strng{authorfullhash}{bdc53a22a41b1c8e48a3ca1aa9507d18}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract. IntroductionMultiple Myeloma (MM)is characterizedby heterogeneous clinical outcomes to existing therapies, which reflects the diverse genetic and mol}
+      \field{issn}{0006-4971}
+      \field{journaltitle}{Blood}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{22}
+      \field{shorttitle}{Bayesian {{Network Models}} of {{Multiple Myeloma}}}
+      \field{title}{Bayesian {{Network Models}} of {{Multiple Myeloma}}: {{Drivers}} of {{High Risk}} and {{Durable Response}}}
+      \field{urlday}{25}
+      \field{urlmonth}{8}
+      \field{urlyear}{2020}
+      \field{volume}{128}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{4406\bibrangedash 4406}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1182/blood.V128.22.4406.4406
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\fgrub\\Zotero\\storage\\LTHEG7NS\\Bayesian-Network-Models-of-Multiple-Myeloma.html
+      \endverb
+      \verb{urlraw}
+      \verb https://ashpublications.org/blood/article/128/22/4406/101366/Bayesian-Network-Models-of-Multiple-Myeloma
+      \endverb
+      \verb{url}
+      \verb https://ashpublications.org/blood/article/128/22/4406/101366/Bayesian-Network-Models-of-Multiple-Myeloma
+      \endverb
+    \endentry
+    \entry{fred_k._gruber_investigation_2015}{article}{}
+      \name{author}{9}{}{%
+        {{hash=275657aa5d8e584ab27e54faa74818fd}{%
+           family={{\textbf{Fred K. Gruber}}},
+           familyi={F\bibinitperiod}}}%
+        {{hash=59c6b9e4f9245dc5427ee830d2083dbb}{%
+           family={{Boris Hayete}},
+           familyi={B\bibinitperiod}}}%
+        {{hash=493b2ade99579dbff985396e47dc06ea}{%
+           family={{Jonathan J Keats}},
+           familyi={J\bibinitperiod}}}%
+        {{hash=f2ca26e9bf9688e8bd9e8af83d072c5f}{%
+           family={{Kyle McBride}},
+           familyi={K\bibinitperiod}}}%
+        {{hash=41c27772731fd55617e817e19da1916b}{%
+           family={{Runge Karl}},
+           familyi={R\bibinitperiod}}}%
+        {{hash=68c191a50ed4a44b4910875e4c3c8775}{%
+           family={{Mary Derome}},
+           familyi={M\bibinitperiod}}}%
+        {{hash=a21b1d29077983b80413e1a2971fe6c1}{%
+           family={{Sagar Lonial}},
+           familyi={S\bibinitperiod}}}%
+        {{hash=80bb3315aac3e13658a94e9d3d1b8513}{%
+           family={{Iya Khalil}},
+           familyi={I\bibinitperiod}}}%
+        {{hash=48b48988ca4c180f1db546ea8782b5f3}{%
+           family={{Daniel Auclair}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{4dadbf3b5b20a083aeb26b264115d27e}
+      \strng{fullhash}{d85b19e728e8ff45df914fe75844e536}
+      \strng{bibnamehash}{4dadbf3b5b20a083aeb26b264115d27e}
+      \strng{authorbibnamehash}{4dadbf3b5b20a083aeb26b264115d27e}
+      \strng{authornamehash}{4dadbf3b5b20a083aeb26b264115d27e}
+      \strng{authorfullhash}{d85b19e728e8ff45df914fe75844e536}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BLOOD}
+      \field{number}{23}
+      \field{title}{Investigation of {{Mechanisms}} of {{Response}} in {{Multiple Myeloma Via Bayesian Causal Inference}}: {{An Early Analysis}} of the {{Commpass Study Data}}}
+      \field{volume}{126}
+      \field{year}{2015}
+      \true{nocite}
+      \keyw{\#nosource}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,22 @@
+(undo-tree-save-format-version . 1)
+"efd99bab3a0244d2efdddd6169a3ddcb30cf9874"
+[nil nil nil nil (25834 51862 600347 0) 0 nil]
+([nil nil ((6392 . 6393) 555) nil (25834 51864 496697 0) 0 nil] [nil nil ((#("\\homepage{www.fredgruber.org}" 0 9 (face font-lock-keyword-face fontified t) 9 29 (fontified t)) . 555) (undo-tree-id3 . -29) (t 25834 51699 373210 562000)) ((555 . 584)) (25834 51862 13956 0) 0 nil])
+([nil nil ((#("\\hypersetup{
+ pdfauthor={Fred K. Gruber},
+ pdftitle={Senior Principal Scientist},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 29.1 (Org mode 9.6.6)}, 
+ pdflang={English}}" 0 11 (face font-lock-keyword-face fontified t) 11 178 (fontified t)) . 685) (undo-tree-id10 . -178) (undo-tree-id11 . -13) (undo-tree-id12 . -42) (undo-tree-id13 . -13) (undo-tree-id14 . -82) (undo-tree-id15 . -42) (undo-tree-id16 . -99) (undo-tree-id17 . -82) (undo-tree-id18 . -115) (undo-tree-id19 . -99) (undo-tree-id20 . -159) (undo-tree-id21 . -115) (undo-tree-id22 . -159) (undo-tree-id23 . -175) (undo-tree-id24 . -178) (undo-tree-id25 . -175) (undo-tree-id26 . -178) (undo-tree-id27 . -178) (undo-tree-id28 . -178) (undo-tree-id29 . -178) (undo-tree-id30 . -178) (undo-tree-id31 . -178) (undo-tree-id32 . -134) (undo-tree-id33 . -178) (undo-tree-id34 . -114) (undo-tree-id35 . -134) (undo-tree-id36 . -114) (undo-tree-id37 . -98) (undo-tree-id38 . -114) (undo-tree-id39 . -98) (undo-tree-id40 . -61) (undo-tree-id41 . -98) (undo-tree-id42 . -61) (undo-tree-id43 . -32) (undo-tree-id44 . -61) (undo-tree-id45 . -13) (undo-tree-id46 . -32) (undo-tree-id47 . -13) (undo-tree-id48 . -13) (t 25834 51864 501132 508000)) nil (25834 51893 851773 0) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 555) (undo-tree-id0 . -1) (undo-tree-id1 . -1) (undo-tree-id2 . -1)) ((555 . 556)) (25834 51861 477223 0) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 685) (undo-tree-id8 . -1) (undo-tree-id9 . -1)) nil (25834 51893 851754 0) 0 nil])
+([nil nil ((6362 . 6363) 555) (("
+" . 6362) (t 25834 51846 769673 753000)) (25834 51846 763879 0) 0 nil])
+([nil nil ((#("\\usepackage{hyperref}" 0 11 (face font-lock-keyword-face fontified t) 11 12 (fontified t) 12 20 (face font-lock-builtin-face fontified t) 20 21 (fontified t)) . 325) (undo-tree-id7 . -21)) nil (25834 51893 851752 0) 0 nil])
+nil
+([nil current ((#("
+" 0 1 (fontified t)) . 325) (undo-tree-id4 . -1) (undo-tree-id5 . -1) (undo-tree-id6 . -1)) nil (25834 51893 851748 0) 0 nil])
+nil

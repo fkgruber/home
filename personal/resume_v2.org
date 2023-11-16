@@ -1,0 +1,236 @@
+#+TITLE: Senior Principal Scientist
+#+AUTHOR: Fred K. Gruber
+#+email: fgruber@ieee.org
+# CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+#+CVSTYLE: classic
+# CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+#+CVCOLOR: blue
+#+LATEX_HEADER:\usepackage[scale=0.75]{geometry}
+#+LATEX_HEADER:\usepackage[T1]{fontenc}
+#+LATEX_HEADER:\usepackage{lmodern}
+#+LATEX_HEADER:\usepackage[sorting=ydnt,minnames=5,minbibnames=5,maxbibnames=5,backref=true]{biblatex}
+#+LATEX_HEADER:\usepackage{multicol}
+#+ADDRESS: Newton, MA
+#+MOBILE: (+1) 617-784-1265
+#+LINKEDIN: fredgruber
+#+homepage: www.fredgruber.org
+
+
+* Summary
+:PROPERTIES:
+:CV_ENV:   cvhonor
+:END:
+Experienced in analyzing oncological datasets from various sources including TCGA/GDC, Flatiron, ICGC, Tempus, MMRF, and others. Proficient in data preprocessing, model creation, and model interpretation. Strong interest in the development of statistical and machine learning models applied to medical data, with a focus on causal methods, high dimensional variable selection, and interpretability. Skilled in working with high dimensional genomic data and clinical variables. Proficient in various techniques such as logistic regression, neural networks, support vector machines, genetic algorithms, statistical signal processing, inverse problem theory, sparse coding, and simulation and modeling. Develop and maintain 4 R packages for internal use in data preprocessing, visualization, machine learning, and analysis.
+
+* Professional Experience
+:PROPERTIES:
+:CV_ENV: cvemployer
+:END:
+** Senior Principal Scientist
+:PROPERTIES:
+:CV_ENV: cventry
+:FROM:   <2018-08-01>
+:TO:     current
+:LOCATION: Somerville, MA
+:EMPLOYER: Aitia
+:END:
+
+- Analysis of various types of biological data
+- Specialization in RNAseq, single nucleotides, structural variants, copy number variants, and clinically relevant variables
+- Focus on discovering biomarkers and drug targets for different diseases
+- Experience in analyzing oncological datasets for lung cancer, multiple myeloma, prostate cancer, pancreatic cancer, and kidney cancer
+- Utilization of different data sources such as TCGA/GDC, Flatiron, ICGC, Tempus MMRF, and others
+- Involvement in all stages of the analysis process, from data preprocessing to model construction and interpretation as well as presentation to clients.
+- Use of proprietary causal Bayesian network learning and predictive tools as main tools
+- Exploration of open source machine learning techniques applicable to datasets
+- Investigation of unsupervised machine learning methods for tumor subclonal composition analysis and patient drug response stratification.
+- Developed the best performing model predicting high-risk multiple myeloma in the Multiple Myeloma DREAM Challenge finding a novel expression-based risk marker, PHF19, which was further validated in vitro and published in journal Leukemia.
+
+*** source :noexport:
+** Principal Scientist
+:PROPERTIES:
+:CV_ENV: cventry
+:FROM:     <2016-10-01>
+:TO:     <2018-10-01>
+:LOCATION: Cambridge, MA
+:EMPLOYER: Aitia
+:END:
+- Responsible for the development of causal network models for multiple myeloma based on multiple iterations of the CoMMPass MMRF  dataset.
+- Developed preprocessing pipelines to prepare diverse data modalities including copy number variants, structural variants, single nucleotide variants, gene expression, and clinical data.
+- Validation of result by literature search.
+- Published multiple peer-reviewed conference papers in a major blood cancer conference.
+** Senior Systems Biologist
+:PROPERTIES:
+:CV_ENV: cventry
+:FROM:     <2013-07-01>
+:TO:     <2016-10-01>
+:LOCATION: Cambridge, MA
+:EMPLOYER: Aitia
+:END:
+- Developed, implemented, and benchmarked algorithms for the prediction of rare adverse events on patients taking the client's drug.
+- Developed novel algorithms implementing variations of logistic regression that perform better under imbalanced outcomes.
+- Comparative analysis using 17 public-domain datasets
+- Applied to the client's clinical and genomic multiple sclerosis dataset.
+- Successfully delivered R package with new algorithm.
+- Success of algorithm lead to production code in the internal causal and predictive tools at Aitia.
+- Developed predictive and causal models of Chron's disease for the purpose of elucidading the relationships between TL1A, DR3,	IFNgamma, and a	variety	of genetic, gene	expression, immune response, and clinical variables from tissue	samples.
+
+** Postdoctoral Scientist
+:PROPERTIES:
+:CV_ENV: cventry
+:FROM:     <2009-05-01>
+:TO:     <2013-06-01>
+:LOCATION: Cambridge, MA
+:EMPLOYER: Schlumberger-Doll Reasearch Center
+:END:
+- Designed, implemented, and tested algorithms for analyzing Nuclear Magnetic Resonance measurements for oil exploration
+- Utilized Matlab extensively for research purposes
+- Utilized Python for production code integration with company software
+- Worked with optimization algorithms, sparse coding, regularization, and general machine learning tools.
+
+* Education
+:PROPERTIES:
+:CV_ENV: cvschool
+:END:
+** Ph.D., Electrical engineering
+:PROPERTIES:
+:CV_ENV: cventry
+:EMPLOYER: Northeastern University
+:LOCATION: Boston, MA
+:FROM: 2004
+:TO: 2009
+:END:
+- Research Assistant at Northeastern University's Communications and Digital Signal Processing Center.
+- Member of the Honor Society of Eta Kappa Nu.
+- GPA of 3.9/4.0
+- Developed algorithms for the determination of the location of objects from the measure of scattered fields. This is a fundamental problem in the area of remote sensing and inverse problems. Also studied the fundamental limits of communication using electromagnetic fields.
+
+** Master of science, Industrial Engineering and Management Systems
+:PROPERTIES:
+:CV_ENV: cventry
+:employer: University of Central Florida
+:LOCATION: Orlando, FL
+:FROM: 2003
+:TO: 2004
+:END:
+- Research Assistant the Center for NASA Simulation Research.
+- Phi Kappa Phi honor society
+- GPA of 3.9/4.0
+- Recipient of the University of Central Florida's Graduate Merit Fellowship Award, 2004
+- Worked at the NASA Simulation Research Group and was involved in the design of an advanced simulation of the probability of failure a space shuttle during reentry and launch.
+- For my master thesis, I developed a Genetic Algorithm in C++ for the optimal selection of the parameters of a Support Vector Machine. Published this work in book chapter.
+
+** Bachelors, Electrical and Electronic Engineering
+:PROPERTIES:
+:CV_ENV: cventry
+:employer: Universidad Tecnológica de Panamá
+:LOCATION: Panamá City, Panamá
+:FROM: 1998
+:TO: 2003
+:END:
+- Member of IEEE
+- GPA of 3.74/4.0
+- Honor Scholarship for undergraduate studies in Engineering at the Technological University of Panama, 1998 - 2002.
+- Gold Medal "Guillermo Andreve" for educational achievements, Panama, 1997.
+
+* Relevant Certificates
+:PROPERTIES:
+:CV_ENV: cvschool
+:END:
+
+** Combining information for Causal Inference
+:PROPERTIES:
+:CV_ENV: cventry
+:employer: Harvard T.H. Chan School of Public Health
+:LOCATION: Cambridge, MA
+:FROM: 2023
+:TO: 2023
+:END:
+
+** Target Trial Emulation
+:PROPERTIES:
+:CV_ENV: cventry
+:employer: Harvard T.H. Chan School of Public Health
+:LOCATION: Cambridge, MA
+:FROM: 2022
+:TO: 2022
+:END:
+
+
+** Applied Deep Learning Boot Camp
+:PROPERTIES:
+:CV_ENV: cventry
+:employer: MIT Professional School
+:LOCATION: Cambridge, MA
+:FROM: 2020
+:TO: 2020
+:END:
+
+** An Introduction to Causal Inference
+:PROPERTIES:
+:CV_ENV: cventry
+:employer: Harvard T.H. Chan School of Public Health
+:LOCATION: Cambridge, MA
+:FROM: 2018
+:TO: 2018
+:END:
+
+** Data Science: Data to insights
+:PROPERTIES:
+:CV_ENV: cventry
+:employer: MIT Professional School
+:LOCATION: Cambridge, MA
+:FROM: 2016
+:TO: 2016
+:END:
+
+* Skills
+:PROPERTIES:
+:CV_ENV:   cvskills
+:END:
+\begin{multicols}{2}
+\begin{itemize}
+\item R
+\item ggplot2
+\item shiny
+\item python
+\item matlab
+\item elisp
+\item machine learning
+\item causal discovery
+\item causal inference
+\item python
+\item High-dimensional data analysis
+\item AWS
+\item data wrangling
+\item data analysis
+\item data visualization
+\item statistics
+\item teamwork
+\item scientific presentation
+\item research
+\end{itemize}
+\end{multicols}
+
+
+* Languages
+- *English* Fluent
+- *Spanish* Native
+
+
+* Selected Publications :ignore:
+\begin{refsection}[resume.bib]
+\nocite{*}
+\bibliographystyle{ieee}
+\printbibliography[title={Selected Publications}]
+\end{refsection}
+
+
+* export :noexport:
+#+begin_src elisp
+(org-export-to-file 'moderncv "resume_august_2023.tex")
+(org-latex-compile "resume_august_2023.tex")
+#+end_src
+
+#+RESULTS:
+: /Users/fred/Documents/gitRepos/general-functions/personal/resume_august_2023.pdf

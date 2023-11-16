@@ -1,0 +1,247 @@
+#+TITLE:Finance Work
+#+AUTHOR: Fred K. Gruber
+#+email: fred@gnshealthcare.com
+#+PROPERTY: header-args :tangle yes :eval never-export
+#+PROPERTY: header-args:R :session *R* :exports both :colnames yes
+#+OPTIONS: ^:{}
+-----
+* Libraries
+#+begin_src R
+install.packages("tidyverse")
+install.packages("lubridate")
+install.packages("readxl")
+install.packages("highcharter")
+install.packages("tidyquant")
+install.packages("timetk")
+install.packages("tibbletime")
+install.packages("quantmod")
+install.packages("PerformanceAnalytics")
+install.packages("scales")
+#+end_src
+
+#+begin_src R
+library(tidyverse)
+library(lubridate)
+library(readxl)
+library(highcharter)
+library(tidyquant)
+library(timetk)
+library(tibbletime)
+library(quantmod)
+library(PerformanceAnalytics)
+library(scales)
+#+end_src
+
+#+RESULTS:
+| scales               |
+| tibbletime           |
+| timetk               |
+| tidyquant            |
+| quantmod             |
+| TTR                  |
+| PerformanceAnalytics |
+| xts                  |
+| zoo                  |
+| highcharter          |
+| readxl               |
+| lubridate            |
+| forcats              |
+| stringr              |
+| dplyr                |
+| purrr                |
+| readr                |
+| tidyr                |
+| tibble               |
+| ggplot2              |
+| tidyverse            |
+| stats                |
+| graphics             |
+| grDevices            |
+| utils                |
+| datasets             |
+| methods              |
+| base                 |
+
+* Get Prices
+#+begin_src R
+symbols <- c("TSLA","AAPL","SPY","EFA", "IJS", "EEM","AGG")
+
+prices <- getSymbols(
+  symbols,
+  src = 'yahoo',
+  from = "2012-12-31",
+  to = "2019-12-31",
+  auto.assign = TRUE,
+  warnings = FALSE) %>%
+  map(~Ad(get(.))) %>%
+  reduce(merge) %>%
+  `colnames<-`(symbols)
+
+
+prices %>% head
+
+#+end_src
+
+#+RESULTS:
+|      TSLA |      AAPL |        SPY |       EFA |       IJS |       EEM |       AGG |
+|-----------+-----------+------------+-----------+-----------+-----------+-----------|
+| 33.869999 | 66.736229 | 124.072266 | 46.166565 | 72.917358 | 37.940258 | 93.259529 |
+| 35.360001 | 68.850548 | 127.252228 | 46.881062 |  74.91806 | 38.684528 |  93.15036 |
+|     34.77 | 67.981491 | 126.964752 | 46.426388 | 74.818916 | 38.410767 | 92.915314 |
+| 34.400002 | 66.087891 | 127.522301 | 46.661842 | 75.404701 |  38.48777 | 93.016029 |
+|     34.34 | 65.699158 | 127.173859 | 46.458862 |  74.96312 | 38.196911 |  92.96566 |
+|     33.68 | 65.875954 | 126.807945 | 46.199047 | 74.674713 | 37.854717 | 93.049629 |
+
+#+begin_src R
+
+prices_monthly <- to.monthly(prices,
+                             indexAt = "lastof",
+                             OHLC = FALSE)
+head(prices_monthly,3)
+
+
+
+
+#+end_src
+
+#+RESULTS:
+|      TSLA |      AAPL |        SPY |       EFA |       IJS |       EEM |       AGG |
+|-----------+-----------+------------+-----------+-----------+-----------+-----------|
+| 33.869999 | 66.736229 | 124.072266 | 46.166565 | 72.917358 | 37.940258 | 93.259529 |
+| 37.509998 | 57.120266 | 130.423569 | 47.887863 | 76.819611 | 37.829048 | 92.680183 |
+| 34.830002 | 55.675922 | 132.087631 | 47.270794 | 78.072319 | 36.965015 | 93.227821 |
+
+#+begin_src R
+asset_returns_xts <-Return.calculate(prices_monthly,method = "log") %>%
+  na.omit()
+
+head(asset_returns_xts,3)
+
+#+end_src
+
+#+RESULTS:
+|                TSLA |                AAPL |                SPY |                 EFA |                IJS |                  EEM |                  AGG |
+|---------------------+---------------------+--------------------+---------------------+--------------------+----------------------+----------------------|
+|   0.102077873469653 |  -0.155588993996782 | 0.0499231908540896 |  0.0366062554734925 | 0.0521332414519398 | -0.00293549157911155 |  -0.0062315668724171 |
+| -0.0741283689750087 | -0.0256112014817713 | 0.0126781965080998 | -0.0129694484773002 | 0.0161756046832702 |   -0.023105348317253 |  0.00589151163214918 |
+|  0.0842080568386505 | 0.00285032763598014 | 0.0372678720003634 |  0.0129694484773002 | 0.0402580223691764 |  -0.0102347983556226 | 0.000984660901974799 |
+
+** Visualization
+#+BEGIN_SRC R
+highchart(type = "stock") %>%
+  hc_title(text = "Monthly Log Returns") %>%
+  hc_add_series(asset_returns_xts[, symbols[1]],
+                name = symbols[1]) %>%
+  hc_add_series(asset_returns_xts[, symbols[2]],
+                name = symbols[2]) %>%
+  hc_add_series(asset_returns_xts[, symbols[3]],
+                name = symbols[3]) %>%
+  hc_add_series(asset_returns_xts[, symbols[4]],
+                name = symbols[4]) %>%
+  hc_add_series(asset_returns_xts[, symbols[5]],
+                name = symbols[5]) %>%
+  hc_add_theme(hc_theme_flat()) %>%
+  hc_navigator(enabled = T) %>%
+  hc_scrollbar(enabled = T) %>%
+  hc_exporting(enabled = TRUE) %>%
+  hc_legend(enabled = TRUE)
+
+#+END_SRC
+
+
+
+#+begin_src R
+asset_returns_dplyr_byhand <- prices %>%
+  to.monthly(indexAt = "lastof", OHLC =FALSE) %>%
+  data.frame(date = index(.)) %>%
+  remove_rownames() %>%
+  gather(asset, prices, -date) %>%
+  group_by(asset) %>%
+  mutate(returns =(log(prices) - log(lag(prices)))) %>%
+  select(-prices) %>%
+  spread(asset, returns) %>%
+  select(date, symbols) %>%
+  na.omit()'
+#+end_src
+#+begin_src R
+head(asset_returns_dplyr_byhand)
+#+end_src
+
+#+RESULTS:
+|       date |                TSLA |                AAPL |                 SPY |                 EFA |                  IJS |                  EEM |                  AGG |
+|------------+---------------------+---------------------+---------------------+---------------------+----------------------+----------------------+----------------------|
+| 2013-01-31 |   0.102077873469653 |  -0.155588993996782 |  0.0499231908540896 |  0.0366062554734925 |   0.0521332414519398 | -0.00293549157911155 |  -0.0062315668724171 |
+| 2013-02-28 | -0.0741283689750087 | -0.0256112014817713 |  0.0126781965080998 | -0.0129694484773002 |   0.0161756046832702 |   -0.023105348317253 |  0.00589151163214918 |
+| 2013-03-31 |  0.0842080568386505 | 0.00285032763598014 |  0.0372678720003634 |  0.0129694484773002 |   0.0402580223691764 |  -0.0102347983556226 | 0.000984660901974799 |
+| 2013-04-30 |   0.354111682635771 | 0.00027077989385571 |  0.0190298340201345 |  0.0489677627430467 |  0.00122242718747856 |   0.0120847828788611 |  0.00963945228793683 |
+| 2013-05-31 |   0.593716634607458 |  0.0221717499501812 |  0.0233354862429271 | -0.0306555758549778 |   0.0419762874142124 |  -0.0494833384766906 |  -0.0202142379283048 |
+| 2013-06-30 |  0.0936721666562779 |  -0.125895677506441 | -0.0134345822873847 | -0.0271445373502668 | -0.00140284963105852 |   -0.054728537214384 |  -0.0157780433671668 |
+
+** using tibble time
+#+begin_src R
+asset_returns_tbltime <- prices %>%
+  tk_tbl(preserve_index = TRUE,rename_index = "date") %>%# this is the the tibbletime function
+  as_tbl_time(index = date)%>%
+  as_period(period = "month",side = "end") %>%
+  gather(asset, returns, -date) %>%
+  group_by(asset) %>%
+  tq_transmute(mutate_fun = periodReturn,type = "log") %>%
+  spread(asset, monthly.returns) %>%
+  select(date, symbols) %>%slice(-1)
+
+#+end_src
+#+begin_src R
+asset_returns_tbltime %>% head
+#+end_src
+
+#+RESULTS:
+|       date |                TSLA |                AAPL |                 SPY |                 EFA |                 IJS |                  EEM |                  AGG |
+|------------+---------------------+---------------------+---------------------+---------------------+---------------------+----------------------+----------------------|
+| 2013-01-31 |   0.102077873469653 |  -0.155588993996782 |  0.0499231908540896 |  0.0366062554734926 |  0.0521332414519398 | -0.00293549157911158 | -0.00623156687241722 |
+| 2013-02-28 | -0.0741283689750087 |  -0.025611201481771 |  0.0126781965080998 | -0.0129694484773005 |  0.0161756046832706 |  -0.0231053483172533 |  0.00589151163214965 |
+| 2013-03-28 |  0.0842080568386503 |  0.0028503276359797 |   0.037267872000364 |  0.0129694484773005 |  0.0402580223691758 |  -0.0102347983556222 |  0.00098466090197441 |
+| 2013-04-30 |   0.354111682635771 | 0.00027077989385604 |  0.0190298340201345 |  0.0489677627430465 | 0.00122242718747843 |   0.0120847828788609 |  0.00963945228793726 |
+| 2013-05-31 |   0.593716634607458 |  0.0221717499501813 |  0.0233354862429271 | -0.0306555758549779 |  0.0419762874142126 |  -0.0494833384766904 |  -0.0202142379283051 |
+| 2013-06-28 |  0.0936721666562775 |  -0.125895677506442 | -0.0134345822873846 | -0.0271445373502667 | -0.0014028496310584 |  -0.0547285372143842 |  -0.0157780433671671 |
+
+** Visualizing
+#+begin_src R
+asset_returns_long <-asset_returns_dplyr_byhand %>%
+  gather(asset, returns, -date) %>%
+  group_by(asset)
+
+
+#+end_src
+#+begin_src R
+head(asset_returns_long,3)
+#+end_src
+
+#+RESULTS:
+|       date | asset |             returns |
+|------------+-------+---------------------|
+| 2013-01-31 | TSLA  |   0.102077873469653 |
+| 2013-02-28 | TSLA  | -0.0741283689750087 |
+| 2013-03-31 | TSLA  |  0.0842080568386505 |
+
+#+BEGIN_SRC R  :results output graphics file :exports both :file img_inv/fig_tutor_0.png :width 1000 :height 800
+asset_returns_long %>%
+  ggplot(aes(x = returns,fill = asset)) +
+  geom_histogram(alpha = 0.45, binwidth = .005) +
+  ggtitle("Monthly Returns Since 2013")
+#+END_SRC
+
+#+RESULTS:
+[[file:img_inv/fig_tutor_0.png]]
+
+
+#+BEGIN_SRC R  :results output graphics file :exports both :file img_inv/fig_tutor_1.png :width 1200 :height 800 :res 200
+asset_returns_long %>%
+  ggplot(aes(x = returns,fill = asset)) +
+  geom_histogram(alpha = 0.45, binwidth = .01) +
+  facet_wrap(~asset) +
+  ggtitle("Monthly Returns Since 2013") +
+  theme_update(plot.title = element_text(hjust = 0.5))
+#+END_SRC
+
+#+RESULTS:
+[[file:img_inv/fig_tutor_1.png]]

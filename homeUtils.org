@@ -1,0 +1,534 @@
+#+TITLE:Various Utilities for the Home 
+#+AUTHOR: Fred K. Gruber
+#+email: fred@gnshealthcare.com
+
+
+* Weather API
+The idea is using the python weather api to check the weather and let me know at night whether to put the cover on the car. Also it can let me know in the morning to bring an umbrella. Or wear lots of cloths becuase it is cold, etc.
+
+** Installation
+
+#+BEGIN_SRC sh
+wget https://launchpad.net/python-weather-api/trunk/0.3.8/+download/pywapi-0.3.8.tar.gz
+tar -zxvf pywapi-0.3.8.tar.gz 
+python setup.py build
+sudo python setup.py install
+
+#+END_SRC
+
+** Usage
+#+BEGIN_SRC python :session *py* :results output
+import pywapi
+import pprint
+pp = pprint.PrettyPrinter(indent=4)
+
+nup =pywapi.get_weather_from_weather_com('02464',units='imperial')
+
+
+pp.pprint(nup)
+
+nup_night=nup['forecasts'][0]['night']
+pp.pprint(nup['forecasts'][0]['night'])
+
+chancePrecTonight=nup['forecasts'][0]['night']['chance_precip']
+type=nup['forecasts'][0]['day']['text']
+
+#+END_SRC
+
+#+RESULTS:
+#+begin_example
+
+>>> >>> >>> >>> {   'current_conditions': {   'barometer': {   'direction': u'steady',
+                                               'reading': u'29.66'},
+                              'dewpoint': u'30',
+                              'feels_like': u'34',
+                              'humidity': u'62',
+                              'icon': u'30',
+                              'last_updated': u'1/19/15 11:25 AM EST',
+                              'moon_phase': {   'icon': u'28',
+                                                'text': u'Waning Crescent'},
+                              'station': u'Wellesley, MA, US',
+                              'temperature': u'42',
+                              'text': u'Partly Cloudy',
+                              'uv': {   'index': u'1', 'text': u'Low'},
+                              'visibility': u'10.0',
+                              'wind': {   'direction': u'270',
+                                          'gust': u'26',
+                                          'speed': u'17',
+                                          'text': u'W'}},
+    'forecasts': [   {   'date': u'Jan 19',
+                         'day': {   'brief_text': u'M Sunny',
+                                    'chance_precip': u'0',
+                                    'humidity': u'62',
+                                    'icon': u'34',
+                                    'text': u'Mostly Sunny',
+                                    'wind': {   'direction': u'294',
+                                                'gust': u'N/A',
+                                                'speed': u'14',
+                                                'text': u'WNW'}},
+                         'day_of_week': u'Monday',
+                         'high': u'41',
+                         'low': u'22',
+                         'night': {   'brief_text': u'Clear',
+                                      'chance_precip': u'0',
+                                      'humidity': u'67',
+                                      'icon': u'31',
+                                      'text': u'Clear',
+                                      'wind': {   'direction': u'266',
+                                                  'gust': u'N/A',
+                                                  'speed': u'12',
+                                                  'text': u'W'}},
+                         'sunrise': u'7:09 AM',
+                         'sunset': u'4:42 PM'},
+                     {   'date': u'Jan 20',
+                         'day': {   'brief_text': u'M Sunny',
+                                    'chance_precip': u'0',
+                                    'humidity': u'46',
+                                    'icon': u'34',
+                                    'text': u'Mostly Sunny',
+                                    'wind': {   'direction': u'268',
+                                                'gust': u'N/A',
+                                                'speed': u'13',
+                                                'text': u'W'}},
+                         'day_of_week': u'Tuesday',
+                         'high': u'33',
+                         'low': u'16',
+                         'night': {   'brief_text': u'P Cloudy',
+                                      'chance_precip': u'0',
+                                      'humidity': u'52',
+                                      'icon': u'29',
+                                      'text': u'Partly Cloudy',
+                                      'wind': {   'direction': u'285',
+                                                  'gust': u'N/A',
+                                                  'speed': u'9',
+                                                  'text': u'WNW'}},
+                         'sunrise': u'7:09 AM',
+                         'sunset': u'4:42 PM'},
+                     {   'date': u'Jan 21',
+                         'day': {   'brief_text': u'M Sunny',
+                                    'chance_precip': u'0',
+                                    'humidity': u'40',
+                                    'icon': u'34',
+                                    'text': u'Mostly Sunny',
+                                    'wind': {   'direction': u'347',
+                                                'gust': u'N/A',
+                                                'speed': u'6',
+                                                'text': u'NNW'}},
+                         'day_of_week': u'Wednesday',
+                         'high': u'33',
+                         'low': u'21',
+                         'night': {   'brief_text': u'Snow Showers',
+                                      'chance_precip': u'40',
+                                      'humidity': u'70',
+                                      'icon': u'46',
+                                      'text': u'Snow Showers Late',
+                                      'wind': {   'direction': u'10',
+                                                  'gust': u'N/A',
+                                                  'speed': u'5',
+                                                  'text': u'N'}},
+                         'sunrise': u'7:09 AM',
+                         'sunset': u'4:42 PM'},
+                     {   'date': u'Jan 22',
+                         'day': {   'brief_text': u'AM Snw Shwrs',
+                                    'chance_precip': u'40',
+                                    'humidity': u'65',
+                                    'icon': u'14',
+                                    'text': u'AM Snow Showers',
+                                    'wind': {   'direction': u'347',
+                                                'gust': u'N/A',
+                                                'speed': u'8',
+                                                'text': u'NNW'}},
+                         'day_of_week': u'Thursday',
+                         'high': u'31',
+                         'low': u'18',
+                         'night': {   'brief_text': u'P Cloudy',
+                                      'chance_precip': u'10',
+                                      'humidity': u'79',
+                                      'icon': u'29',
+                                      'text': u'Partly Cloudy',
+                                      'wind': {   'direction': u'310',
+                                                  'gust': u'N/A',
+                                                  'speed': u'6',
+                                                  'text': u'NW'}},
+                         'sunrise': u'7:09 AM',
+                         'sunset': u'4:42 PM'},
+                     {   'date': u'Jan 23',
+                         'day': {   'brief_text': u'M Sunny',
+                                    'chance_precip': u'0',
+                                    'humidity': u'53',
+                                    'icon': u'34',
+                                    'text': u'Mostly Sunny',
+                                    'wind': {   'direction': u'299',
+                                                'gust': u'N/A',
+                                                'speed': u'8',
+                                                'text': u'WNW'}},
+                         'day_of_week': u'Friday',
+                         'high': u'34',
+                         'low': u'21',
+                         'night': {   'brief_text': u'M Clear',
+                                      'chance_precip': u'0',
+                                      'humidity': u'68',
+                                      'icon': u'33',
+                                      'text': u'Mostly Clear',
+                                      'wind': {   'direction': u'238',
+                                                  'gust': u'N/A',
+                                                  'speed': u'5',
+                                                  'text': u'WSW'}},
+                         'sunrise': u'7:09 AM',
+                         'sunset': u'4:42 PM'}],
+    'location': {   'lat': u'42.31',
+                    'lon': u'-71.22',
+                    'name': u'Newton Upper Falls, MA (02464)'},
+    'units': {   'distance': u'mi',
+                 'pressure': u'in',
+                 'rainfall': u'in',
+                 'speed': u'mph',
+                 'temperature': u'F'}}
+>>> >>> {   'brief_text': u'Clear',
+    'chance_precip': u'0',
+    'humidity': u'67',
+    'icon': u'31',
+    'text': u'Clear',
+    'wind': {   'direction': u'266',
+                'gust': u'N/A',
+                'speed': u'12',
+                'text': u'W'}}
+#+end_example
+
+
+* Email python
+#+BEGIN_SRC python :session  *py*
+  import smtplib
+
+  def emailme(msg):
+      fromaddr = 'email@fredkarlgruber.com'
+      toaddrs  = 'fgruber@gmail.com'
+      # Credentials (if needed)
+      username = 'fgruber'
+      password = 'welbjkhseicgymns'
+      # The actual mail send
+      server = smtplib.SMTP('smtp.gmail.com:587')
+      server.starttls()
+      server.login(username,password)
+      server.sendmail(fromaddr, toaddrs, msg)
+      server.quit()
+
+  emailme('test from python5')
+
+#+END_SRC
+
+#+RESULTS:
+
+* Python voice API
+
+** pygooglevoice
+For now this doesn't seem to work anymore
+Password opvxtqlwvxcuctoi
+#+BEGIN_SRC sh
+sudo easy_install simplejson
+sudo easy_install -U pygooglevoice
+
+#+END_SRC
+
+#+BEGIN_SRC python :session *py*
+from googlevoice import Voice
+from googlevoice.util import input
+
+voice = Voice()
+voice.login()
+
+phoneNumber = 6177521265
+text = 'test'
+
+voice.send_sms(phoneNumber, text)
+
+#+END_SRC
+
+#+RESULTS:
+
+
+** SpeechRecognition 1.4.0
+https://pypi.python.org/pypi/SpeechRecognition/
+
+#+BEGIN_SRC python :session *py*
+  import speech_recognition as sr
+  r = sr.Recognizer()
+  with sr.Microphone() as source:                # use the default microphone as the audio source
+      audio = r.adjust_for_ambient_noise(source) # listen for 1 second to calibrate the energy threshold for ambient noise levels
+      audio = r.listen(source)                   # now when we listen, the energy threshold is already set to a good value, and we can reliably catch speech right away
+
+  try:
+      print("You said " + r.recognize(audio))    # recognize speech using Google Speech Recognition
+  except LookupError:                            # speech is unintelligible
+      print("Could not understand audio")
+#+END_SRC
+
+#+RESULTS:
+
+* Python hangout api
+
+#+BEGIN_SRC sh
+#sudo apt-get install python-xmpp
+pip install git+https://github.com/ArchipelProject/xmpppy
+#+END_SRC
+
+
+#+BEGIN_SRC python :session *py*
+import sys, xmpp
+
+jid = xmpp.protocol.JID('fgruber@gmail.com')
+cl=xmpp.Client(jid.getDomain(),debug=[])
+cl.connect()
+cl.auth(jid.getNode(),'opvxtqlwvxcuctoi')
+cl.send(xmpppy.protocol.Message('fgruber@gmail.com','test hola', typ='chat'))
+#+END_SRC
+
+#+RESULTS:
+
+#+BEGIN_SRC python :session *py*
+import xmpp 
+
+user="fgruber@gmail.com"
+password="opvxtqlwvxcuctoi"
+server=('talk.google.com', 5223)
+
+def message_handler(connect_object, message_node): 
+        us = str(message_node.getFrom()).split('/')[0]
+        if us == 'REALUSERNAME@gmail.com':
+            us = us[0:4]
+            print str(message_node)
+            message = "Welcome to my first Gtalk Bot :) " + us
+            s= str(message_node.getBody()).replace("\n", "\t")
+            if s <> 'None' :
+                print "MESSAGE: " + s
+                connect_object.send(xmpp.Message( message_node.getFrom() ,message))
+
+jid = xmpp.JID(user) 
+connection = xmpp.Client(jid.getDomain()) 
+connection.connect(server) 
+result = connection.auth(jid.getNode(), password ) 
+
+connection.RegisterHandler('message', message_handler)  
+connection.sendInitPresence() 
+
+while connection.Process(1): 
+    pass
+
+#+END_SRC
+
+#+RESULTS:
+
+#+BEGIN_SRC python :session *py*
+  import xmpp
+  import time
+
+  _SERVER = 'talk.google.com', 5223
+  commandByXMPP()
+
+  def commandByXMPP():
+    global xmppUsername
+    xmppUsername = 'fgruber@gmail.com'  
+    global xmppPassword
+    xmppPassword = 'opvxtqlwvxcuctoi'  
+    global xmppClient
+    global operator
+    operator = "fgruber@gmail.com"
+    jid = xmpp.protocol.JID(xmppUsername)
+    xmppClient = xmpp.Client(jid.getDomain(), debug=[])
+    xmppClient.connect(server=_SERVER)
+    try:
+      xmppClient.RegisterHandler('message', XMPP_message_cb)
+    except:
+      exitCellbot('XMPP error. You sure the phone has an internet connection?')
+    if not xmppClient:
+      exitCellbot('XMPP Connection failed!')
+      return
+    auth = xmppClient.auth(jid.getNode(), xmppPassword, 'botty')
+    if not auth:
+      exitCellbot('XMPP Authentication failed!')
+      return
+    xmppClient.sendInitPresence()
+    print "XMPP username for the robot is:\n" + xmppUsername
+
+    start=time.time()
+    i=0
+    try:
+      outputToOperator("starting")
+      while time.time()-start<15:
+        print "tick"
+        xmppClient.Process(1)
+        i = i +1
+        if i % 10 == 0:
+          outputToOperator("hello")
+      outputToOperator("exiting")
+    except KeyboardInterrupt:
+      pass
+
+
+  def XMPP_message_cb(session, message):
+    jid = xmpp.protocol.JID(message.getFrom())
+    global operator
+    command = message.getBody()
+    print command
+
+  def outputToOperator(msg):
+    print "Outputting "+msg+" to " + operator
+    xmppClient.send(xmpp.Message(operator, msg,typ='chat'))
+
+#+END_SRC
+
+#+RESULTS:
+
+
+* Python Calendar API
+#+BEGIN_SRC sh
+pip install --upgrade google-api-python-client
+
+#+END_SRC
+#+BEGIN_SRC python :session *py*
+import gdata.calendar.service as GServ            #for connection with GCalendar
+import
+email='fgruber@gmail.com'
+password='opvxtqlwvxcuctoi'
+calendar_service = GServ.CalendarService()
+calendar_service.email = email
+calendar_service.password = password
+calendar_service.source = 'SimpleGoogleAlarmClock'
+calendar_service.ProgrammaticLogin()
+
+String qevent='remind me tomorrow at 8am'
+Event
+query=GServ.CalendarEventQuery('primary','private','full',q)
+#+END_SRC
+
+#+RESULTS:
+: <gdata.calendar.service.CalendarService object at 0x7feba0c7e5d0>
+
+This seem good instructions
+http://www.pauldeden.com/2009/01/creating-application-to-insert-events.html
+
+#+BEGIN_SRC python :session *py*
+  import gdata.calendar.service
+  import gdata.calendar
+  import atom
+
+  def add_to_gcal(item):
+   cal_client = gdata.calendar.service.CalendarService()
+   cal_client.email = 'fgruber@gmail.com'
+   cal_client.password = 'opvxtqlwvxcuctoi'
+   cal_client.ProgrammaticLogin()
+   event = gdata.calendar.CalendarEventEntry()
+   event.content = atom.Content(text=item)
+   event.quick_add = gdata.calendar.QuickAdd(value='true');
+   new_event = cal_client.InsertEvent(event, '/calendar/feeds/dcf1rqnbrgqjvt8qhqe8tluj8c%40group.calendar.google.com/private-581abff94ba4568553e9382323f2ada0/full')
+
+  add_to_gcal('Dentist Appt tomorrow at 4pm')
+  print "Your event was created"
+#+END_SRC
+
+#+RESULTS:
+
+#+BEGIN_SRC python :session *py*
+
+
+  try:
+    from xml.etree import ElementTree
+  except ImportError:
+    from elementtree import ElementTree
+  import gdata.calendar.data
+  import gdata.calendar.client
+  import gdata.acl.data
+  import atom.data
+
+
+
+
+  # Set up a Flow object to be used if we need to authenticate. This
+  # sample uses OAuth 2.0, and we set up the OAuth2WebServerFlow with
+  # the information it needs to authenticate. Note that it is called
+  # the Web Server Flow, but it can also handle the flow for native
+  # applications
+  # The client_id and client_secret are copied from the API Access tab on
+  # the Google APIs Console
+
+  # To disable the local server feature, uncomment the following line:
+  # FLAGS.auth_local_webserver = False
+
+  # If the Credentials don't exist or are invalid, run through the native client
+  # flow. The Storage object will ensure that if successful the good
+  # Credentials will get written back to a file.
+
+  client = gdata.calendar.client.CalendarClient(source='FromRpy')
+
+  client.ClientLogin('fgruber@gmail.com', 'opvxtqlwvxcuctoi', client.source)
+
+  # Build a service object for interacting with the API. Visit
+  # the Google APIs Console
+  # to get a developerKey for your own application.
+  #service = build(serviceName='calendar', version='v3', http=http,
+    #     developerKey='AIzaSyALXOPtBIcIJiPWDGY3MsN9dSERqaAE6LM')
+         
+  event = gdata.calendar.data.CalendarEventEntry()
+  event.content = atom.data.Content(text='Bring food today 11am')
+  event.quick_add = gdata.calendar.data.QuickAddProperty(value='true')
+
+  # Send the request and receive the response:
+  #calendar_client = gdata.calendar.client.CalendarClient()
+  new_event = client.InsertEvent(event)
+#+END_SRC
+
+#+RESULTS:
+: <gdata.gauth.ClientLoginToken object at 0x7ff9cdcb0450>
+
+Following instruction from 
+https://developers.google.com/google-apps/calendar/instantiate
+
+#+BEGIN_SRC python *py*
+
+import gflags
+import httplib2
+
+from apiclient.discovery import build
+from oauth2client.file import Storage
+from oauth2client.client import OAuth2WebServerFlow
+from oauth2client.tools import run
+
+FLAGS = gflags.FLAGS
+
+# Set up a Flow object to be used if we need to authenticate. This
+# sample uses OAuth 2.0, and we set up the OAuth2WebServerFlow with
+# the information it needs to authenticate. Note that it is called
+# the Web Server Flow, but it can also handle the flow for native
+# applications
+# The client_id and client_secret can be found in Google Developers Console
+FLOW = OAuth2WebServerFlow(
+    client_id='90940365056-82u9sfhkelugpt63sqe5v12015pi45uh.apps.googleusercontent.com',
+    client_secret='Ac5mNQ1u0KE6x9t4pikl73q6',
+    scope='https://www.googleapis.com/auth/calendar',
+    user_agent='YOUR_APPLICATION_NAME/YOUR_APPLICATION_VERSION')
+
+# To disable the local server feature, uncomment the following line:
+# FLAGS.auth_local_webserver = False
+
+# If the Credentials don't exist or are invalid, run through the native client
+# flow. The Storage object will ensure that if successful the good
+# Credentials will get written back to a file.
+storage = Storage('calendar.dat')
+credentials = storage.get()
+if credentials is None or credentials.invalid == True:
+  credentials = run(FLOW, storage)
+
+# Create an httplib2.Http object to handle our HTTP requests and authorize it
+# with our good Credentials.
+http = httplib2.Http()
+http = credentials.authorize(http)
+
+# Build a service object for interacting with the API. Visit
+# the Google Developers Console
+# to get a developerKey for your own application.
+service = build(serviceName='calendar', version='v3', http=http,
+       developerKey='YOUR_DEVELOPER_KEY')
+#+END_SRC
+
+#+RESULTS:
+

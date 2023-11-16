@@ -1,0 +1,257 @@
+#+TITLE: Guitar practice
+* General notes
+- usar metrónomo sin accento para solos. Eso te da flexibidad de reducir la velocidad y volver a la velocidad normal
+- para practicar a acompañar si usar acento
+- en milongueo del ayer pensar en un pasajito de transicion para resetear el looper
+* 2020
+** 2020-07 July
+*** 2020-07-18 Saturday
+
+**** Warmup:
+    :LOGBOOK:
+    CLOCK: [2020-07-18 Sat 11:05]--[2020-07-18 Sat 11:19] =>  0:14
+    :END:
+- 95bpm
+**** New 
+#+BEGIN: clocktable :scope subtree :maxlevel 2
+#+CAPTION: Clock summary at [2020-07-18 Sat 14:48]
+| Headline     | Time   |
+|--------------+--------|
+| *Total time* | *0:31* |
+|--------------+--------|
+#+END:
+
+     :LOGBOOK:
+     CLOCK: [2020-07-18 Sat 14:29]--[2020-07-18 Sat 14:48] =>  0:19
+     CLOCK: [2020-07-18 Sat 11:32]--[2020-07-18 Sat 11:38] =>  0:06
+     CLOCK: [2020-07-18 Sat 11:19]--[2020-07-18 Sat 11:25] =>  0:06
+     :END:
+- Bahia blanca
+  - 80bpm
+- Caminito
+- milonga sentimental segunda parte
+
+**** Review
+     :LOGBOOK:
+     CLOCK: [2020-07-18 Sat 14:48]--[2020-07-18 Sat 15:00] =>  0:12
+     :END:
+- milonga sentimental
+
+- a media luz
+- un dia de noviembre
+*** 2020-07-19 Sunday
+**** Warmup:
+     :LOGBOOK:
+     CLOCK: [2020-07-19 Sun 22:46]--[2020-07-19 Sun 22:48] =>  0:02
+     CLOCK: [2020-07-19 Sun 20:44]--[2020-07-19 Sun 20:50] =>  0:06
+     :END:
+- 95 bpm
+**** New 
+     :LOGBOOK:
+     CLOCK: [2020-07-19 Sun 22:48]--[2020-07-19 Sun 23:24] =>  0:36
+     :END:
+- caminito
+- bahia blanca
+**** Review
+- a media luz
+*** 2020-07-20 Monday
+**** Warmup:
+     :LOGBOOK:
+     CLOCK: [2020-07-20 Mon 21:30]--[2020-07-20 Mon 21:37] =>  0:07
+     :END:
+- 100 bpm
+#+BEGIN: clocktable :scope subtree :maxlevel 2
+#+CAPTION: Clock summary at [2020-07-20 Mon 22:18]
+| Headline     | Time   |
+|--------------+--------|
+| *Total time* | *0:07* |
+|--------------+--------|
+#+END:
+
+**** New 
+     :LOGBOOK:
+     CLOCK: [2020-07-20 Mon 21:37]--[2020-07-20 Mon 22:18] =>  0:41
+     :END:
+- bahia blanca
+  - empece con seccion in compas 25
+- Milonguel del ayer part 2
+#+BEGIN: clocktable :scope subtree :maxlevel 2
+#+CAPTION: Clock summary at [2020-07-20 Mon 22:18]
+| Headline     | Time   |
+|--------------+--------|
+| *Total time* | *0:41* |
+|--------------+--------|
+#+END:
+
+**** Review
+     :LOGBOOK:
+     CLOCK: [2020-07-20 Mon 22:18]--[2020-07-20 Mon 22:24] =>  0:06
+     :END:
+- milongueo del ayer part 1
+- a media luz
+*** 2020-07-21 Tuesday
+
+
+**** Warmup:
+     :LOGBOOK:
+     CLOCK: [2020-07-21 Tue 21:54]--[2020-07-21 Tue 22:05] =>  0:11
+     :END:
+
+
+**** New 
+     :LOGBOOK:
+     CLOCK: [2020-07-21 Tue 22:05]--[2020-07-21 Tue 22:35] =>  0:30
+     :END:
+- bahia blanca
+  - 80
+- milongueo del ayer
+**** Review
+     :LOGBOOK:
+     CLOCK: [2020-07-21 Tue 22:35]--[2020-07-22 Wed 21:09] => 22:34
+     :END:
+- milongueo del aye rpart 1
+*** 2020-07-22 Wednesday
+**** Warmup:
+     :LOGBOOK:
+     CLOCK: [2020-07-22 Wed 21:09]--[2020-07-22 Wed 21:19] =>  0:10
+     :END:
+
+**** New 
+     :LOGBOOK:
+     CLOCK: [2020-07-22 Wed 21:19]--[2020-07-22 Wed 21:53] =>  0:34
+     :END:
+- baha blanca
+- milongueo del ayer 2da guitarra
+
+**** Review
+     :LOGBOOK:
+     CLOCK: [2020-07-22 Wed 21:53]--[2020-07-22 Wed 22:10] =>  0:17
+     :END:
+- milongueo del ayer
+- a media luz
+*** 2020-07-25 Saturday
+**** Warmup:
+     :LOGBOOK:
+     CLOCK: [2020-07-25 Sat 09:56]--[2020-07-25 Sat 10:06] =>  0:10
+     :END:
+
+**** New 
+     :LOGBOOK:
+     CLOCK: [2020-07-25 Sat 10:08]--[2020-07-25 Sat 10:39] =>  0:31
+     :END:
+- bahia blanca
+  - 85 bpm
+- milongueo del ayer 2da guitarra
+  - whole first page
+**** Review
+     :LOGBOOK:
+     CLOCK: [2020-07-25 Sat 10:39]--[2020-07-25 Sat 10:45] =>  0:06
+     :END:
+- milongueo del ayer
+- a media luz
+
+*** 2020-07-29 Wednesday
+**** Warmup:
+     :LOGBOOK:
+     CLOCK: [2020-07-29 Wed 21:05]--[2020-07-29 Wed 21:09] =>  0:04
+     :END:
+
+**** New 
+     :LOGzBOOK:
+     CLOCK: [2020-07-29 Wed 21:09]--[2020-07-29 Wed 22:06] =>  0:57
+     :END:
+- bahia blanca
+  - 85 bpm
+- milongueo del ayer p2
+**** Review
+     :LOGBOOK:
+     CLOCK: [2020-07-29 Wed 22:06]--[2020-07-29 Wed 22:20] =>  0:14
+     :END:
+- milongueo del ayer
+  - difficultades con la segunda parte lenta.
+- a media luz
+*** 2020-07-31 Friday
+**** Warmup:
+     :LOGBOOK:
+     CLOCK: [2020-07-31 Fri 22:12]--[2020-07-31 Fri 22:25] =>  0:13
+     :END:
+**** New 
+     :LOGBOOK:
+     CLOCK: [2020-07-31 Fri 22:25]--[2020-07-31 Fri 23:04] =>  0:39
+     :END:
+- milonga
+- bahia blanca
+**** Review
+     :LOGBOOK:
+     CLOCK: [2020-07-31 Fri 23:04]--[2020-07-31 Fri 23:08] =>  0:04
+     :END:
+- a media luz
+- milongueo del ayer
+** 2020-08 August
+*** 2020-08-04 Tuesday
+**** Warmup:
+     :LOGBOOK:
+     CLOCK: [2020-08-04 Tue 22:09]--[2020-08-04 Tue 22:24] =>  0:15
+     :END:
+
+**** New 
+     :LOGBOOK:
+     CLOCK: [2020-08-04 Tue 22:26]--[2020-08-04 Tue 22:48] =>  0:22
+     :END:
+- bahia blanca
+- milongueo del ayer 2da parte
+**** Review
+     :LOGBOOK:
+     CLOCK: [2020-08-04 Tue 22:48]--[2020-08-04 Tue 23:00] =>  0:12
+     :END:
+*** 2020-08-05 Wednesday
+**** Warmup:
+**** New 
+**** Review
+*** 2020-08-16 Sunday
+**** Warmup:
+     :LOGBOOK:
+     CLOCK: [2020-08-16 Sun 09:22]--[2020-08-16 Sun 09:37] =>  0:15
+     :END:
+
+**** New 
+     :LOGBOOK:
+     CLOCK: [2020-08-16 Sun 09:37]--[2020-08-16 Sun 10:52] =>  1:15
+     :END:
+- milongueo 2nd guitar
+**** Review
+*** 2020-08-17 Monday
+**** Warmup:
+     :LOGBOOK:
+     CLOCK: [2020-08-17 Mon 22:06]--[2020-08-17 Mon 22:17] =>  0:11
+     :END:
+**** New 
+     :LOGBOOK:
+     CLOCK: [2020-08-17 Mon 22:17]--[2020-08-17 Mon 22:56] =>  0:39
+     :END:
+- milonga 2da
+**** Review
+     :LOGBOOK:
+     CLOCK: [2020-08-17 Mon 22:56]--[2020-08-17 Mon 23:10] =>  0:14
+     :END:
+*** 2020-08-22 Saturday
+**** Warmup:
+     :LOGBOOK:
+     CLOCK: [2020-08-22 Sat 10:53]--[2020-08-22 Sat 11:00] =>  0:07
+     CLOCK: [2020-08-22 Sat 10:30]--[2020-08-22 Sat 10:35] =>  0:23
+     :END:
+**** New 
+     :LOGBOOK:
+     CLOCK: [2020-08-22 Sat 11:00]--[2020-08-22 Sat 11:35] =>  0:35
+     :END:
+- milongueo del ayer 2da guitarra
+  - estoy trabajando en la parte antes de los arrastres
+
+**** Review 
+     :LOGBOOK:
+     CLOCK: [2020-08-22 Sat 15:00]--[2020-08-22 Sat 15:40] =>  0:40
+     CLOCK: [2020-08-22 Sat 10:53]--[2020-08-22 Sat 10:53] =>  0:00
+     :END:
+- a media luz
+  - difficult need to practice more specially with new guitar posture
+- milongueo del ayer. bien
