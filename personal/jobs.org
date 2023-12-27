@@ -1,4 +1,4 @@
-#+TITLE:Jobs Options 
+#+TITLE:Jobs Options
 #+AUTHOR: Fred K. Gruber
 #+email: fred@gnshealthcare.com
 #+PROPERTY: header-args :tangle yes :eval no-export
@@ -103,20 +103,20 @@ Modalities: group of potential mRNA medicines with shared features. They could t
 
 Current modalities:
 1. Infectious disease vaccines
-2. Systemic secreted & cell surface therapeutics 
+2. Systemic secreted & cell surface therapeutics
 3. Cancer therapies
-4. Intratumoral immuno-oncology  
-5. Localized regenerative therapeutics 
-6. Systemic intracellular therapeutics 
+4. Intratumoral immuno-oncology
+5. Localized regenerative therapeutics
+6. Systemic intracellular therapeutics
 7. Inhaled pulmonary therapeutics
 
 ***  Therapeutic areas
 
 **** Infectius diseases
-flu, covid, influenza, 
+flu, covid, influenza,
 
 **** Immuno-oncology
-immunotherapy. Activating antigen-specific T cells 
+immunotherapy. Activating antigen-specific T cells
 **** Rare diseases
 
 **** Cardiovascular diseases
@@ -150,7 +150,7 @@ Under the terms of the agreement, Moderna may advance two immune cell programs, 
 - Moderna has acquired an option to license Generation Bio's ctLNP and closed-ended DNA (ceDNA) technology for two immune cell programs and two liver programs, with an additional option for a third immune cell or liver program
 
   Generation Bio will receive a $40 million upfront cash payment and a $36 million equity investment
-  
+
 *** Moderna Axes Four Clinical Development Programs, Two AstraZeneca Had Dropped
 https://www.biospace.com/article/moderna-axes-four-clinical-development-programs-two-astrazeneca-previously-dropped-/
 VEGF-A program AZD8601
@@ -171,7 +171,7 @@ AI: MoLFormer help scientists predicts a moelcule's properties. Help understand 
 *** Moderna/Merck skin cancer
 https://www.reuters.com/business/healthcare-pharmaceuticals/merck-moderna-begin-late-stage-study-mrna-cancer-vaccine-2023-07-26/
 July 26 2023 moderna and merck begun enrolling patients in a late-stage suty testing INT with pembrolizumab (Keytruda)
-1000 patients 
+1000 patients
 
 https://time.com/6240538/mrna-cancer-vaccine-moderna/
 
@@ -262,16 +262,16 @@ mindmapDiagram {
 ,* "Bayesian" Variable Selection
 ,** Data Integration
 ,*** Batch correction
-,*** Training Distribution Matching (TDM)	
+,*** Training Distribution Matching (TDM)
 ,*** All features vs all samples
-,*** Missing values		
+,*** Missing values
 ,** Out of sample performance estimates
 ,*** Repeated Crossvalidation
 ,*** Out-of-group Crossvalidation
-,*** Out-of-trial		
+,*** Out-of-trial
 left side
 
-,** FDR control	
+,** FDR control
 ,** Intepretability vs performance
 ,** Feature creation
 ,*** Unsupervised
@@ -303,7 +303,7 @@ left side
 ***** Structural prior
 #+begin_src R
 library(DiagrammeR)
-library(DiagrammeRsvg) 
+library(DiagrammeRsvg)
 grViz(width=800, height='100%', diagram="
   digraph otf_constraints {
   # node definitions with substituted label text
@@ -379,7 +379,7 @@ grViz(width=800, height='100%', diagram="
 - what can increase the predictive power?
 - batch correction, addition variable
 - TDM combat, etc
-- multiple slides likely 
+- multiple slides likely
 
 **** Synthetic Features
 #+name: slide_feat
@@ -430,7 +430,7 @@ grViz(width=800, height='100%', diagram="
 - co-first author screenshot
 
 *** Total time
-#+begin_src R :var slide_intro=slide_intro :var slide1=slide_back_time :var slide2=slide_mm_stats :var slide3=slide_mm_approach :var slide5=slide_methods :var slide6=slide_ipredict :var slide7=slide_dataint :var slide8=slide_perfor :var slide9=slide_feat :var slide10=slide_trt :var slide_res1=slide_res1 :var slide_kd=slide_kd :var slide_paper=slide_paper :var slide_prog=slide_prog 
+#+begin_src R :var slide_intro=slide_intro :var slide1=slide_back_time :var slide2=slide_mm_stats :var slide3=slide_mm_approach :var slide5=slide_methods :var slide6=slide_ipredict :var slide7=slide_dataint :var slide8=slide_perfor :var slide9=slide_feat :var slide10=slide_trt :var slide_res1=slide_res1 :var slide_kd=slide_kd :var slide_paper=slide_paper :var slide_prog=slide_prog
 library(tidyverse)
 list("Total_Time"=sum(c(slide_intro,slide1,slide2,slide3,slide5,slide6,slide7,slide8,slide9,slide10,slide_res1,slide_kd,slide_prog,slide_paper)))
 #+end_src
@@ -465,7 +465,7 @@ Here's What You'll Need (Minimum Qualifications)
 
 - Experience with at least one scripting language e.g Python, R and cloud computing, e.g. AWS, GCP
 
-  
+
 Here's What You'll Bring to the Table (Preferred Qualifications)
 
 - Prior experience leading the development and productization of prediction algorithms, ideally in the bioinformatics space
@@ -476,7 +476,7 @@ Here's What You'll Bring to the Table (Preferred Qualifications)
 
 - Outstanding communication skills (verbal and written)
 
-- Demonstrated cross-functional collaboration with multidisciplinary teams 
+- Demonstrated cross-functional collaboration with multidisciplinary teams
 
 - Curiosity about exploring a new pathway for drug discovery
 
@@ -571,7 +571,7 @@ Best Regards,
 
 [Your Name]
 
-[ME]: 
+[ME]:
 [Your Contact Information]
 
 [ME]: Can you check the following email to request an improves baseline salary:
@@ -604,7 +604,7 @@ Best Regards,
 [Your Name]
 [Your Contact Information]
 
-[ME]: 
+[ME]:
 #+end_ai
 
 ** Question
@@ -12278,3 +12278,5 @@ I would like to discuss the baseline salary thought. I just went over my current
 salary:
 what is the 165 starting
 
+** linkedin
+Happy to share that I'm starting a new chapter in my career by joining Moderna as a principal scientist on the individualized neoantigen therapy algorithms group! Excited to contribute to the improvement of cancer therapies.

@@ -218,7 +218,7 @@ STR is current-kill if unspecified.
 
 (setf hash (make-hash-table :test #'equal))
 (puthash "a" 1 hash)
-(gethash "a" hash) 
+(gethash "a" hash)
 
 @article{hayete_identification_2021,
   title = {Identification of {{Latent Variables From Graphical Model Residuals}}},
@@ -248,7 +248,7 @@ STR is current-kill if unspecified.
     - or graph with generic chord
       - with option to pick a tonality
     - Need to provide a easy input mechanism to make it easier for me to write the chords.
-      - maybe provide the sequence of chords separated by space and parse it into a network 
+      - maybe provide the sequence of chords separated by space and parse it into a network
 
 ** TODO igraph to simcausal converter                             :simcausal:
 ** TODO alternative plotting tool.                                :simcausal:
@@ -468,7 +468,7 @@ https://peppe8o.com/install-plex-server-on-raspberry-pi/
 :PROPERTIES:
 :ID:       7ADAA66F-AF84-4095-8111-D73C6C2DEFEA
 :END:
-    
+
 *** TODO organize photos from phone
 :PROPERTIES:
 :ID:       27DB6420-1656-4008-8D86-272EABFC6F3F
@@ -496,12 +496,12 @@ https://peppe8o.com/install-plex-server-on-raspberry-pi/
 :PROPERTIES:
 :ID:       91647C14-ADE7-43B7-AFB1-AA80B4D7070B
 :END:
-    
+
 *** TODO practice reaction game
 :PROPERTIES:
 :ID:       53216C0C-A7BF-493B-8C8B-66FF73CE9AA4
 :END:
-    
+
 *** TODO zettle notes from paper
 :PROPERTIES:
 :ID:       E08880ED-7587-4E3C-89A4-1A785BC699E5
@@ -539,7 +539,7 @@ started
     - CLOSING NOTE [2021-05-30 Sun 16:23]
 *** DONE Exercise
     CLOSED: [2021-05-31 Mon 09:32]
-    
+
     - CLOSING NOTE [2021-05-31 Mon 09:32]
 *** DONE make progress in probability classs
     CLOSED: [2021-09-11 Sat 10:06]
@@ -553,7 +553,7 @@ started
 
 *** DONE change wate rfilter
     CLOSED: [2021-05-02 Sun 12:53]
-    
+
     - CLOSING NOTE [2021-05-02 Sun 12:53]
 *** DONE look into torch for optimization
     CLOSED: [2021-05-02 Sun 12:53]
@@ -586,7 +586,7 @@ started
     - CLOSING NOTE [2021-06-05 Sat 14:48]
 *** DONE call uncle?
     CLOSED: [2021-06-05 Sat 14:48]
-    
+
     - CLOSING NOTE [2021-06-05 Sat 14:48]
 *** DONE call rabelo
     CLOSED: [2021-06-05 Sat 14:48]
@@ -674,7 +674,7 @@ started
     :END:
 *** DONE watch virus video
     CLOSED: [2020-12-05 Sat 11:22]
-   
+
 
     - CLOSING NOTE [2020-12-05 Sat 11:22]
 *** DONE Add contribution to worg
@@ -733,7 +733,7 @@ started
 
 *** supermemo
 
-    
+
 
 ** [2020-08-01 Sat]--[2020-08-02 Sun]
 
@@ -795,8 +795,8 @@ started
     CLOSED: [2020-06-28 Sun 18:12]
     - CLOSING NOTE [2020-06-28 Sun 18:12]
 Hola Lucian o,
-Soy estudiante de Matías de guitarra en el tango, y él me recomendó que te contactara. 
-Quería saber si ofreces classes por internet de canto (especialmente en el contexto de tango). 
+Soy estudiante de Matías de guitarra en el tango, y él me recomendó que te contactara.
+Quería saber si ofreces classes por internet de canto (especialmente en el contexto de tango).
 Mi objetivo es poder cantar y acompañarme en la guitarra al menos para poder practicar en casa.
 No tengo ningun entrenamiento en canto anteriormente.
 
@@ -808,9 +808,9 @@ Fred
     - CLOSING NOTE [2020-06-27 Sat 16:25]
     - [X] lentil soup
     - [X] madelaine
-    
 
-** DONE scan tax docs 
+
+** DONE scan tax docs
    CLOSED: [2020-02-01 Sat 17:25]
    :PROPERTIES:
    :ID:       9d26855c-465a-44b5-bbd4-3393fc6ae758
@@ -862,7 +862,7 @@ Fred
    :PROPERTIES:
    :ID:       086F72A2-91D4-41ED-AC4C-389E6C9918A7
    :END:
-** DONE email Alice's teacher about addition 
+** DONE email Alice's teacher about addition
    CLOSED: [2020-02-01 Sat 09:41]
    :PROPERTIES:
    :ID:       e1cea710-298e-48fd-a274-ad45bab7a8bc
@@ -2287,12 +2287,12 @@ test it too
    - CLOSING NOTE [2019-12-26 Thu 15:35] \\
      c
    :END:
-** DONE call florist 
+** DONE call florist
    CLOSED: [2020-02-27 Thu 11:29] DEADLINE: <2020-02-13 Thu 14:00>
    :LOGBOOK:
    - CLOSING NOTE [2020-02-27 Thu 11:29]
    :END:
-** TODO read about neural ODE 
+** TODO read about neural ODE
    :PROPERTIES:
    :ID:       689FB558-9EA8-42CB-81B9-1479287F74DB
    :END:
@@ -2305,7 +2305,7 @@ we only have deaths.
    :LOGBOOK:
    - CLOSING NOTE [2020-05-26 Tue 10:58]
    :END:
-sent to tidybayes github. 
+sent to tidybayes github.
 would like to know how I can have linerange plot with different credible intervals but diferent overall color for conditions
 ** DONE Do bill
    CLOSED: [2020-05-26 Tue 12:34] DEADLINE: <2020-05-26 Tue 13:00>
@@ -3893,7 +3893,7 @@ http://www.adamtully.com/bio/
 
 This one has some nice post about tango guitar
 
- 
+
 * Tips and Tricks
 
 ** activate ssh agent
@@ -4033,7 +4033,7 @@ https://thepi.io/how-to-set-up-a-raspberry-pi-plex-server/
 ** Shiny app for stock market visualization
 ** Automatic water irrigation system.
 need to use a small pump
-** TODO try google visioan api 
+** TODO try google visioan api
    SCHEDULED: <2019-12-28 Sat>
    :PROPERTIES:
    :ID:       70c1ab7f-1391-4b6a-9f75-d443df8e3358
@@ -4093,7 +4093,7 @@ Bob->Alice: Authentication Response
 N = 30
 xx = sample(seq(0, 90, 10), N, replace = T)
 yy = sample(0:9, N, replace = T)
-cards = tibble(paste0(xx, "+", yy, "="), 
+cards = tibble(paste0(xx, "+", yy, "="),
                xx + yy
                )
 colnames(cards) = NULL
@@ -4115,7 +4115,7 @@ library(tidyverse)
 N = 100
 xx = sample(seq(0, 90, 10), N, replace = T)
 yy = sample(0:9, N, replace = T)
-cards = tibble(ope=paste0(xx, "-", yy, "="), 
+cards = tibble(ope=paste0(xx, "-", yy, "="),
                val=xx - yy
                )
 cards=cards %>% filter(val>=0)'
@@ -4130,7 +4130,7 @@ library(tidyverse)
 N = 30
 xx = sample(0:9, N, replace = T)
 yy = sample(0:9, N, replace = T)
-cards = tibble(q=paste0(xx, "+", yy, "="), 
+cards = tibble(q=paste0(xx, "+", yy, "="),
                a=xx + yy
                )
 
@@ -4148,7 +4148,7 @@ colnames(allcards) = NULL
 write.table(allcards, col.names = F, row.names = F, file = "~/Onedrive/Documents/alice/school/basics_facts.txt")
 
 #+end_src
-    
+
 * Bills
   :PROPERTIES:
   :header-args:R: :session *R* :colnames yes
@@ -4222,7 +4222,7 @@ getBill("2023-11-01")
 file:/home/fred/gitRepos/general-functions/org/personal.html
 http://www.google.com
 
- 
+
 
 ** June 1
 
@@ -5620,7 +5620,7 @@ getBill("2019-12-01")
 | Fred           | 5687.362 |
 
 
-** January 2020 
+** January 2020
 #+BEGIN_SRC R :session *R* :exports result
 getBill("2020-01-01")
 #+END_SRC
@@ -5657,7 +5657,7 @@ getBill("2020-01-01")
 
 
 
-** March 2020 
+** March 2020
 #+BEGIN_SRC R :session *Rbill* :exports result
 getBill("2020-03-01")
 #+END_SRC
@@ -5695,7 +5695,7 @@ getBill("2020-03-01")
 
 
 
-** April 2020 
+** April 2020
 #+BEGIN_SRC R :session *Rbill* :exports result
 getBill("2020-04-01")
 #+END_SRC
@@ -5724,7 +5724,7 @@ getBill("2020-04-01")
 | Susan          | 2856.932 |
 | Fred           | 4842.148 |
 
-** May 2020 
+** May 2020
 #+BEGIN_SRC R :session *Rbill* :exports result
 getBill("2020-05-01")
 #+END_SRC
@@ -5754,7 +5754,7 @@ ooo
 | Fred           | 4893.742 |
 
 
-** June 2020 
+** June 2020
 #+BEGIN_SRC R :session *Rbill* :exports result
 getBill("2020-06-01")
 #+END_SRC
@@ -5845,7 +5845,7 @@ dft=df %>%
          )
 
 selratio1=dft %>%
-  filter(Total>=160) %>% 
+  filter(Total>=160) %>%
   group_by(Entry) %>%
   arrange(desc(Total),Variance) %>%
   slice(1) %>%
@@ -5854,7 +5854,7 @@ selratio1=dft %>%
 
 
 selratio2=dft %>%
-  filter(Total>=160) %>% 
+  filter(Total>=160) %>%
   filter(Entry%in% selratio1$Entry[1:62],
               !Image%in% selratio1$Image[1:62]) %>%
   arrange(desc(Total),Variance) %>% group_by(Entry) %>% slice(1) %>% arrange(desc(Ratio)) %>%
@@ -5880,7 +5880,7 @@ dftot=df2 %>%
 
 dftot2=dftot %>%
   filter(ToRemove==0) %>%
-  dplyr::select(-ToRemove) 
+  dplyr::select(-ToRemove)
 
 ranksel1= dftot2%>%
   group_by(Entry) %>%
@@ -5901,11 +5901,11 @@ ranksel2 = dftot2 %>%
   head(17)
 
 totaldf_rank=bind_rows(
-  ranksel1 %>%ungroup() %>% 
+  ranksel1 %>%ungroup() %>%
   mutate(Selection=rep('first',nrow(ranksel1)),
          Order=1:(nrow(ranksel1))
          ),
-  ranksel2 %>%ungroup() %>% 
+  ranksel2 %>%ungroup() %>%
   mutate(Selection="second",
          Order=1:nrow(ranksel2)
          )
@@ -5925,7 +5925,7 @@ dftot3=df2 %>%
     Juror1std=(Juror1-mean(Juror1))/sd(Juror1),
          Juror2std=(Juror2-mean(Juror2))/sd(Juror2),
          MeanScore=map_dbl(1:nrow(df2),function(ii)mean(c(Juror1std[ii],Juror2std[ii]))),
-         SDScore=map_dbl(1:nrow(df2),function(ii)sd(c(Juror1std[ii],Juror2std[ii])))         
+         SDScore=map_dbl(1:nrow(df2),function(ii)sd(c(Juror1std[ii],Juror2std[ii])))
          )
 
 stdsel1=dftot3 %>%
@@ -5945,11 +5945,11 @@ stdsel2=dftot3 %>%
 
 
 totaldf_std=bind_rows(
-  stdsel1 %>%ungroup() %>% 
+  stdsel1 %>%ungroup() %>%
   mutate(Selection="first",
          Order=1:(nrow(stdsel1))
          ),
-  stdsel2 %>%ungroup() %>% 
+  stdsel2 %>%ungroup() %>%
   mutate(Selection="second",
          Order=1:nrow(stdsel2)
          )
@@ -5981,7 +5981,7 @@ binwidth=1;
 
 ggplot_build(ggp)$data[[1]]$x  %>% diff
 
-mydata=ggplot_build(ggp)$data[[1]] 
+mydata=ggplot_build(ggp)$data[[1]]
 
 ggp+geom_line(data=mydata,aes(x=x,y=count,colour=group))
 
@@ -6007,13 +6007,13 @@ dftot %>% select(Rank1,Rank2) %>% pivot_longer(everything()) %>%
 
 dftot2=dftot %>%
   filter(ToRemove==0) %>%
-  dplyr::select(-ToRemove) 
+  dplyr::select(-ToRemove)
 
 ranksel1= dftot2%>%
   group_by(entrynum) %>%
   arrange(MeanRank,SDRank) %>%
   slice(1) %>%
-  ungroup() %>% 
+  ungroup() %>%
   arrange(MeanRank,SDRank) %>%
   head(73) %>%
   mutate(Order=1:n())
@@ -6280,12 +6280,12 @@ print(finaldoc,"all_certificates_2023_NHv2.docx")
 
 * Alice
 ** school
-addition 
+addition
 #+begin_src R
   N = 40
   xx = sample(seq(0, 100, 1), N, replace = T)
   yy = sample(0:9, N, replace = T)
-  cards = tibble(paste0(xx, "+", yy, "="), 
+  cards = tibble(paste0(xx, "+", yy, "="),
 		 xx + yy
 		 )
   colnames(cards) = NULL
@@ -6298,16 +6298,16 @@ I have 100 eggs and 1/5 hatch. I give  half to a friend. And split the remaining
 * New car
   snow advantage:
   https://www.kbb.com/best-cars/driving-in-snow/
-  
+
   - AWD
     all wheel drive
 
     https://www.subaru.com/vehicles/crosstrek/hybrid.html/all-electric-power-gallery
 
     https://www.digitaltrends.com/cars/best-cars-for-the-snow/
-    
 
-* Email 
+
+* Email
 
 ** Anna
 
@@ -6315,13 +6315,13 @@ I would like you to rewrite this in a more professional way:
 
 Hi Anna,
 
-How are you? 
+How are you?
 
 How is your experience at Moderna so far?
 
 I met with Wei today and she mentioned the position of principal scientist in your group that you are in the process of filling. It appears to be a good fit for they type of work that I've been doing specially the emphasis on high-dimensional data integration of multiple data modalities, predictive modeling, benchmarking of algorithms and, of course, application to personalized medicine.
 
-I do have quite a few questions that I would love to discuss.  
+I do have quite a few questions that I would love to discuss.
 
 thanks
 Fred
@@ -6363,7 +6363,7 @@ Prior experience leading the development and productization of prediction algori
 Prior experience independently staging and sequencing projects and presenting results to non-technical stakeholders
 Strong problem-solving skills and a results-oriented mindset
 Outstanding communication skills (verbal and written)
-Demonstrated cross-functional collaboration with multidisciplinary teams 
+Demonstrated cross-functional collaboration with multidisciplinary teams
 Curiosity about exploring a new pathway for drug discovery
 Be bold in proposing and delivering on creative experimental designs and ideas
 #+end_src
@@ -6398,9 +6398,9 @@ Describe de una manera mas genérica deep learning del punto de vista de priors 
    https://corporate.monro.com/
    https://www.reservoirstreetautorepair.com/
 
-   
 
-   
+
+
 ** Boris
 
    Hi Boris,
@@ -6409,8 +6409,8 @@ Describe de una manera mas genérica deep learning del punto de vista de priors 
    I haven't been doing consulting  so I don't have a fixed rate but I would work for an reasonable average rate. I'm open to negotiation regarding the specific amount but a quick search suggest average rate something on the line of $200-$250/h
 
    Fred
-   
-   
+
+
 
 ** translation susan
    Hi Heidy
@@ -6427,7 +6427,7 @@ Esta es una pintura imaginaria basada en una leyenda china llamada "El vaquero y
 En mi version, quiero celebrar la mezcla entre las culturas orientales y occidentales. Aqui, en la metáfora del baile de tango, el puente connecta a gentes de diferentes mundos para crear algo hermozo.
 
 
-This recent piece is loosely based on the Chinese legend of the Moon Goddess (嫦娥) who flew to the moon, except that the flying lady here is wearing a Panamanian costume.  A full moon is often a symbol of a family reunion in Chinese culture. This alludes to what the chinese poet, Su Shi (蘇軾), has quoted in his Water Melody  poem(水調歌頭), "Though thousand miles apart, we can always share the beauty of the moon"(千里共嬋娟). 
+This recent piece is loosely based on the Chinese legend of the Moon Goddess (嫦娥) who flew to the moon, except that the flying lady here is wearing a Panamanian costume.  A full moon is often a symbol of a family reunion in Chinese culture. This alludes to what the chinese poet, Su Shi (蘇軾), has quoted in his Water Melody  poem(水調歌頭), "Though thousand miles apart, we can always share the beauty of the moon"(千里共嬋娟).
 
 Here, the child is of a mixed Chinese and Panamanian heritage. She is wondering about her families afar...
 
@@ -6442,7 +6442,7 @@ My brother lived in st paul between 2001-2004 and now lives in Australia. He nee
 
 If he sends me the applicaton with notarized informed consent letter from Australia using DHL can I then send the your office the application by US. mail.
 
-He 
+He
 
 
    hey esta es la direccion del sitio del police record. Crees, por favor, que podrias darles una llamada rapidita y preguntas como aplicar para un record policivo para minnesota state, explicando que es para tu hermano, que vive en australia y lo necesita para visa proceedings.
@@ -6489,7 +6489,7 @@ includde self address envolopeto me.
 
 
 
-    
+
 ** Edson
    :PROPERTIES:
    :ID:       A97EE30D-A9F3-4DE6-A907-7E73C0D4DFB5
@@ -6508,7 +6508,7 @@ Yo, Dr. Fred Gruber, soy científico principal en el Departamento de Medicina Pe
 Fred Gruber, Ph.D.
 Senior Principal Scientist
 GNS Healthcare
-Phone: (617)-374–2383  
+Phone: (617)-374–2383
 fred@gnshealthcare.com
 www.gnshealthcare.com
 
@@ -6521,10 +6521,10 @@ www.gnshealthcare.com
 ** Jorge
    Hola Jorge,
    Ando practicando algunos acompañamientos de tangos en la guitarra. Si te interesa puedo hacer algunas grabaciones y mandártelas. Tu opinión de que partes funcionan para un cantante y cuáles no sería muy valiosa.
-   
+
 ** julian graciano
    https://juliangraciano.wixsite.com/page/contact
-   
+
 ** Luciano Tobaldi
 
 Tel: +54 9113-060-4809
@@ -6554,8 +6554,8 @@ Cosas que me gustaria aprender
 
 *** Email escrito
 Hola Luciano,
-Soy estudiante de Matías de guitarra en el tango, y él me recomendó que te contactara. 
-Quería saber si ofreces classes por internet de canto (especialmente en el contexto de tango). 
+Soy estudiante de Matías de guitarra en el tango, y él me recomendó que te contactara.
+Quería saber si ofreces classes por internet de canto (especialmente en el contexto de tango).
 Mi objetivo es poder cantar y acompañarme en la guitarra al menos para poder practicar en casa.
 No tengo ningun entrenamiento en canto anteriormente.
 
@@ -6604,7 +6604,7 @@ onenote:https://d.docs.live.net/379ff6a3a396b15b/posdoc_SLB/journal/todo.one#Kar
 
    background check done:
 Monday
-   
+
 651-793-2400
 Bureau of Criminal Apprehension
 https://dps.mn.gov/divisions/bca/Documents/Background-check-fees.pdf
@@ -6620,7 +6620,7 @@ Request:
   Australia
   - No check or money other
 - Need background check  with 2 variations of name:
-  - Karl Frederick Gruber Gonzalez 
+  - Karl Frederick Gruber Gonzalez
   - Karl Gruber
 - need to provide
 
@@ -6628,15 +6628,15 @@ Request:
 
 
 para minnesota, he mandado una aplication por DHL  a este sitio
-   https://dps.mn.gov/divisions/bca/Pages/background-checks.aspx   
+   https://dps.mn.gov/divisions/bca/Pages/background-checks.aspx
 pero necesito pagarla, y necesito saber si pueden tambien mandarme el record policial con una variacion de mi nombre, o sea, asi:
 
 yo les he enviado a la direccion q sale ahi
-   https://dps.mn.gov/divisions/bca/Pages/background-checks.aspx   
+   https://dps.mn.gov/divisions/bca/Pages/background-checks.aspx
 una carta certificada pidiendo el record policial, podrias llamar al numero que sale ahi y preguntar si puedo mandar el dinero q cuesta el  certificado por transferencia de banco?
-quizas podrias preguntar si tienen un email al que yo les pueda escribir y asi podria hacerlo yo... 
-este es el tracking number de dhl 7530705140, se los podrias dar tambien. 
-Lo que necesito es un criminar report  o police check o como se llame, de minnesota  y que este a mi nombre completo y a Karl Gruber... 
+quizas podrias preguntar si tienen un email al que yo les pueda escribir y asi podria hacerlo yo...
+este es el tracking number de dhl 7530705140, se los podrias dar tambien.
+Lo que necesito es un criminar report  o police check o como se llame, de minnesota  y que este a mi nombre completo y a Karl Gruber...
 
 
 
@@ -6655,7 +6655,7 @@ guitarra tango.
 
 Yo tengo entrenamiento previo de guitarra clásica así que puedo leer
 notación musical. Tambien he tomado algunas clases de guitarra tango
-asi que he practicado algunas de técnicas como marcato, 
+asi que he practicado algunas de técnicas como marcato,
 arrastres, rebotes etc.
 
 Sin embargo mi conocimiento de harmonía y teoría
@@ -6688,9 +6688,9 @@ Fred
 * test
 
 ** tsest
-[[id:BA67DA70-8D01-42A9-AEAA-DF32983B6380][Mediation and Total Effects]] 
+[[id:BA67DA70-8D01-42A9-AEAA-DF32983B6380][Mediation and Total Effects]]
 
- 
+
 ** python scrapping
 #+begin_src python
 import requests
@@ -6731,7 +6731,7 @@ new bank:
 - very good equity line
 - webster bank
 - good promotion
-- 
+-
 
 
 equity
@@ -6767,12 +6767,12 @@ library(dygraphs)
 dygraph(radonres)
 
 radonres = fread("~/OneDrive/Documents/house 2/webster/inspeccion/radon_results.csv", data.table = F) %>%
-  mutate(Date = mdy_hm (`Date/Time`)) %>% select(Date, Radon = `Radon(pCi/l)`) 
+  mutate(Date = mdy_hm (`Date/Time`)) %>% select(Date, Radon = `Radon(pCi/l)`)
 
 
 
 radonres = radonres %>%
-  filter(Date > ymd_hm("2021-10-26 00:00")) 
+  filter(Date > ymd_hm("2021-10-26 00:00"))
 
 
 
@@ -6819,7 +6819,7 @@ radonres %>% ggplot(aes(x = Date, y = Radon)) + geom_point() + geom_smooth(span 
 - alejandra: $50
 - Ella: 100
 - Mama 100
-  
+
 * Intershipa ALejandra
   - Tesla
     https://www.tesla.com/careers/search/?query=Internship&department=6&type=3&region=5&country=US
@@ -6832,8 +6832,8 @@ radonres %>% ggplot(aes(x = Date, y = Radon)) + geom_point() + geom_smooth(span 
     - https://irobot.wd5.myworkdayjobs.com/en-US/iRobot/job/US-MA-Bedford/Summer-2022--Automation-Infrastructure-Engineering-Intern_R2718?_ga=2.81856021.228513202.1578314703-1750703697.1564501687
     - https://irobot.wd5.myworkdayjobs.com/iRobot/4/refreshFacet/318c8bb6f553100021d223d9780d30be?_ga=2.81856021.228513202.1578314703-1750703697.1564501687
 
-      
- 
+
+
 * download
 ytd https://www.dailymotion.com/video/x89avda https://www.dailymotion.com/video/x89avda https://www.dailymotion.com/video/x89awcl https://www.dailymotion.com/video/x6pxc5b https://www.dailymotion.com/video/x89ct94 https://www.dailymotion.com/video/x2jtqm8 https://www.dailymotion.com/video/x89e47l https://www.dailymotion.com/video/x6pta3h
 
@@ -6853,7 +6853,7 @@ ytd https://www.dailymotion.com/video/x89avda https://www.dailymotion.com/video/
 
 
 * Test inline
-src_R{ncol(mtcars)} {{{results(=[1] 11=)}}} 
+src_R{ncol(mtcars)} {{{results(=[1] 11=)}}}
 #+begin_src python
 #+end_src
 #+begin_src R
@@ -7576,12 +7576,12 @@ drwxr-xr-x  437 fred  staff    14K Dec 13 12:08 roam
 drwxr-xr-x  224 fred  staff   7.0K Dec 19 16:45 ..
 lrwxr-xr-x    1 fred  staff    23B Dec 19 16:49 .#personal.org -> fred@gns-ml-00077.15832
 drwxr-xr-x@ 677 fred  staff    21K Dec 19 16:49 .
-fred@gns-ml-00077 org % ll |grep score 
-ll |grep score 
+fred@gns-ml-00077 org % ll |grep score
+ll |grep score
 -rw-r--r--    1 fred  staff   700B May 23  2019 scoreCard.Rmd~
 -rw-r--r--    1 fred  staff   700B May 23  2019 scoreCard.Rmd
-fred@gns-ml-00077 org % ll ../|grep score 
-ll ../|grep score 
+fred@gns-ml-00077 org % ll ../|grep score
+ll ../|grep score
 fred@gns-ml-00077 org % cd ../ll
 cd ../ll
 cd: no such file or directory: ../ll
@@ -7816,7 +7816,7 @@ drwxr-xr-x  224 fred  staff   7.0K Dec 19 16:45 .
 drwxr-xr-x@ 677 fred  staff    21K Dec 19 16:49 org
 fred@gns-ml-00077 general-functions % ll |grep score
 ll |grep score
-fred@gns-ml-00077 general-functions % 
+fred@gns-ml-00077 general-functions %
 
 * test mignet
 #+begin_src R
@@ -7874,7 +7874,7 @@ can you write R code
 
 [AI]: Yes, I can write R code. However, as an AI language model, I won't be able to create or execute R code outside of this text-based format. Please let me know if you have any specific requirements related to R programming, and I will do my best to assist you.
 
-[ME]: 
+[ME]:
 #+end_ai
 =======
 ** write distribution plotter
@@ -8104,13 +8104,13 @@ vae$to(device)
 vae_loss <- function(x, x_recon, mu, log_var) {
   # Reconstruction loss
   recon_loss <- nn_binary_cross_entropy(x_recon, x, reduction = "mean")
-  
+
   # KL divergence loss
   kl_loss <- -0.5 * torch::sum(1 + log_var - mu^2 - torch::exp(log_var))
-  
+
   # Total loss
   total_loss <- recon_loss + kl_loss
-  
+
   return(total_loss)
 }
 
@@ -8123,22 +8123,22 @@ train_vae <- function(model, dataloader, optimizer, device, epochs) {
     for (i in 1:length(dataloader)) {
       # Get the data batch and move to device
       data <- dataloader[[i]]$to(device)
-      
+
       # Reset the gradients
       optimizer$zero_grad()
-      
+
       # Forward pass
       output <- model(data)
       x_recon <- output[[1]]
       mu <- output[[2]][, 1:latent_size]
       log_var <- output[[2]][, (latent_size+1):(2*latent_size)]
-      
+
       # Compute the loss
       loss <- vae_loss(data, x_recon, mu, log_var)
-      
+
       # Backward pass
       loss$backward()
-      
+
       # Update the parameters
       optimizer$step()
     }
@@ -8214,9 +8214,9 @@ ui <- fluidPage(
   sidebarLayout(
     sidebarPanel(
       selectInput("distribution", "Select a Distribution:",
-                  choices = c("beta", "binomial", "cauchy", "chi-squared", 
-                              "exponential", "f", "gamma", "geometric", 
-                              "hypergeometric", "log-normal", "negative binomial", 
+                  choices = c("beta", "binomial", "cauchy", "chi-squared",
+                              "exponential", "f", "gamma", "geometric",
+                              "hypergeometric", "log-normal", "negative binomial",
                               "normal", "Poisson", "t", "uniform", "weibull")),
       uiOutput("parameters")
     ),
@@ -8460,7 +8460,7 @@ Here is an example of an interactive elisp function that does this conversion:
              (output (format "if(!exists('%s'))
   %s=readRDS('%s')" var var file-path)))
         (delete-region beg end)
-        (insert output))))) 
+        (insert output)))))
 #+end_src
 
 To use this function, select the `saveRDS()` function call in the buffer and run `M-x convert-saveRDS-to-readRDS` (or whatever keybinding you prefer). The function call will be replaced with the converted `if` statement.
@@ -8523,8 +8523,8 @@ saveRDS(somevariable, file="somepath.RDS")
 | 11 | Galina    | deepanshi |
 | 12 | Qian      |    Li   |
 | 13 | Jeanne    |   Soo youn |
-1. 
-2. 
+1.
+2.
 3. jun
 4.Li
 5.Aporva
@@ -8540,7 +8540,7 @@ saveRDS(somevariable, file="somepath.RDS")
 * Alice
 
 ** RSM homework help class
-- 
+-
 #+begin_src plantuml :file plantuml.png
 @startuml
 start
@@ -8621,7 +8621,7 @@ head(mtcars)
 :ID:       D9D76C0B-1F80-4BEB-85BE-D675F274332B
 :END:
 #+begin_ai
-in graphviz how do I create group graphs	
+in graphviz how do I create group graphs
 To create group graphs in Graphviz, you can use the "subgraph" keyword to define the group and then use the "rank" keyword to control the layout of the subgraphs. Here's an example of how to create group graphs in Graphviz:
 
 ```dot
@@ -8697,7 +8697,7 @@ digraph {
   A [label="Node A"];
   B [label="Node B"];
   C [label="Node C"];
-  
+
   A -> B;
   B -> C;
 }
@@ -8707,7 +8707,7 @@ In this code, the nodes A, B, and C are defined with the "label" attribute speci
 
 You can customize the node labels as per your requirements by setting different strings or values for the "label" attribute.
 
-[ME]: 
+[ME]:
 #+end_ai
 
 * UR
@@ -8736,7 +8736,7 @@ Here's What You'll Need (Minimum Qualifications)
 
 - Experience with at least one scripting language e.g Python, R and cloud computing, e.g. AWS, GCP
 
-  
+
 Here's What You'll Bring to the Table (Preferred Qualifications)
 
 - Prior experience leading the development and productization of prediction algorithms, ideally in the bioinformatics space
@@ -8747,7 +8747,7 @@ Here's What You'll Bring to the Table (Preferred Qualifications)
 
 - Outstanding communication skills (verbal and written)
 
-- Demonstrated cross-functional collaboration with multidisciplinary teams 
+- Demonstrated cross-functional collaboration with multidisciplinary teams
 
 - Curiosity about exploring a new pathway for drug discovery
 
@@ -8759,7 +8759,7 @@ Highly competitive and inclusive medical, dental and vision coverage options
 Flexible Spending Accounts for medical expenses and dependent care expenses
 Lifestyle Spending Account funds to help you engage in personal enrichment and self-care activities
 Family care benefits, including subsidized back-up care options and on-demand tutoring
-Free premium access to fitness, nutrition, and mindfulness classes 
+Free premium access to fitness, nutrition, and mindfulness classes
 Exclusive preferred pricing on Peloton fitness equipment
 Adoption and family-planning benefits
 Dedicated care coordination support for our LGBTQ+ community
@@ -8768,12 +8768,12 @@ Generous paid time off, including:
     Volunteer time to participate within your community
     Discretionary year-end shutdown
     Paid sabbatical after 5 years; every 3 years thereafter
-Generous Paid Leave offerings, including 18 weeks of 100% paid parental leave for all new parents 
+Generous Paid Leave offerings, including 18 weeks of 100% paid parental leave for all new parents
 401k match and Financial Planning tools
 Moderna-paid Life, LTD and STD insurance coverages, as well as voluntary benefit options
 Complimentary concierge service including home services research, travel booking, and entertainment requests
 Free parking or subsidized commuter passes
-Location-specific perks and extras! 
+Location-specific perks and extras!
 #+end_src
 *** Experience
 **** Demonstrated scientific research experience with algorithm development and machine learning, especially deep learning architectures
@@ -8792,12 +8792,12 @@ Location-specific perks and extras!
     - finding common region from genomic regions
     - finding genes in from regions of structural variant.
     - mapping SNP to protein domains.
-    - bioconductor package 
+    - bioconductor package
   - shiny visualizations.
 - Maintainer of simcausal R package.
 - autoencoders in torch (R package) and tensorflow
   - feature generation for predictive modeling
-- Experimental package for recovery of latent confounders 
+- Experimental package for recovery of latent confounders
   - Keras autoencoder
   - Torch R package
 - Multi-scale performance metrics for network inference recovery.
@@ -8881,7 +8881,7 @@ Moreover, working with complex genomic data, clinical variables, and cutting-edg
 
 Overall, the opportunity to work at Moderna will significantly advance my career by allowing me to work on the forefront of drug development, expand my expertise in data analysis and bioinformatics, and collaborate with industry leaders. I am excited about the potential growth and impact this experience will bring to my professional journey.
 
-[ME]: 
+[ME]:
 #+end_ai
 
 How do you feel you will contribute to Moderna's mission and values?
@@ -8989,7 +8989,7 @@ Hi Iya,
 
 How are you? How are things at Merck?
 
-I would love to catch-up with you one of these days and learn more about the problems you are tackling nowadays. 
+I would love to catch-up with you one of these days and learn more about the problems you are tackling nowadays.
 
 I'm actually starting to explore options outside GNS/Aitia and I'm looking for research opportunities on cutting-edge like deep learning applied to medical/genomic data or even in combination with causality (like causal representation learning, etc) as well as interacting with experimental scientists.
 
@@ -9011,14 +9011,14 @@ Warm,
 
 Fred
 
-[ME]: 
+[ME]:
 #+end_ai
 
 * susan
 #+begin_src R
 tst=fread("~/OneDrive/susan/2023 T2 Input Template GI S62605 YJ 091423 test.csv",data.table=F,na.strings="")
 
-tst2=tst %>% mutate(across(matches("M.*"),as.numeric)) %>% 
+tst2=tst %>% mutate(across(matches("M.*"),as.numeric)) %>%
   mutate(across(c(CC,AN,Project,`Clin. Study`,`Cost Cat.`),function(cc)ifelse(cc=="",'miss',cc))) %>% group_by(CC,AN,Project,`Clin. Study`,`Cost Cat.`) %>% summarise_all(function(xx)sum(xx,na.rm=T))
 
 tst2%>% DT::datatable()
@@ -9027,4 +9027,3 @@ tst %>% DT::datatable()
 
 fwrite(tst2,file="csvfixed.csv")
 #+end_src
-
