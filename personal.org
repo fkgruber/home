@@ -4162,8 +4162,8 @@ write.table(allcards, col.names = F, row.names = F, file = "~/Onedrive/Documents
 #+BEGIN_SRC R :session *Rbill* :results invisible
 library(dplyr)
 ##setwd("/Users/fred/Documents/gitRepos/general-functions/org")
-##setwd("~/gitRepos/home/")
-setwd("~/Documents/gitRepos/home/")
+setwd("~/gitRepos/home/")
+##setwd("~/Documents/gitRepos/home/")
 getBill = function(date = "2017-08-01"){
       #library(tidyverse)
       data.table::fread(
@@ -4180,7 +4180,7 @@ getBill = function(date = "2017-08-01"){
 #+END_SRC
 
 #+RESULTS:
-: Could not parse R result
+|---|
 
 
 #+CONSTANTS: loan1=2726.93 loan2=297.98 condo=178.75 car=359.38 rcn=65.33 parents=500 fred=222.7
@@ -4191,7 +4191,7 @@ vsum to sum vector
 @1$2..@2$2 range row1 column2 to row2 column2
 ** current
 #+BEGIN_SRC R :session *Rbill* :exports result
-getBill("2024-02-01")
+getBill("2024-06-01")
 #+END_SRC
 
 #+RESULTS:
@@ -4203,20 +4203,22 @@ getBill("2024-02-01")
 | Car loan       |      142 |
 | internet       |        0 |
 | Parents        |      750 |
-| cleaning       |        0 |
-| Baby sitter    |        0 |
-| Joint2984-0855 |      269 |
-| Joint3865-2220 |      577 |
-| ubercc         |     5204 |
-| electricity    |      166 |
+| cleaning       |      140 |
+| Baby sitter    |       70 |
+| Joint2984-0855 |      649 |
+| Joint3865-2220 |       25 |
+| ubercc         |  4469.59 |
+| electricity    |   170.65 |
 | Alice Saving   |      300 |
-| Gas            |      198 |
+| Gas            |    88.09 |
 | tuition        |      622 |
 | Other          |        0 |
-| Total          | 11406.75 |
 |----------------+----------|
-| Susan          |     4340 |
-| Fred           |  6844.05 |
+| Total          | 10605.08 |
+| Susan          | 4019.332 |
+| Fred           | 6363.048 |
+
+
 
 
 
