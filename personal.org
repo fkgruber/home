@@ -4192,7 +4192,7 @@ vsum to sum vector
 @1$2..@2$2 range row1 column2 to row2 column2
 ** current
 #+BEGIN_SRC R :session *Rbill* :exports result
-getBill("2025-04-01")
+getBill("2025-05-01")
 #+END_SRC
 
 #+RESULTS:
@@ -4203,21 +4203,21 @@ getBill("2025-04-01")
 | Condo fee      |   178.75 |
 | Car loan       |   226.17 |
 | internet       |        0 |
-| Parents        |      989 |
+| Parents        |      950 |
 | cleaning       |      140 |
 | Baby sitter    |        0 |
-| Joint2984-0855 |      184 |
-| Joint3865-2220 |      119 |
-| ubercc         |     6071 |
-| electricity    |    164.1 |
+| Joint2984-0855 |      425 |
+| Joint3865-2220 |      142 |
+| ubercc         |     4600 |
+| electricity    |      158 |
 | Alice Saving   |      300 |
-| Gas            |   253.05 |
-| tuition        |      777 |
+| Gas            |      157 |
+| tuition        |      852 |
 | Other          |        0 |
 |----------------+----------|
-| Total          | 12402.07 |
-| Susan          | 5063.828 |
-| Fred           | 7366.242 |
+| Total          | 11128.92 |
+| Susan          | 4554.568 |
+| Fred           | 6527.352 |
 
 
 
