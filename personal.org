@@ -3491,10 +3491,10 @@ performed by Paul Henry
 :END:
 
 ** TODO Maintenance for heater                                         :TODO:
-   DEADLINE: <2023-10-21 Sat +1y>
+   DEADLINE: <2024-10-21 Mon +1y>
    :PROPERTIES:
    :ID:       FDE36906-EAD6-4E8A-A339-CEC34317A28C
-   :LAST_REPEAT: [2021-10-25 Mon 11:47]
+   :LAST_REPEAT: [2025-09-01 Mon 10:16]
    :END:
    :LOGBOOK:
    - CLOSING NOTE [2021-10-25 Mon 11:47]
@@ -4192,32 +4192,36 @@ vsum to sum vector
 @1$2..@2$2 range row1 column2 to row2 column2
 ** current
 #+BEGIN_SRC R :session *Rbill* :exports result
-getBill("2025-05-01")
+getBill("2026-01-01")
 #+END_SRC
 
 #+RESULTS:
-| Expense        |   Amount |
-|----------------+----------|
-| loan1          |     3000 |
-| loan2          |        0 |
-| Condo fee      |   178.75 |
-| Car loan       |   226.17 |
-| internet       |        0 |
-| Parents        |      950 |
-| cleaning       |      140 |
-| Baby sitter    |        0 |
-| Joint2984-0855 |      425 |
-| Joint3865-2220 |      142 |
-| ubercc         |     4600 |
-| electricity    |      158 |
-| Alice Saving   |      300 |
-| Gas            |      157 |
-| tuition        |      852 |
-| Other          |        0 |
-|----------------+----------|
-| Total          | 11128.92 |
-| Susan          | 4554.568 |
-| Fred           | 6527.352 |
+| Expense        |    Amount |
+|----------------+-----------|
+| loan1          |      3000 |
+| loan2          |         0 |
+| Condo fee      |    178.75 |
+| Car loan       |    226.17 |
+| internet       |         0 |
+| Parents        |       800 |
+| cleaning       |       160 |
+| Baby sitter    |       150 |
+| Joint2984-0855 |      1308 |
+| Joint3865-2220 |        47 |
+| ubercc         |    10,774 |
+| electricity    |    226.29 |
+| Alice Saving   |       300 |
+| Gas            |    224.66 |
+| tuition        |       510 |
+| Other          |         0 |
+|----------------+-----------|
+| Total          |  17109.87 |
+| Susan          |  6946.948 |
+| Fred           | 10265.922 |
+
+
+
+
 
 
 
@@ -6161,6 +6165,56 @@ dftot=df2 %>%
 fwrite(dftot, file=allranks)
 #+end_src
 
+** selection 2025
+#+begin_src R :session *R*
+library(tidyverse)
+library(data.table)
+library("xlsx")
+filename = "/mnt/d/OneDrive/susan/certificates 2025/score download.xlsx"
+
+allranks = "/mnt/d/OneDrive/susan/certificates 2025/cmp_selected_ranks_2025.csv"
+
+df_robin = read.xlsx(filename,header=TRUE,sheetIndex=1, check.names = FALSE)
+df_charles = read.xlsx(filename,header=TRUE,sheetIndex=2, check.names = FALSE)
+##df2=fread("~/OneDrive/Documents/susan/awards/2023/cmps-360-results.csv",data.table=F)
+
+df_comb = inner_join(df_robin%>% select(UserID, EntryID, Score_robin=Score),
+                     df_charles%>% select(UserID, EntryID, Score_charles=Score),
+                     by=c("UserID", "EntryID")
+                     ) %>% head(226)
+
+
+
+
+dftot=df_comb %>%
+  mutate(Rank1=rank(-`Score_robin`,ties.method='min'),
+         Rank2=rank(-`Score_charles`,ties.method='min'),
+         MeanRank=(Rank1+Rank2)/2,
+         SDRank=map_dbl(1:nrow(df_comb),function(ii)sd(c(Rank1[ii],Rank2[ii])))
+         ) %>%
+    arrange(MeanRank, SDRank)
+fwrite(dftot, file="/mnt/d/OneDrive/susan/certificates 2025/cmp_all_ranks_2025.csv")
+
+df_sel = dftot%>%
+  arrange(MeanRank, SDRank) %>%
+  group_by(UserID) %>%
+  slice(1) %>%
+  ungroup() %>%
+  arrange(MeanRank, SDRank) %>%
+  mutate(Position=1:n())
+
+fwrite(df_sel, file=allranks)
+
+dftot %>% filter (UserID == "59746")
+
+df_sel %>% filter (UserID == "59746")
+
+
+df_robin%>% filter (UserID == "59746")
+df_charles%>% filter (UserID == "59746")
+#+end_src
+
+
 ** award
 :PROPERTIES:
 :ID:       99185759-7E06-495A-AE1B-73644391BFE2
@@ -6404,6 +6458,118 @@ print(finaldoc,"all_certificates_2023_NHv2.docx")
 
 
 #+end_src
+
+** award 2025
+#+begin_src R
+library(tidyverse)
+library(officer)
+library(xlsx)
+setwd("/mnt/d/OneDrive/susan/certificated nov 7 2025/")
+##library(readxl)
+library(data.table)
+
+tmpdir="tmp"
+template_file="PSNH corrected awards certificates 2025 one page template for Fred.docx"
+namesfile="psnh-it-39-s-pastel--awarded--artwork-list Corrected template for Fred.xlsx"
+namesdf=xlsx::read.xlsx(namesfile,1,stringsAsFactors=F)
+##namesdf=read_excel(namesfile)
+## namesdf=read.excel(namesfile,
+##                     1,
+##                     stringsAsFactors=F)
+##namesdf=fread(namesfile,data.table=FALSE)
+namesdf %>% head
+namesdf %>% colnames
+namesdf %>% tail
+
+fill_info=function(namesdf,ii,template,tmpdir){
+  if(!dir.exists(tmpdir))
+    dir.create(tmpdir)
+  fname=file.path(tmpdir,paste0("winner_",ii,".docx"))
+  doc=read_docx(template_file)
+  doc=cursor_begin(doc)
+  doc=cursor_reach(doc,"XXX")
+  nname=paste0("name",ii)
+  doc=body_bookmark(doc,nname)
+  body_replace_text_at_bkm(doc,nname,paste0(namesdf$Award[ii], " Award"))
+  doc=cursor_begin(doc)
+  doc=cursor_reach(doc,"XXX")
+  nartist=paste0("artist",ii)
+  doc=body_bookmark(doc,nartist)
+  body_replace_text_at_bkm(doc,nartist,paste0(namesdf[["First.Name"]][ii]," ", namesdf[["Last.Name"]][ii]))
+  doc=cursor_begin(doc)
+  doc=cursor_reach(doc,"XXX")
+  nawork=paste0("work",ii)
+  doc=body_bookmark(doc,nawork)
+  body_replace_text_at_bkm(doc,nawork,namesdf[["Title"]][ii])
+  print(doc,target=fname)
+  return(fname)
+}
+
+
+for(ii in 1:nrow(namesdf)){
+  fname=fill_info(namesdf,ii,template,"./tmp/")
+  if(ii==1)
+    finaldoc=read_docx(fname)
+  else{
+    finaldoc=body_add_docx(finaldoc,src=fname)
+  }
+}
+print(finaldoc,"all_certificates_2025_NH.docx")
+
+## from copilot
+ensure_docx_parts <- function(src_docx, template_docx) {
+  stopifnot(file.exists(src_docx), file.exists(template_docx))
+  src_dir <- tempfile("src_unzip_")
+  tpl_dir <- tempfile("tpl_unzip_")
+  dir.create(src_dir); dir.create(tpl_dir)
+  unzip(src_docx, exdir = src_dir)
+  unzip(template_docx, exdir = tpl_dir)
+  # list of parts commonly required when merging
+  required_parts <- c(
+    "word/numbering.xml",
+    "word/footnotes.xml",
+    "word/endnotes.xml",
+    "_rels/.rels",
+    "[Content_Types].xml",
+    "word/_rels/document.xml.rels"
+  )
+  for (part in required_parts) {
+    src_path <- file.path(src_dir, part)
+    tpl_path <- file.path(tpl_dir, part)
+    if (!file.exists(src_path) && file.exists(tpl_path)) {
+      dir.create(dirname(src_path), recursive = TRUE, showWarnings = FALSE)
+      file.copy(tpl_path, src_path, overwrite = TRUE)
+    }
+  }
+  # Recreate the docx by zipping the entire contents of src_dir
+  fixed_docx <- tempfile(fileext = ".docx")
+  cwd <- getwd()
+  on.exit(setwd(cwd), add = TRUE)
+  setwd(src_dir)
+  files_to_zip <- list.files(".", recursive = TRUE)
+  # Ensure files_to_zip is not empty
+  if (length(files_to_zip) == 0) stop("Unzipped docx folder is empty: ", src_dir)
+  utils::zip(zipfile = fixed_docx, files = files_to_zip)
+  return(fixed_docx)
+}
+
+finaldoc <- NULL
+for(ii in seq_len(nrow(namesdf))) {
+  fname <- fill_info(namesdf, ii, template, "./tmp/")
+  fname_fixed <- ensure_docx_parts(fname, template_file)
+  if (ii == 1) {
+    finaldoc <- read_docx(fname)
+  } else {
+    finaldoc <- body_import_docx(finaldoc, src = fname_fixed)
+  }
+  # ensure a page break between certificates if needed
+  if (ii < nrow(namesdf)) {
+    finaldoc <- body_add_break(finaldoc)
+  }
+}
+print(finaldoc, target = "all_certificates_2025_NH.docx")
+#+end_src
+
 
 
 * Alice

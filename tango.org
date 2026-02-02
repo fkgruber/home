@@ -1,8 +1,9 @@
-#+TITLE:Acompañamiento y Solos para Guitarra Tango 
+#+TITLE:Acompañamiento y Solos para Guitarra Tango
 #+AUTHOR: Fred K. Gruber
 #+email: fred@gnshealthcare.com
 #+PROPERTY: header-args :tangle yes :eval no-export
 #+PROPERTY: header-args:lilypond :prologue \header{tagline=##f}
+#+options: num:nil
 -----
 * Guitarra acompañando a voz
 O algun otro instrumento melódico como violin o bandoneon
@@ -34,7 +35,7 @@ Entonces agregando la sectas por debajo obtendriamos:
 #+BEGIN_SRC lilypond -i :exports results :file img_tango/melo_sextetos2.png :tangle yes :noweb yes
 <<version-and-paper>>
 \relative c''{
-    r8 <g e'>4 <g e'>8 <g e'> <e c'> <f d'> <g e'> <a f'>2 <b g'>   
+    r8 <g e'>4 <g e'>8 <g e'> <e c'> <f d'> <g e'> <a f'>2 <b g'>
 }
 #+END_SRC
 
@@ -63,7 +64,7 @@ Otra opcion es agregar las terceras
 #+BEGIN_SRC lilypond -i :exports results :file img_tango/melo_terceras.png :tangle yes :noweb yes
 <<version-and-paper>>
 \relative c''{
-    r8 <c e>4 <c e>8 <c e> <a c> <b d> <c e> <d f>2 <e g>   
+    r8 <c e>4 <c e>8 <c e> <a c> <b d> <c e> <d f>2 <e g>
 }
 #+END_SRC
 
@@ -87,7 +88,7 @@ Cuando se tiene la misma nota repetida en la melodía podemos hacer una aproxima
 #+BEGIN_SRC lilypond -i :exports results :file img_tango/melo_terceras_chrom.png :tangle yes :noweb yes
 <<version-and-paper>>
 \relative c''{
-    r8 <c e>4 <b e>8 <ais e'> <a c> <b d> <c e> <d f>2 <e g>   
+    r8 <c e>4 <b e>8 <ais e'> <a c> <b d> <c e> <d f>2 <e g>
 }
 #+END_SRC
 
@@ -137,7 +138,7 @@ Podemos acortar la segunda blanca para poder agregar la aproximación chromátic
 #+END_SRC
 
 #+RESULTS:
-[[file:img_tango/melo_approx.png]] 
+[[file:img_tango/melo_approx.png]]
 
 
 ** Other stuff
@@ -266,6 +267,33 @@ sobre la 5ta:
 #+DOWNLOADED: screenshot @ 2023-10-14 16:15:18
 [[file:libro/2023-10-14_16-15-18_screenshot.png]]
 
+*** Chord form
+[[file:/mnt/d/guitarMusic/julian Graciano/chord forms 2.pdf][chord forms]]
+[[file:/mnt/d/guitarMusic/julian Graciano/CHORD FORM PAG 34 35.mov][video]]
+
+no usar 9na y 13ra en resoluciones menores
+
+#+begin_src lilypond -i :exports results :file img_tango/chord.png :tangle yes :noweb yes
+\version "2.24.2"
+
+\markup { "C major chord with custom text in each notehead" }
+
+\relative c' {
+  \clef "treble"
+  \key c \major
+  \time 4/4
+
+  <
+    c'
+    e
+    g
+  >2
+}
+#+end_src
+
+#+RESULTS:
+[[file:img_tango/chord.png]]
+
 ** Colaborations
 
 *** Chih-yu
@@ -328,6 +356,7 @@ Rítmo:
 - agarrar el ritmo de la melodia original
 
 Notar en el mismo vídeo hay una demostración de como alterar los acordes y agregar bajos.
+
 * Tocare de parrilla
 Julian:
 Si, me he acostumbrado con el tiempo a resolverlo en menos de 15 minutos. Tardo más en armar el video con el sonido que en tocarlo!
@@ -335,4 +364,59 @@ Lo mejor es tomar el real book de tango, de jazz o el que fuere y tratar de leer
 
 * Footnotes
 
-[fn:1] Cuando se usa bebop en vez de las otras escalas menores? 
+[fn:1] Cuando se usa bebop en vez de las otras escalas menores?
+
+* Canciones preferidas de canto
+
+** Intimas
+Version Lomuto/Fernando Diaz
+https://www.youtube.com/watch?v=zlMT47_rs9o
+
+** Tinta roja
+Version de Troilo y Fiorentino
+https://www.youtube.com/watch?v=-b7JTE1QTI0
+
+** La Gayola
+Version ENRIQUE RODRIGUEZ - ARMANDO MORENO
+https://www.youtube.com/watch?v=-n9XP2vk8Gc
+
+
+** Mi taza de cafe
+ https://www.youtube.com/watch?v=TH-ZRDUKJH4
+
+** Garua
+Version Troilo y Fiorentino
+https://www.youtube.com/watch?v=L4R1LoccjJA
+
+** Paciencia
+version D'Arienzo/ Alberto Echague
+https://www.youtube.com/watch?v=T5MIOMjTdgg
+
+** Ansiedad
+D'Arienzo/Echague
+https://www.youtube.com/watch?v=pPQHCUrW_rc
+
+** Las cuarenta
+Version lomuto no estoy seguro quien es el cantor aqui
+https://www.youtube.com/watch?v=OOoyIpxuiOE
+
+** quien sera
+Donato/Horacio Lagos
+https://www.youtube.com/watch?v=GmoCEsLHj4M
+
+** Cuatro palabras
+version canaro/Fama
+https://www.youtube.com/watch?v=LiqboSEJaps
+
+** Fue mi salvacion
+Donato/Horacio Lagos
+https://www.youtube.com/watch?v=1CsqSgeCgbA
+
+
+** Mano a mano
+Version Lomuto/Jorge Omar
+https://www.youtube.com/watch?v=gNfhQT-EIL8
+
+* Cantantes favoritos
+
+** Fiorentino
