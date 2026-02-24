@@ -6278,7 +6278,34 @@ print(finaldoc,"all_certificates_2023_NHv2.docx")
 
 #+end_src
 
+** excel
+#+begin_src R
+library(tidyverse)
+library(data.table)
 
+tab1 = fread("/home/fred/Documents/original.csv", data.table=F)
+
+tab2 = fread("/home/fred/Documents/upload.csv", data.table=F)
+indvar = grep("Sum",colnames(tab1),value=T,invert=T)
+
+left_join(
+  tab1 %>%
+  pivot_longer(starts_with("Sum"), names_to="variable", values_to ="original"),
+  tab2 %>%
+  pivot_longer(starts_with("Sum"), names_to="variable", values_to ="upload"),
+  by=c(indvar, "variable")
+) %>% head
+
+setdiff(tab1$`Program` %>% unique,
+        tab2$`Program` %>% unique)
+
+
+
+setdiff(tab2$`Program` %>% unique,
+        tab1$`Program` %>% unique)
+
+tab1 %>% arrange({{indvar}})?
+#+end_src
 * Alice
 ** school
 addition
