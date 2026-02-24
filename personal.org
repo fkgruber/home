@@ -11,6 +11,7 @@
 
 * Quick Links
   - [[id:f0f5f742-ac21-42bc-8499-dd6553dda875][Bills]]
+  - [[id:9754cc51-ecce-4291-82a6-4b2db6a65a7d][Susan's scripts]]
 * Other Info
 ** Camera password
 -----BEGIN PGP MESSAGE-----
@@ -4162,8 +4163,8 @@ write.table(allcards, col.names = F, row.names = F, file = "~/Onedrive/Documents
 #+BEGIN_SRC R :session *Rbill* :results invisible
 library(dplyr)
 ##setwd("/Users/fred/Documents/gitRepos/general-functions/org")
-##setwd("~/gitRepos/home/")
-setwd("~/Documents/gitRepos/home/")
+setwd("~/gitRepos/home/")
+##setwd("~/Documents/gitRepos/home/")
 getBill = function(date = "2017-08-01"){
       #library(tidyverse)
       data.table::fread(
@@ -4180,7 +4181,7 @@ getBill = function(date = "2017-08-01"){
 #+END_SRC
 
 #+RESULTS:
-: Could not parse R result
+|---|
 
 
 #+CONSTANTS: loan1=2726.93 loan2=297.98 condo=178.75 car=359.38 rcn=65.33 parents=500 fred=222.7
@@ -4191,7 +4192,7 @@ vsum to sum vector
 @1$2..@2$2 range row1 column2 to row2 column2
 ** current
 #+BEGIN_SRC R :session *Rbill* :exports result
-getBill("2024-02-01")
+getBill("2025-05-01")
 #+END_SRC
 
 #+RESULTS:
@@ -4200,23 +4201,27 @@ getBill("2024-02-01")
 | loan1          |     3000 |
 | loan2          |        0 |
 | Condo fee      |   178.75 |
-| Car loan       |      142 |
+| Car loan       |   226.17 |
 | internet       |        0 |
-| Parents        |      750 |
-| cleaning       |        0 |
+| Parents        |      950 |
+| cleaning       |      140 |
 | Baby sitter    |        0 |
-| Joint2984-0855 |      269 |
-| Joint3865-2220 |      577 |
-| ubercc         |     5204 |
-| electricity    |      166 |
+| Joint2984-0855 |      425 |
+| Joint3865-2220 |      142 |
+| ubercc         |     4600 |
+| electricity    |      158 |
 | Alice Saving   |      300 |
-| Gas            |      198 |
-| tuition        |      622 |
+| Gas            |      157 |
+| tuition        |      852 |
 | Other          |        0 |
-| Total          | 11406.75 |
 |----------------+----------|
-| Susan          |     4340 |
-| Fred           |  6844.05 |
+| Total          | 11128.92 |
+| Susan          | 4554.568 |
+| Fred           | 6527.352 |
+
+
+
+
 
 
 
@@ -5787,6 +5792,9 @@ getBill("2020-06-01")
 
 
 * Susan
+:PROPERTIES:
+:ID:       9754cc51-ecce-4291-82a6-4b2db6a65a7d
+:END:
 ** selection
 :PROPERTIES:
 :ID:       36CBB04A-5419-4CB4-B50F-00CCC0232ED7
@@ -5961,7 +5969,7 @@ totaldf_std %>% DT::datatable()
 
 fwrite(totaldf_std,file="~/Onedrive/Documents/susan/awards/std_total.csv")
 #+end_src
-** seleection 2023
+** selection 2023
 #+begin_src R
 library(tidyverse)
 library(data.table)
@@ -6034,6 +6042,125 @@ dftot_sorted=dftot %>%
 
 fwrite(dftot_sorted,file="~/OneDrive/Documents/susan/awards/2023/cmps_ranking_all_v2.csv")
 #+end_src
+** selection 2024
+#+begin_src R :session *R*
+library(tidyverse)
+library(data.table)
+library("xlsx")
+filename = "/mnt/c/Users/fgrub/OneDrive/Documents/susan/awards/2024/CMPS Scores.xlsx"
+
+allranks = "/mnt/c/Users/fgrub/OneDrive/Documents/susan/awards/2024/cmps_all_ranks.csv"
+selranks = "/mnt/c/Users/fgrub/OneDrive/Documents/susan/awards/2024/cmps_selected_ranks.csv"
+selranks2 = "/mnt/c/Users/fgrub/OneDrive/Documents/susan/awards/2024/cmps_selected_ranks2.csv"
+
+df2 = read.xlsx(filename,header=TRUE,sheetIndex=1, check.names = FALSE)
+##df2=fread("~/OneDrive/Documents/susan/awards/2023/cmps-360-results.csv",data.table=F)
+
+dftot=df2 %>%
+  mutate(Rank1=rank(-`Score Mitch`,ties.method='min'),
+         Rank2=rank(-`Score Kim`,ties.method='min'),
+         MeanRank=(Rank1+Rank2)/2,
+         SDRank=map_dbl(1:nrow(df2),function(ii)sd(c(Rank1[ii],Rank2[ii]))),
+         ToRemove=ifelse((SDRank>100&MeanRank>165),1,0)
+         )
+
+
+dftot2=dftot %>%
+  filter(ToRemove==0) %>%
+  dplyr::select(-ToRemove) %>%
+  arrange(MeanRank, SDRank)
+
+fwrite(dftot2, file=allranks)
+
+selected_artists = dftot2 %>%
+  group_by(UserID) %>%
+  slice(1) %>%
+  ungroup() %>%
+  arrange(MeanRank, SDRank) %>%
+  head(70) %>%
+  with(UserID)
+
+rankselected= dftot2%>%
+  filter(UserID %in% selected_artists)
+
+rankselected_2 = dftot2 %>%
+  group_by(UserID) %>%
+  filter(MeanRank == min(MeanRank)) %>%
+  ungroup() %>%
+  filter(UserID %in% selected_artists)
+
+fwrite(rankselected, file=selranks)
+fwrite(rankselected_2, file=selranks2)
+
+ranksel1 %>% filter(entrynum==5)
+
+ranksel1 %>% head(10)
+ranksel1 %>% DT::datatable()
+
+fwrite(ranksel1,file="~/OneDrive/Documents/susan/awards/2023/cmps_ranking_1_per_artist_73.csv")
+
+dftot_sorted=dftot %>%
+  arrange(MeanRank,SDRank)
+
+fwrite(dftot_sorted,file="~/OneDrive/Documents/susan/awards/2023/cmps_ranking_all_v2.csv")
+
+
+
+dftot %>% group_by(ToRemove) %>% summarise(N=length(unique(UserID)))
+
+binwidth=1;
+(ggp=dftot %>% select(Score.Mitch,Score.Kim) %>% pivot_longer(everything()) %>%
+   ggplot(aes(x=value,fill=name))+geom_histogram(aes(y=..count..),alpha=0.5,binwidth=binwidth)+scale_x_continuous(breaks=seq(40,100,2))+theme_light()+scale_y_continuous(breaks=seq(0,60,2)))
+
+ggplot_build(ggp)$data[[1]]$x  %>% diff
+
+mydata=ggplot_build(ggp)$data[[1]]
+
+ggp+geom_line(data=mydata,aes(x=x,y=count,colour=group))
+
+ggp2= dftot %>% select(juror1score,juror2score) %>% pivot_longer(everything()) %>%
+  ggplot(aes(x=value,fill=name))+geom_density(aes(y=..count..),alpha=0.4)+theme_light()
+
+ggplot_build(ggp2)$data[[1]]  %>% filter(group==1)
+
+ggplot_build(ggp2)$data[[1]]$x %>% diff
+
+dftot %>% select(juror1score,juror2score) %>% pivot_longer(everything()) %>%
+  ggplot(aes(x=value,fill=name))+geom_density(aes(y=..count..),alpha=0.4,binwidth=binwidth)+theme_light()+
+
+
+dftot %>% select(juror1score,juror2score) %>% pivot_longer(everything()) %>%
+  ggplot(aes(x=value,fill=name))+geom_density(aes(y=..count..),alpha=0.4,binwidth=binwidth)+theme_light()+geom_histogram(aes(y=..count..),alpha=0.5,bindwidth=binwidth)
+
+dftot %>% select(Rank1,Rank2) %>% pivot_longer(everything()) %>%
+  ggplot(aes(x=value,fill=name))+geom_density(aes(y=..count..),alpha=0.4)+theme_light()
+
+dftot %>% select(Rank1,Rank2) %>% pivot_longer(everything()) %>%
+  ggplot(aes(x=value,fill=name))+geom_histogram(aes(y=..count..),alpha=0.4)+theme_light()
+#+end_src
+*** version 2
+#+begin_src R :session *R*
+library(tidyverse)
+library(data.table)
+library("xlsx")
+filename = "/mnt/c/Users/fgrub/OneDrive/Documents/susan/awards/2024/Top 63 artists Jane list 072724.xlsx"
+allranks = "/mnt/c/Users/fgrub/OneDrive/Documents/susan/awards/2024/cmps_all_ranks_new.csv"
+selranks = "/mnt/c/Users/fgrub/OneDrive/Documents/susan/awards/2024/cmps_selected_ranks_new.csv"
+selranks2 = "/mnt/c/Users/fgrub/OneDrive/Documents/susan/awards/2024/cmps_selected_ranks2_new.csv"
+
+df2 = read.xlsx(filename,header=TRUE,sheetIndex=1, check.names = FALSE)
+##df2=fread("~/OneDrive/Documents/susan/awards/2023/cmps-360-results.csv",data.table=F)
+
+dftot=df2 %>%
+  group_by(UserID) %>%
+  arrange(desc(`Sum of Adj. Score`)) %>%
+  slice(1) %>%
+  ungroup() %>%
+  arrange(desc(`Sum of Adj. Score`))
+
+fwrite(dftot, file=allranks)
+#+end_src
+
 ** award
 :PROPERTIES:
 :ID:       99185759-7E06-495A-AE1B-73644391BFE2
