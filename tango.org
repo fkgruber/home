@@ -420,3 +420,105 @@ https://www.youtube.com/watch?v=gNfhQT-EIL8
 * Cantantes favoritos
 
 ** Fiorentino
+
+* Lyrics Flashcards
+
+** Mi vieja viola
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_DECK: Tango::Lyrics
+:END:
+*** Front
+Vieja viola, garufera y vibradora
+*** Back
+de las horas de parranda y copetín,
+*** Front
+de las horas de parranda y copetín,
+*** Back
+de las tantas serenatas a la lora
+*** Front
+de las tantas serenatas a la lora
+*** Back
+que hoy es dueña de mi cuore y patrona del bulín,
+*** Front
+que hoy es dueña de mi cuore y patrona del bulín,
+*** Back
+¡cómo estás de abandonada y silenciosa,
+*** Front
+¡cómo estás de abandonada y silenciosa,
+*** Back
+después que fuiste mi sueño de cantor!
+*** Front
+después que fuiste mi sueño de cantor!
+*** Back
+Quien te ha oído sonar papa y melodiosa
+*** Front
+Quien te ha oído sonar papa y melodiosa
+*** Back
+no dice que sos la diosa de mi pobre corazón.
+*** Front
+no dice que sos la diosa de mi pobre corazón.
+*** Back
+Es que la gola se va
+*** Front
+Es que la gola se va
+*** Back
+y la fama es puro cuento
+*** Front
+y la fama es puro cuento
+*** Back
+y andando mal y sin vento
+*** Front
+y andando mal y sin vento
+*** Back
+todo, todo se acabó...
+*** Front
+todo, todo se acabó...
+*** Back
+Hoy sólo queda el recuerdo
+*** Front
+Hoy sólo queda el recuerdo
+*** Back
+de pasadas alegrías,
+*** Front
+de pasadas alegrías,
+*** Back
+pero estás vos, viola mía,
+*** Front
+pero estás vos, viola mía,
+*** Back
+hasta que me vaya yo.
+*** Front
+hasta que me vaya yo.
+*** Back
+Cuántas noches bajo el brazo de la zurda
+*** Front
+Cuántas noches bajo el brazo de la zurda
+*** Back
+por cubrirte del sereno te llevé
+*** Front
+por cubrirte del sereno te llevé
+*** Back
+y por más que me encontrase bien en curda,
+*** Front
+y por más que me encontrase bien en curda,
+*** Back
+conservándome en la línea, de otros curdas te cuidé.
+*** Front
+conservándome en la línea, de otros curdas te cuidé.
+*** Back
+Si los años de la vida me componen
+*** Front
+Si los años de la vida me componen
+*** Back
+y la suerte me rempuja a encarrilar,
+*** Front
+y la suerte me rempuja a encarrilar,
+*** Back
+yo te juro que te cambio los bordones
+*** Front
+yo te juro que te cambio los bordones
+*** Back
+me rechiflo del escabio y te vuelvo a hacer sonar.
+
+** Fiorentino
