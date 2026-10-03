@@ -4192,32 +4192,32 @@ vsum to sum vector
 @1$2..@2$2 range row1 column2 to row2 column2
 ** current
 #+BEGIN_SRC R :session *Rbill* :exports result
-getBill("2026-01-01")
+getBill("2026-09-01")
 #+END_SRC
 
 #+RESULTS:
-| Expense        |    Amount |
-|----------------+-----------|
-| loan1          |      3000 |
-| loan2          |         0 |
-| Condo fee      |    178.75 |
-| Car loan       |    226.17 |
-| internet       |         0 |
-| Parents        |       800 |
-| cleaning       |       160 |
-| Baby sitter    |       150 |
-| Joint2984-0855 |      1308 |
-| Joint3865-2220 |        47 |
-| ubercc         |    10,774 |
-| electricity    |    226.29 |
-| Alice Saving   |       300 |
-| Gas            |    224.66 |
-| tuition        |       510 |
-| Other          |         0 |
-|----------------+-----------|
-| Total          |  17109.87 |
-| Susan          |  6946.948 |
-| Fred           | 10265.922 |
+| Expense        |   Amount |
+|----------------+----------|
+| loan1          |     3000 |
+| Condo fee      |   178.75 |
+| Car loan       |   783.32 |
+| internet       |        0 |
+| Parents        |      900 |
+| cleaning       |      140 |
+| Joint2984-0855 |    2,732 |
+| Joint3865-2220 |      155 |
+| ubercc         |    7,178 |
+| electricity    |      266 |
+| Alice Saving   |      300 |
+| Gas            |     38.9 |
+| tuition        |      760 |
+|----------------+----------|
+| Total          | 15636.97 |
+| Susan          | 6310.788 |
+| Fred           | 9677.182 |
+
+
+
 
 
 
@@ -6213,6 +6213,73 @@ df_sel %>% filter (UserID == "59746")
 df_robin%>% filter (UserID == "59746")
 df_charles%>% filter (UserID == "59746")
 #+end_src
+
+** selection 2026
+#+begin_src R :session *R*
+library(tidyverse)
+library(data.table)
+library("xlsx")
+filename = "/mnt/d/OneDrive/susan/certificates 2026/CMPS scores MOD 2026 071826v2.xlsx"
+
+allranks = "/mnt/d/OneDrive/susan/certificates 2026/cmp_selected_ranks_2026.csv"
+
+df_comb = read.xlsx(filename,header=TRUE,sheetIndex=1, check.names = FALSE)
+#df_charles = read.xlsx(filename,header=TRUE,sheetIndex=2, check.names = FALSE)
+##df2=fread("~/OneDrive/Documents/susan/awards/2023/cmps-360-results.csv",data.table=F)
+
+## df_comb = inner_join(df_robin%>% select(UserID, EntryID, Score_robin=Score),
+##                      df_charles%>% select(UserID, EntryID, Score_charles=Score),
+##                      by=c("UserID", "EntryID")
+##                      ) %>% head(226)
+
+
+
+
+dftot=df_comb %>%
+  mutate(Rank1=rank(-`Score Desmond`,ties.method='min'),
+         Rank2=rank(-`Score Joe`,ties.method='min'),
+         MeanRank=(Rank1+Rank2)/2,
+         SDRank=map_dbl(1:nrow(df_comb),function(ii)sd(c(Rank1[ii],Rank2[ii])))
+         ) %>%
+    arrange(MeanRank, SDRank)
+
+dftot2 = dftot %>% group_by(UserID) %>%
+  group_modify( ~ (function(df){
+    maxval = min(df$MeanRank)
+    totalmax = sum(df$MeanRank == maxval)
+    if (totalmax > 1)
+      df$tie = T
+    else
+      df$tie = F
+  return(df)
+  })(.)) %>% ungroup()
+
+
+dftot2 %>%filter(tie, MeanRank <= 69)
+
+dftot2 %>%filter(tie, MeanRank <= 69)%>%distinct(UserID,.keep_all=T)
+
+fwrite(dftot, file="/mnt/d/OneDrive/susan/certificates 2026/cmp_all_ranks_2026_updated.csv")
+
+df_sel = dftot%>%
+  arrange(MeanRank, SDRank) %>%
+  group_by(UserID) %>%
+  slice(1) %>%
+  ungroup() %>%
+  arrange(MeanRank, SDRank) %>%
+  mutate(Position=1:n())
+
+fwrite(df_sel, file=allranks)
+
+dftot %>% filter (UserID == "59746")
+
+df_sel %>% filter (UserID == "59746")
+
+
+df_robin%>% filter (UserID == "59746")
+df_charles%>% filter (UserID == "59746")
+#+end_src
+
 
 
 ** award
@@ -9321,3 +9388,16 @@ tst %>% DT::datatable()
 
 fwrite(tst2,file="csvfixed.csv")
 #+end_src
+
+* Apps
+
+** Recipes
+I would to develop a web app that can work on android or on a desktop. I would like to be able to import recipes and it should process the ingredient section to recognize units  and quantities in term of integers for things like eggs or ML (where I don't want to look for 2.5 mm) or  fractions if it cups.
+
+ I will use org-chef in emacs to create a cookbook.org file with all recipes. See https://github.com/Chobbes/org-chef
+
+ I'm including an example for you to see.
+
+ Ideally i would like to be able to export this cookbook.org in emacs to the html app which I can then serve from a synology drive or some other website server so I can load it in android.
+
+ I want the quantities to be active in the sense that I can adjust any one components and automatically adjust the rest of the ingredients. There should also be an edit mode in case I want to modify the recipe without affecting other ingredients. This mode should modify the orgmode file (cookbook.org)
