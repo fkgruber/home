@@ -1,370 +1,4 @@
-#+TITLE:Acompañamiento y Solos para Guitarra Tango
-#+AUTHOR: Fred K. Gruber
-#+email: fred@gnshealthcare.com
-#+PROPERTY: header-args :tangle yes :eval no-export
-#+PROPERTY: header-args:lilypond :prologue \header{tagline=##f}
-#+options: num:nil
------
-* Guitarra acompañando a voz
-O algun otro instrumento melódico como violin o bandoneon
-** Recursos para dominantes
-
-* Duo de guitarras
-En este caso una de las guitarras hace el acompañamiento usual pero la otra carga la melodía. El rol se puede cambiar cuando vamos de A->B o de A->A' o B->B'.
-
-Con respecto a la guitarra con la melodía:
-** Tremolo de 1 dedo
-** Arpegio con Octava
-Con respecto a la guitarra con la melodía hay varios recursos que se pueden utilizar para hacer la melodía más interesante. Notar que las diferentes opciones se pueden combinar.
-
-** Sextas
-Se agrega la sectas a cada nota (contando al reverso)
-Digamos que tenemos la siguiente melodía:
-
-#+BEGIN_SRC lilypond :exports none :file img_tango/melo_sextetos.png :tangle yes :noweb yes
-<<version-and-paper>>
- \relative c'' {
-    r8 e4 e8 e c d e f2 g
- }
-#+END_SRC
-
-#+RESULTS:
-[[file:img_tango/melo_sextetos.png]]
-
-Entonces agregando la sectas por debajo obtendriamos:
-#+BEGIN_SRC lilypond -i :exports results :file img_tango/melo_sextetos2.png :tangle yes :noweb yes
-<<version-and-paper>>
-\relative c''{
-    r8 <g e'>4 <g e'>8 <g e'> <e c'> <f d'> <g e'> <a f'>2 <b g'>
-}
-#+END_SRC
-
-#+RESULTS:
-[[file:img_tango/melo_sextetos2.png]]
-
-Ejemplo en tinta roja:
-#+BEGIN_SRC lilypond -i :exports results :file img_tango/melo_sextetos_tinta_roja.png :tangle yes :noweb yes
-<<version-and-paper>>
-\relative c''{
-  \key a \major
-    r4 <a fis'> <gis f'>8 <g e'>2
-}
-#+END_SRC
-
-#+RESULTS:
-[[file:img_tango/melo_sextetos_tinta_roja.png]]
-
-
-
-
-
-
-** Terceras
-Otra opcion es agregar las terceras
-#+BEGIN_SRC lilypond -i :exports results :file img_tango/melo_terceras.png :tangle yes :noweb yes
-<<version-and-paper>>
-\relative c''{
-    r8 <c e>4 <c e>8 <c e> <a c> <b d> <c e> <d f>2 <e g>
-}
-#+END_SRC
-
-#+RESULTS:
-[[file:img_tango/melo_terceras.png]]
-
-Ejemplo en tinta roja:
-#+BEGIN_SRC lilypond -i :exports results :file img_tango/melo_terceras_tinta_roja.png :tangle yes :noweb yes
-<<version-and-paper>>
-\relative c''{
-  \key a \major
-    r4 <dis fis> <d f>8 <cis e>2
-}
-#+END_SRC
-
-#+RESULTS:
-[[file:img_tango/melo_terceras_tinta_roja.png]]
-
-** Terceras con aproximación chromática
-Cuando se tiene la misma nota repetida en la melodía podemos hacer una aproximación chromática terminando la la tercera de la siguiente nota diferente. Lo mismo se puede hacer con sextas
-#+BEGIN_SRC lilypond -i :exports results :file img_tango/melo_terceras_chrom.png :tangle yes :noweb yes
-<<version-and-paper>>
-\relative c''{
-    r8 <c e>4 <b e>8 <ais e'> <a c> <b d> <c e> <d f>2 <e g>
-}
-#+END_SRC
-
-#+RESULTS:
-[[file:img_tango/melo_terceras_chrom.png]]
-
-** Aproximación Chromatica
-antes de una nota podemos tocar 2 semicorcheas 1 tono antes y tocar una escala chromática hasta llegar a la siguiente nota. Por ejemplo, si tenemos la siguiente melodía
-#+BEGIN_SRC lilypond -i :exports results :file img_tango/melo_approx.png :tangle yes :noweb yes
-<<version-and-paper>>
- \relative c'' {
-    r8 e4 e8 e c d e f2 g r8 g4 g8 g8 e f g a2 b
- }
-#+END_SRC
-
-#+RESULTS:
-[[file:img_tango/melo_approx.png]]
-
-Podemos acortar la segunda blanca para poder agregar la aproximación chromática
-#+BEGIN_SRC lilypond -i :exports results :file img_tango/melo_approx2.png :tangle yes :noweb yes
-<<version-and-paper>>
- \relative c'' {
-    r8 e4 e8 e c d e f2 g4. f16 fis g8 g4 g8 g e f16 fis g gis a4 r16 gis a ais b2
- }
-#+END_SRC
-
-#+RESULTS:
-[[file:img_tango/melo_approx2.png]]
-
-** Apoyaturas
-#+BEGIN_SRC lilypond -i :exports both :file img_tango/melo_appog.png :tangle yes :noweb yes
-<<version-and-paper>>
-\relative c''{
-    r8 e4 e8 e c d e  f2\mordent g
-}
-#+END_SRC
-
-#+RESULTS:
-[[file:img_tango/melo_appog.png]]
-
-** Cambio de ritmo
-#+BEGIN_SRC lilypond -i :exports results :file img_tango/melo_approx.png :tangle yes :noweb yes
-<<version-and-paper>>
- \relative c'' {
-    r8 e4. e8 e16 c8. d16 e f2 g g4 g16 g16 g8 e4. f16 g a2 b
- }
-#+END_SRC
-
-#+RESULTS:
-[[file:img_tango/melo_approx.png]]
-
-
-** Other stuff
-
-
-#+name: version-and-paper
-#+begin_src org :exports none
-\version "2.22.1"
-\paper{
-  oddFooterMarkup=##f
-  scoreTitleMarkup=##f
-  indent=4\cm
-  }
-#+end_src
-
-** Otros recursos e ideas
-https://www.musictheoryforguitar.com/writingsongsfor2guitars.html
-
-* Progression comunes en Tango
-| Song       | key     | Progression                                | In general                                 |
-|------------+---------+--------------------------------------------+--------------------------------------------|
-| Mariposita | G Major | G-Bb^o-Am7-D7                              | I-                                         |
-| Nada       | C       | Cmaj7-Dm7-G7-Em7-A7-Dm7-G7-Am-F-A7-Dm Dm G | I-ii7-V7-iii7-VI7-ii7-V7-vi-IV-VI7-ii-ii-V |
-|            |         |                                            |                                            |
-* Effectos in guitarra sola
-** progression circular
-por ejemplo en el arreglo de media luz de Anibal Arias
-En vez de tocar:
-#+BEGIN_SRC lilypond :exports none :file img_tango/solo_progrecirc.png :tangle yes :noweb yes
-<<version-and-paper>>
-\new Staff <<
-\new Voice="first"
- \relative c'' {
-    \voiceOne  <a c e>2 <a c e>4 c4 d8 <e=' a c>4 d'8 e4. c8
- }
-\new Voice="second"
- \relative c' {
-     \voiceTwo a8 b c d e2 a=4 b c2 e8
- }
->>
-#+END_SRC
-
-#+RESULTS:
-[[file:img_tango/solo_progrecirc.png]]
-
-tocar:
-#+BEGIN_SRC lilypond :exports results :file img_tango/solo_progrecirc2.png :tangle yes :noweb yes
-<<version-and-paper>>
-\new Staff <<
-\new Voice="first"
- \relative c'' {
-    \voiceOne <a c e>2 <a c e>8 b8 c16 b c cis d8 <e=' a c>4 d'8 e4. c8
-}
-\new Voice="second"
- \relative c' {
-     \voiceTwo a8 b c d e2 a=4 b c2 e8
- }
->>
-#+END_SRC
-
-#+RESULTS:
-[[file:img_tango/solo_progrecirc2.png]]
-** Cuadruple ascendente
-ver p27 del libro de Hugo Romerov
-en vez de:
-#+BEGIN_SRC lilypond :exports none :file img_tango/solo_progreasc.png :tangle yes :noweb yes
-<<version-and-paper>>
-\new Staff <<
-\new Voice="first"
- \relative c'' {
-    \voiceOne  <a c e>2 e'4 e4 <cis  a'>8 a'4 a8 a4 a4 g
- }
-\new Voice="second"
- \relative c' {
-     \voiceTwo a8 b c d <e a c>2 <a= g'>2 <cis g' cis>2
- }
->>
-#+END_SRC
-
-
-#+RESULTS:
-[[file:img_tango/solo_progreasc.png]]
-
-
-tocar
-#+BEGIN_SRC lilypond :exports none :file img_tango/solo_progreasc2.png :tangle yes :noweb yes
-<<version-and-paper>>
-\new Staff <<
-\new Voice="first"
- \relative c'' {
-    \voiceOne  <a c e>2 e'8 e f16 fis g gis <cis='' a'>8 a'4 a8 a4 a8 g
- }
-\new Voice="second"
- \relative c' {
-     \voiceTwo a8 b c d <e a c>2 <a= g'>2 <cis g' cis>2
- }
->>
-#+END_SRC
-
-#+RESULTS:
-[[file:img_tango/solo_progreasc.png]]
-
-* Julian
-** libro
-:PROPERTIES:
-:NOTER_DOCUMENT: /home/fred/OneDrive/Documents/books_annotated/METODO DE GUITARRA TANGO_ EDICION 2020 (Spanish Edition) - Julian Graciano.pdf
-:NOTER_PAGE: 119
-:END:
-
-*** Grela
-:PROPERTIES:
-:NOTER_PAGE: 116
-:END:
-
-**** Mugre
-:PROPERTIES:
-:NOTER_PAGE: (119 0.20182094081942337 . 0.30689655172413793)
-:END:
-tomar cualquier nota del acorde, se le agrega una segunda menor por abajo y se toca un arpegio
-Por ejemplo, sobre Am si tomo la dominante:
-#+DOWNLOADED: screenshot @ 2023-10-14 16:14:22
-[[file:libro/2023-10-14_16-14-22_screenshot.png]]
-
-sobre la 5ta:
-
-#+DOWNLOADED: screenshot @ 2023-10-14 16:15:18
-[[file:libro/2023-10-14_16-15-18_screenshot.png]]
-
-*** Chord form
-[[file:/mnt/d/guitarMusic/julian Graciano/chord forms 2.pdf][chord forms]]
-[[file:/mnt/d/guitarMusic/julian Graciano/CHORD FORM PAG 34 35.mov][video]]
-
-no usar 9na y 13ra en resoluciones menores
-
-#+begin_src lilypond -i :exports results :file img_tango/chord.png :tangle yes :noweb yes
-\version "2.24.2"
-
-\markup { "C major chord with custom text in each notehead" }
-
-\relative c' {
-  \clef "treble"
-  \key c \major
-  \time 4/4
-
-  <
-    c'
-    e
-    g
-  >2
-}
-#+end_src
-
-#+RESULTS:
-[[file:img_tango/chord.png]]
-
-** Colaborations
-
-*** Chih-yu
-- [[file:/mnt/h/pogodrive/pogoplugBackup/knowledge/guitar music/tango/julian Graciano/chih/][Folder chih-yu]]
-- [[/mnt/h/pogodrive/pogoplugBackup/knowledge/guitar music/tango/julian Graciano/Chih-yu's song list.xlsx][List of songs]]
-** Songs
-
-*** Tangos
-**** Mariposita
-- [[file:/mnt/h/pogodrive/pogoplugBackup/knowledge/guitar music/tango/julian Graciano/mariposita en C29.pdf][Mariposita in C]]
-- [[/mnt/h/pogodrive/pogoplugBackup/knowledge/guitar music/tango/julian Graciano/chih/OneDrive-2023-04-11/20230410_Mariposita (voz guitar).mp3][Grabacion voz guitarra]]
-*** Solos
-**** El dia que me quieras
-- [[/mnt/h/pogodrive/pogoplugBackup/knowledge/guitar music/tango/julian Graciano/JAZZ ARGENTINO _ EL DÍA QUE ME QUIERAS_Julián Graciano-iHKzoPCnmG8.xsc][El dia que me quieras Video Julian]]
--  [[/mnt/h/pogodrive/pogoplugBackup/knowledge/guitar music/tango/julian Graciano/EL DÍA QUE ME QUIERAS arreglo para guitarra solista de 7 cuerdas por JULIÁN GRACIANO.pdf][pdf solo]]
-*** Other
-
-**** Other
- [[/mnt/h/pogodrive/pogoplugBackup/knowledge/guitar music/tango/julian Graciano/jazz compaVideo-20230208_135744-Meeting Recording.mp4][Jazz comp]]
-**** Cantaloupe Isalnd
-- [[/mnt/h/pogodrive/pogoplugBackup/knowledge/guitar music/tango/julian Graciano/cantaloupe island part 1Video-20230308_134454-Meeting Recording.xsc][Cantaloupe island]]
-**** My favorite things
-
-**** Blue bossa
-- [[/mnt/h/pogodrive/pogoplugBackup/knowledge/guitar music/tango/julian Graciano/Blue Bossa concert pitch (1).pdf][Blue Bossa pdf]]
-- [[/mnt/h/pogodrive/pogoplugBackup/knowledge/guitar music/tango/julian Graciano/Blue Bossa.mp3][mp3]]
-**** Candieman
-** Improvisación
-*** blue bossa
-:PROPERTIES:
-:ID:       ce093efd-9c99-4085-87e6-3e244a49bffb
-:END:
-video:[[file:/mnt/h/pogodrive/pogoplugBackup/knowledge/guitar music/tango/julian Graciano/bluebossa improvisation 20230419_172852-Meeting Recording.xsc][blue bossa]]
-
-Los primeros acordes empiezan en escala de Eb pero uno empieza en Cm.
-
-Mejor usar harmonia de bebop [fn:1]: se agrega al B natural: 6to grado menor de la escala de Bb.
-Cuando llega el acorde dominante (G7)
-
-Importante tener en cuenta la harmonia.  Cuando
-- reposa
-- se toca nota mas larga
-- donde se empieza
-- tiempo fuerte
-debe ser notas del acorde. Para que sea más harmonica.
-
-compases 9 10 11 12 cambia de eje tonal.
-Recomenda usar un dibujo escalar para Db cerca de Eb. No usar el mismo dibujo que requerería mover la posicion.  Opcionalmente se puede hace bebop
-
-
-ultimos 4 D semidisminuido vuelve al eje original de Cm or Ebmayor
-
-Rítmo:
-- Empezar con notas largas (de ejercicio)(negras y blancasnotas). Tratar de que esten dentro del acorde
-- Luego agregar los tiempos fuertes y notas agregadas.
-- todo en corcheas
-  - notas largas en el acorde
-  - notas cortas: notas de paso escala etc
-- más musical.
-- agarrar el ritmo de la melodia original
-
-Notar en el mismo vídeo hay una demostración de como alterar los acordes y agregar bajos.
-
-* Tocare de parrilla
-Julian:
-Si, me he acostumbrado con el tiempo a resolverlo en menos de 15 minutos. Tardo más en armar el video con el sonido que en tocarlo!
-Lo mejor es tomar el real book de tango, de jazz o el que fuere y tratar de leer la melodía sin frenar en una misma posición en principio.Primero en la octava que está escrita y luego intertarlo una 8va arriba( calculando que la melodia llegue hasta el traste 12)
-
-* Footnotes
-
-[fn:1] Cuando se usa bebop en vez de las otras escalas menores?
+#+TITLE: Tango
 
 * Canciones preferidas de canto
 
@@ -380,9 +14,8 @@ https://www.youtube.com/watch?v=-b7JTE1QTI0
 Version ENRIQUE RODRIGUEZ - ARMANDO MORENO
 https://www.youtube.com/watch?v=-n9XP2vk8Gc
 
-
 ** Mi taza de cafe
- https://www.youtube.com/watch?v=TH-ZRDUKJH4
+https://www.youtube.com/watch?v=TH-ZRDUKJH4
 
 ** Garua
 Version Troilo y Fiorentino
@@ -412,7 +45,6 @@ https://www.youtube.com/watch?v=LiqboSEJaps
 Donato/Horacio Lagos
 https://www.youtube.com/watch?v=1CsqSgeCgbA
 
-
 ** Mano a mano
 Version Lomuto/Jorge Omar
 https://www.youtube.com/watch?v=gNfhQT-EIL8
@@ -425,100 +57,305 @@ https://www.youtube.com/watch?v=gNfhQT-EIL8
 
 ** Mi vieja viola
 :PROPERTIES:
+:ANKI_DECK: Tango::Lyrics
+:ANKI_TAGS: tango mi_vieja_viola lyrics
+:END:
+
+*** 01
+:PROPERTIES:
 :ANKI_NOTE_TYPE: Basic
 :ANKI_DECK: Tango::Lyrics
+:ANKI_TAGS: tango mi_vieja_viola lyrics
+:ANKI_NOTE_ID: 1790683461875
+:ANKI_NOTE_HASH: b7f152330ff6eaabe5405ccce37fa815
 :END:
-*** Front
+**** Front
 Vieja viola, garufera y vibradora
-*** Back
+**** Back
 de las horas de parranda y copetín,
-*** Front
-de las horas de parranda y copetín,
-*** Back
-de las tantas serenatas a la lora
-*** Front
-de las tantas serenatas a la lora
-*** Back
-que hoy es dueña de mi cuore y patrona del bulín,
-*** Front
-que hoy es dueña de mi cuore y patrona del bulín,
-*** Back
-¡cómo estás de abandonada y silenciosa,
-*** Front
-¡cómo estás de abandonada y silenciosa,
-*** Back
-después que fuiste mi sueño de cantor!
-*** Front
-después que fuiste mi sueño de cantor!
-*** Back
-Quien te ha oído sonar papa y melodiosa
-*** Front
-Quien te ha oído sonar papa y melodiosa
-*** Back
-no dice que sos la diosa de mi pobre corazón.
-*** Front
-no dice que sos la diosa de mi pobre corazón.
-*** Back
-Es que la gola se va
-*** Front
-Es que la gola se va
-*** Back
-y la fama es puro cuento
-*** Front
-y la fama es puro cuento
-*** Back
-y andando mal y sin vento
-*** Front
-y andando mal y sin vento
-*** Back
-todo, todo se acabó...
-*** Front
-todo, todo se acabó...
-*** Back
-Hoy sólo queda el recuerdo
-*** Front
-Hoy sólo queda el recuerdo
-*** Back
-de pasadas alegrías,
-*** Front
-de pasadas alegrías,
-*** Back
-pero estás vos, viola mía,
-*** Front
-pero estás vos, viola mía,
-*** Back
-hasta que me vaya yo.
-*** Front
-hasta que me vaya yo.
-*** Back
-Cuántas noches bajo el brazo de la zurda
-*** Front
-Cuántas noches bajo el brazo de la zurda
-*** Back
-por cubrirte del sereno te llevé
-*** Front
-por cubrirte del sereno te llevé
-*** Back
-y por más que me encontrase bien en curda,
-*** Front
-y por más que me encontrase bien en curda,
-*** Back
-conservándome en la línea, de otros curdas te cuidé.
-*** Front
-conservándome en la línea, de otros curdas te cuidé.
-*** Back
-Si los años de la vida me componen
-*** Front
-Si los años de la vida me componen
-*** Back
-y la suerte me rempuja a encarrilar,
-*** Front
-y la suerte me rempuja a encarrilar,
-*** Back
-yo te juro que te cambio los bordones
-*** Front
-yo te juro que te cambio los bordones
-*** Back
-me rechiflo del escabio y te vuelvo a hacer sonar.
 
-** Fiorentino
+*** 02
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_DECK: Tango::Lyrics
+:ANKI_TAGS: tango mi_vieja_viola lyrics
+:ANKI_NOTE_ID: 1790683426220
+:ANKI_NOTE_HASH: b0f121aeb4f9d9b717cd7a1257498514
+:END:
+**** Front
+de las horas de parranda y copetín,
+**** Back
+de las tantas serenatas a la lora
+
+*** 03
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_DECK: Tango::Lyrics
+:ANKI_TAGS: tango mi_vieja_viola lyrics
+:ANKI_NOTE_ID: 1790683426237
+:ANKI_NOTE_HASH: d5e61ef5d9cf763ee659f7a88e7557ca
+:END:
+**** Front
+de las tantas serenatas a la lora
+**** Back
+que hoy es dueña de mi cuore y patrona del bulín,
+
+*** 04
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_DECK: Tango::Lyrics
+:ANKI_TAGS: tango mi_vieja_viola lyrics
+:ANKI_NOTE_ID: 1790683426250
+:ANKI_NOTE_HASH: 79bca046635ca7545d817d8ad16a5c9c
+:END:
+**** Front
+que hoy es dueña de mi cuore y patrona del bulín,
+**** Back
+¡cómo estás de abandonada y silenciosa,
+
+*** 05
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_DECK: Tango::Lyrics
+:ANKI_TAGS: tango mi_vieja_viola lyrics
+:ANKI_NOTE_ID: 1790683426263
+:ANKI_NOTE_HASH: d39a65a7b7b53db67e2debf11a2bdaae
+:END:
+**** Front
+¡cómo estás de abandonada y silenciosa,
+**** Back
+después que fuiste mi sueño de cantor!
+
+*** 06
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_DECK: Tango::Lyrics
+:ANKI_TAGS: tango mi_vieja_viola lyrics
+:ANKI_NOTE_ID: 1790683426277
+:ANKI_NOTE_HASH: d2338fe94d98ad8dd89db150aa950c26
+:END:
+**** Front
+después que fuiste mi sueño de cantor!
+**** Back
+Quien te ha oído sonar papa y melodiosa
+
+*** 07
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_DECK: Tango::Lyrics
+:ANKI_TAGS: tango mi_vieja_viola lyrics
+:ANKI_NOTE_ID: 1790683426290
+:ANKI_NOTE_HASH: 3a41e8077a8290f3938c58dec92cf320
+:END:
+**** Front
+Quien te ha oído sonar papa y melodiosa
+**** Back
+no dice que sos la diosa de mi pobre corazón.
+
+*** 08
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_DECK: Tango::Lyrics
+:ANKI_TAGS: tango mi_vieja_viola lyrics
+:ANKI_NOTE_ID: 1790683426302
+:ANKI_NOTE_HASH: 2cb47a723abb3708c2ab729f6df90f9d
+:END:
+**** Front
+no dice que sos la diosa de mi pobre corazón.
+**** Back
+Es que la gola se va
+
+*** 09
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_DECK: Tango::Lyrics
+:ANKI_TAGS: tango mi_vieja_viola lyrics
+:ANKI_NOTE_ID: 1790683426315
+:ANKI_NOTE_HASH: 7180c7aa7e34727c084e82ee7d989e64
+:END:
+**** Front
+Es que la gola se va
+**** Back
+y la fama es puro cuento
+
+*** 10
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_DECK: Tango::Lyrics
+:ANKI_TAGS: tango mi_vieja_viola lyrics
+:ANKI_NOTE_ID: 1790683426326
+:ANKI_NOTE_HASH: d93778a2c7209ff1b4dced4aa478f42e
+:END:
+**** Front
+y la fama es puro cuento
+**** Back
+y andando mal y sin vento
+
+*** 11
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_DECK: Tango::Lyrics
+:ANKI_TAGS: tango mi_vieja_viola lyrics
+:ANKI_NOTE_ID: 1790683426337
+:ANKI_NOTE_HASH: 6e54046367b8b2c3a6a1b9b0eaf8095b
+:END:
+**** Front
+y andando mal y sin vento
+**** Back
+todo, todo se acabó...
+
+*** 12
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_DECK: Tango::Lyrics
+:ANKI_TAGS: tango mi_vieja_viola lyrics
+:ANKI_NOTE_ID: 1790683426350
+:ANKI_NOTE_HASH: 3344cc48d74e0288f88fe311bfa85b2d
+:END:
+**** Front
+todo, todo se acabó...
+**** Back
+Hoy sólo queda el recuerdo
+
+*** 13
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_DECK: Tango::Lyrics
+:ANKI_TAGS: tango mi_vieja_viola lyrics
+:ANKI_NOTE_ID: 1790683426361
+:ANKI_NOTE_HASH: 077ba4776af059669455da894a16f10e
+:END:
+**** Front
+Hoy sólo queda el recuerdo
+**** Back
+de pasadas alegrías,
+
+*** 14
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_DECK: Tango::Lyrics
+:ANKI_TAGS: tango mi_vieja_viola lyrics
+:ANKI_NOTE_ID: 1790683426373
+:ANKI_NOTE_HASH: 5913761ae2205bf80759ec78c77e960f
+:END:
+**** Front
+de pasadas alegrías,
+**** Back
+pero estás vos, viola mía,
+
+*** 15
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_DECK: Tango::Lyrics
+:ANKI_TAGS: tango mi_vieja_viola lyrics
+:ANKI_NOTE_ID: 1790683426384
+:ANKI_NOTE_HASH: e8ef23c31a039542dbee37202dc88f85
+:END:
+**** Front
+pero estás vos, viola mía,
+**** Back
+hasta que me vaya yo.
+
+*** 16
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_DECK: Tango::Lyrics
+:ANKI_TAGS: tango mi_vieja_viola lyrics
+:ANKI_NOTE_ID: 1790683426395
+:ANKI_NOTE_HASH: d43349f37e8ffa11dee5dfef818919aa
+:END:
+**** Front
+hasta que me vaya yo.
+**** Back
+Cuántas noches bajo el brazo de la zurda
+
+*** 17
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_DECK: Tango::Lyrics
+:ANKI_TAGS: tango mi_vieja_viola lyrics
+:ANKI_NOTE_ID: 1790683426405
+:ANKI_NOTE_HASH: ad54cab0a2d2f839336c2dcb71db053b
+:END:
+**** Front
+Cuántas noches bajo el brazo de la zurda
+**** Back
+por cubrirte del sereno te llevé
+
+*** 18
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_DECK: Tango::Lyrics
+:ANKI_TAGS: tango mi_vieja_viola lyrics
+:ANKI_NOTE_ID: 1790683426419
+:ANKI_NOTE_HASH: 820ed20d8adb69540ac51eabb88b89f2
+:END:
+**** Front
+por cubrirte del sereno te llevé
+**** Back
+y por más que me encontrase bien en curda,
+
+*** 19
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_DECK: Tango::Lyrics
+:ANKI_TAGS: tango mi_vieja_viola lyrics
+:ANKI_NOTE_ID: 1790683426432
+:ANKI_NOTE_HASH: 39d89bcbbebce23f9a1a0ed55d74a260
+:END:
+**** Front
+y por más que me encontrase bien en curda,
+**** Back
+conservándome en la línea, de otros curdas te cuidé.
+
+*** 20
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_DECK: Tango::Lyrics
+:ANKI_TAGS: tango mi_vieja_viola lyrics
+:ANKI_NOTE_ID: 1790683426444
+:ANKI_NOTE_HASH: 61300487d7cc6450b4978a4332a40159
+:END:
+**** Front
+conservándome en la línea, de otros curdas te cuidé.
+**** Back
+Si los años de la vida me componen
+
+*** 21
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_DECK: Tango::Lyrics
+:ANKI_TAGS: tango mi_vieja_viola lyrics
+:ANKI_NOTE_ID: 1790683426454
+:ANKI_NOTE_HASH: c499908acb312025cb1c6cebb958ffdd
+:END:
+**** Front
+Si los años de la vida me componen
+**** Back
+yo te juro que te cambio los bordones
+
+*** 22
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_DECK: Tango::Lyrics
+:ANKI_TAGS: tango mi_vieja_viola lyrics
+:ANKI_NOTE_ID: 1790683426465
+:ANKI_NOTE_HASH: 51edad30645e1f198d8a3ac5f2f5fac0
+:END:
+**** Front
+y la suerte me rempuja a encarrilar,
+**** Back
+yo te juro que te cambio los bordones
+
+*** 23
+:PROPERTIES:
+:ANKI_NOTE_TYPE: Basic
+:ANKI_DECK: Tango::Lyrics
+:ANKI_TAGS: tango mi_vieja_viola lyrics
+:ANKI_NOTE_ID: 1790683426475
+:ANKI_NOTE_HASH: e4223a2474c4bd520728352c2c649ae6
+:END:
+**** Front
+yo te juro que te cambio los bordones
+**** Back
+me rechiflo del escabio y te vuelvo a hacer sonar.
